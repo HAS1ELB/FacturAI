@@ -305,14 +305,14 @@ class ComplexInvoiceDataGenerator:
     def generate_invoice_notes(self):
         """Génère des notes pour la facture"""
         notes_options = [
-            "Merci de votre confiance. Nous restons à votre disposition pour tout renseignement.",
-            "Facture à regler selon les conditions convenues. Penalites de retard applicables.",
-            "Prestations réalisées conformément au cahier des charges validé.",
-            "TVA récupérable selon la législation en vigueur.",
-            "Règlement par virement bancaire souhaité. Coordonnées ci-dessous.",
-            "Facture établie selon les conditions générales de vente.",
-            "Delai de paiement conforme aux dispositions légales.",
-            "Prestation de qualité conforme aux standards ISO."
+            "Merci de votre confiance. Nous restons a votre disposition pour tout renseignement.",
+            "Facture a regler selon les conditions convenues. Penalites de retard applicables.",
+            "Prestations realisees conformement au cahier des charges valide.",
+            "TVA recuperable selon la legislation en vigueur.",
+            "Reglement par virement bancaire souhaite. Coordonnees ci-dessous.",
+            "Facture etablie selon les conditions generales de vente.",
+            "Delai de paiement conforme aux dispositions legales.",
+            "Prestation de qualite conforme aux standards ISO."
         ]
         
         return random.choice(notes_options)
@@ -320,11 +320,11 @@ class ComplexInvoiceDataGenerator:
     def generate_terms_conditions(self):
         """Génère les conditions générales"""
         return [
-            "Tout retard de paiement entraînera des pénalités de 3% par mois.",
-            "Nos conditions générales de vente sont disponibles sur demande.",
-            "Réclamations à formuler par écrit dans les 8 jours.",
-            "Compétence juridique : Tribunaux de Casablanca.",
-            "Prestations soumises à la TVA au taux en vigueur."
+            "Tout retard de paiement entraînera des penalites de 3% par mois.",
+            "Nos conditions genrales de vente sont disponibles sur demande.",
+            "Reclamations a formuler par ecrit dans les 8 jours.",
+            "Competence juridique : Tribunaux de Casablanca.",
+            "Prestations soumises a la TVA au taux en vigueur."
         ]
 
 class LogoGenerator:
@@ -408,22 +408,6 @@ class ComplexInvoiceVisualGenerator:
                 'table_style': 'striped',
                 'footer_style': 'compact',
                 'color_scheme': 'modern'
-            },
-            'classic_business': {
-                'has_logo': False,
-                'has_watermark': True,
-                'header_style': 'traditional',
-                'table_style': 'bordered',
-                'footer_style': 'traditional',
-                'color_scheme': 'classic'
-            },
-            'minimalist': {
-                'has_logo': True,
-                'has_watermark': False,
-                'header_style': 'minimal',
-                'table_style': 'clean',
-                'footer_style': 'minimal',
-                'color_scheme': 'minimal'
             },
             'premium': {
                 'has_logo': True,
@@ -814,7 +798,7 @@ class ComplexInvoiceVisualGenerator:
             y_pos += line_height
             
             # Sous-total après remise
-            draw.text((totals_x + 10, y_pos), "Sous-total après remise:", fill=colors['text'], font=font)
+            draw.text((totals_x + 10, y_pos), "Sous-total apres remise:", fill=colors['text'], font=font)
             draw.text((totals_x + 200, y_pos), f"{invoice_data['subtotal_after_discount']:.2f} {invoice_data['currency']}", fill=colors['text'], font=font)
             y_pos += line_height
         
@@ -830,7 +814,7 @@ class ComplexInvoiceVisualGenerator:
         
         # Retenue à la source si applicable
         if invoice_data['retenue_source_rate'] > 0:
-            draw.text((totals_x + 10, y_pos), f"Retenue à la source ({invoice_data['retenue_source_rate']*100:.0f}%):", fill=colors['accent'], font=font)
+            draw.text((totals_x + 10, y_pos), f"Retenue a la source ({invoice_data['retenue_source_rate']*100:.0f}%):", fill=colors['accent'], font=font)
             draw.text((totals_x + 200, y_pos), f"-{invoice_data['retenue_source_amount']:.2f} {invoice_data['currency']}", fill=colors['accent'], font=font)
             y_pos += line_height
         
