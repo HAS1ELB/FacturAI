@@ -41,15 +41,15 @@ class InvoiceDataGenerator:
         ]
         
         self.moroccan_cities = [
-            "Casablanca", "Rabat", "Marrakech", "Fès", "Tanger", 
-            "Agadir", "Meknès", "Oujda", "Kenitra", "Tétouan"
+            "Casablanca", "Rabat", "Marrakech", "Fes", "Tanger", 
+            "Agadir", "Meknes", "Oujda", "Kenitra", "Tetouan"
         ]
         
         self.services = [
             "Developpement web", "Conception graphique", "Consulting IT",
             "Formation professionnelle", "Maintenance informatique", "Hebergement web",
-            "Réeferencement SEO", "Marketing digital", "Support technique",
-            "Audit sécurite", "Installation reseau", "Creation de contenu"
+            "Reeferencement SEO", "Marketing digital", "Support technique",
+            "Audit securite", "Installation reseau", "Creation de contenu"
         ]
         
     def generate_company_info(self):
@@ -69,7 +69,7 @@ class InvoiceDataGenerator:
         invoice_date = self.fake.date_between(start_date='-2y', end_date='today')
         
         # Génération des articles
-        num_items = random.randint(1, 10)
+        num_items = random.randint(5, 10)
         items = []
         subtotal = 0
         
@@ -503,7 +503,7 @@ def main():
     
     dataset_info = generator.generate_dataset(
         num_invoices=num_invoices,
-        output_dir="Data/synthetic_ids_images6"
+        output_dir="Data/synthetic_ids_images"
     )
     
     print(f"\n✅ Génération terminée!")
