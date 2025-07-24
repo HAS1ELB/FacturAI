@@ -1,0 +1,24 @@
+{
+  "environment": {
+    "python_version": "3.12.6",
+    "platform": "win32"
+  },
+  "ocr_engines": {
+    "tesseract": true,
+    "easyocr": true,
+    "paddleocr": true
+  },
+  "directories": {
+    "input": "Data/processed_images",
+    "output": "Data/ocr_results"
+  },
+  "default_settings": {
+    "preferred_engine": "easyocr",
+    "confidence_threshold": 30,
+    "languages": [
+      "fr",
+      "en"
+    ],
+    "output_format": "json"
+  }
+}
