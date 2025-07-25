@@ -1,0 +1,583 @@
+{
+  "engine": "easyocr",
+  "timestamp": "2025-07-25T10:42:25.684777",
+  "image_path": "Data\\processed_images\\enhanced_Facture-383309_page1.png",
+  "text_blocks": [
+    {
+      "text": "Genious Communications SARL",
+      "confidence": 75.62788833641903,
+      "bbox": {
+        "x": 461,
+        "y": 131,
+        "width": 270,
+        "height": 20
+      }
+    },
+    {
+      "text": "genious",
+      "confidence": 69.66141514247246,
+      "bbox": {
+        "x": 70,
+        "y": 91,
+        "width": 320,
+        "height": 121
+      }
+    },
+    {
+      "text": "Villa 290. Assif B",
+      "confidence": 80.22391788363721,
+      "bbox": {
+        "x": 461,
+        "y": 151,
+        "width": 150,
+        "height": 20
+      }
+    },
+    {
+      "text": "Code postal: 40 000",
+      "confidence": 89.13881726649132,
+      "bbox": {
+        "x": 460,
+        "y": 168,
+        "width": 180,
+        "height": 26
+      }
+    },
+    {
+      "text": "Marrakech",
+      "confidence": 99.99957481974866,
+      "bbox": {
+        "x": 651,
+        "y": 171,
+        "width": 96,
+        "height": 20
+      }
+    },
+    {
+      "text": "Maroc",
+      "confidence": 99.99761694957807,
+      "bbox": {
+        "x": 761,
+        "y": 173,
+        "width": 54,
+        "height": 18
+      }
+    },
+    {
+      "text": "Beyondperceptions'",
+      "confidence": 99.72995813820701,
+      "bbox": {
+        "x": 152,
+        "y": 180,
+        "width": 182,
+        "height": 26
+      }
+    },
+    {
+      "text": "Adressé à",
+      "confidence": 99.86043704118353,
+      "bbox": {
+        "x": 490,
+        "y": 297,
+        "width": 146,
+        "height": 32
+      }
+    },
+    {
+      "text": "Eugin Clinic Casablanca (ICE",
+      "confidence": 99.56901721742624,
+      "bbox": {
+        "x": 488,
+        "y": 328,
+        "width": 266,
+        "height": 26
+      }
+    },
+    {
+      "text": "003457223000019)",
+      "confidence": 99.99645346074615,
+      "bbox": {
+        "x": 764,
+        "y": 328,
+        "width": 186,
+        "height": 24
+      }
+    },
+    {
+      "text": "Casablanca",
+      "confidence": 99.99485424334051,
+      "bbox": {
+        "x": 488,
+        "y": 352,
+        "width": 110,
+        "height": 24
+      }
+    },
+    {
+      "text": "Casablanca, Casablanca-Settat, 20250",
+      "confidence": 82.63614000112052,
+      "bbox": {
+        "x": 487,
+        "y": 374,
+        "width": 359,
+        "height": 26
+      }
+    },
+    {
+      "text": "Morocco",
+      "confidence": 99.9940208948003,
+      "bbox": {
+        "x": 487,
+        "y": 397,
+        "width": 83,
+        "height": 26
+      }
+    },
+    {
+      "text": "Facture N'",
+      "confidence": 45.65780189274728,
+      "bbox": {
+        "x": 88,
+        "y": 482,
+        "width": 284,
+        "height": 50
+      }
+    },
+    {
+      "text": "#383309",
+      "confidence": 99.89013184355969,
+      "bbox": {
+        "x": 89,
+        "y": 537,
+        "width": 158,
+        "height": 36
+      }
+    },
+    {
+      "text": "PAYÉE",
+      "confidence": 99.97477237887202,
+      "bbox": {
+        "x": 90,
+        "y": 572,
+        "width": 76,
+        "height": 26
+      }
+    },
+    {
+      "text": "166.80 Dhs",
+      "confidence": 67.45252909547166,
+      "bbox": {
+        "x": 501,
+        "y": 545,
+        "width": 392,
+        "height": 68
+      }
+    },
+    {
+      "text": "Date de facturation: 15/01/2025",
+      "confidence": 98.5905142817066,
+      "bbox": {
+        "x": 88,
+        "y": 598,
+        "width": 332,
+        "height": 26
+      }
+    },
+    {
+      "text": "Descriptif",
+      "confidence": 77.89292249937606,
+      "bbox": {
+        "x": 436,
+        "y": 730,
+        "width": 118,
+        "height": 28
+      }
+    },
+    {
+      "text": "Total",
+      "confidence": 99.97942131226945,
+      "bbox": {
+        "x": 976,
+        "y": 732,
+        "width": 62,
+        "height": 24
+      }
+    },
+    {
+      "text": "Enregistrement de domaine",
+      "confidence": 99.79186978379886,
+      "bbox": {
+        "x": 87,
+        "y": 765,
+        "width": 289,
+        "height": 28
+      }
+    },
+    {
+      "text": "elage. ma",
+      "confidence": 50.824678617583054,
+      "bbox": {
+        "x": 390,
+        "y": 768,
+        "width": 100,
+        "height": 26
+      }
+    },
+    {
+      "text": "1 An(s) (15/01/2025",
+      "confidence": 75.76375700779005,
+      "bbox": {
+        "x": 506,
+        "y": 765,
+        "width": 205,
+        "height": 27
+      }
+    },
+    {
+      "text": "14/01/2026)",
+      "confidence": 69.5894935892988,
+      "bbox": {
+        "x": 728,
+        "y": 766,
+        "width": 128,
+        "height": 26
+      }
+    },
+    {
+      "text": "139.00 Dhs",
+      "confidence": 76.25767945194126,
+      "bbox": {
+        "x": 946,
+        "y": 766,
+        "width": 122,
+        "height": 24
+      }
+    },
+    {
+      "text": "+ Gestion DNS",
+      "confidence": 95.36464749856923,
+      "bbox": {
+        "x": 92,
+        "y": 792,
+        "width": 152,
+        "height": 24
+      }
+    },
+    {
+      "text": "Sous-total",
+      "confidence": 65.18595911190226,
+      "bbox": {
+        "x": 778,
+        "y": 852,
+        "width": 122,
+        "height": 24
+      }
+    },
+    {
+      "text": "139.00 Dhs",
+      "confidence": 98.81476963064121,
+      "bbox": {
+        "x": 942,
+        "y": 852,
+        "width": 132,
+        "height": 24
+      }
+    },
+    {
+      "text": "20.00% Morocco",
+      "confidence": 96.705697924529,
+      "bbox": {
+        "x": 708,
+        "y": 886,
+        "width": 192,
+        "height": 26
+      }
+    },
+    {
+      "text": "27.80 Dhs",
+      "confidence": 97.58088796474735,
+      "bbox": {
+        "x": 948,
+        "y": 886,
+        "width": 120,
+        "height": 26
+      }
+    },
+    {
+      "text": "Total",
+      "confidence": 99.98470464482214,
+      "bbox": {
+        "x": 838,
+        "y": 922,
+        "width": 62,
+        "height": 24
+      }
+    },
+    {
+      "text": "166.80 Dhs",
+      "confidence": 78.13750078686314,
+      "bbox": {
+        "x": 942,
+        "y": 922,
+        "width": 132,
+        "height": 24
+      }
+    },
+    {
+      "text": "Genious Communications S.A.RL.",
+      "confidence": 76.29271755271103,
+      "bbox": {
+        "x": 93,
+        "y": 1441,
+        "width": 429,
+        "height": 29
+      }
+    },
+    {
+      "text": "Capital",
+      "confidence": 99.9802824832632,
+      "bbox": {
+        "x": 97,
+        "y": 1477,
+        "width": 54,
+        "height": 18
+      }
+    },
+    {
+      "text": "1 200 000 Dhs",
+      "confidence": 88.34584328998709,
+      "bbox": {
+        "x": 159,
+        "y": 1475,
+        "width": 108,
+        "height": 18
+      }
+    },
+    {
+      "text": "Patente",
+      "confidence": 99.99848608525616,
+      "bbox": {
+        "x": 277,
+        "y": 1477,
+        "width": 58,
+        "height": 16
+      }
+    },
+    {
+      "text": "45303375",
+      "confidence": 68.15428705233126,
+      "bbox": {
+        "x": 343,
+        "y": 1475,
+        "width": 78,
+        "height": 18
+      }
+    },
+    {
+      "text": "RC",
+      "confidence": 99.96925947277072,
+      "bbox": {
+        "x": 429,
+        "y": 1475,
+        "width": 26,
+        "height": 18
+      }
+    },
+    {
+      "text": "28655",
+      "confidence": 99.9998933759633,
+      "bbox": {
+        "x": 463,
+        "y": 1475,
+        "width": 50,
+        "height": 20
+      }
+    },
+    {
+      "text": "CNS.5.",
+      "confidence": 46.06836756555534,
+      "bbox": {
+        "x": 523,
+        "y": 1477,
+        "width": 62,
+        "height": 16
+      }
+    },
+    {
+      "text": "7547427",
+      "confidence": 99.99950887965892,
+      "bbox": {
+        "x": 591,
+        "y": 1475,
+        "width": 68,
+        "height": 18
+      }
+    },
+    {
+      "text": "E-TOUB!",
+      "confidence": 83.81629660697271,
+      "bbox": {
+        "x": 831,
+        "y": 1447,
+        "width": 286,
+        "height": 64
+      }
+    },
+    {
+      "text": "06521385",
+      "confidence": 68.51451960546956,
+      "bbox": {
+        "x": 121,
+        "y": 1491,
+        "width": 76,
+        "height": 20
+      }
+    },
+    {
+      "text": "ICE",
+      "confidence": 99.95110107333252,
+      "bbox": {
+        "x": 205,
+        "y": 1491,
+        "width": 30,
+        "height": 20
+      }
+    },
+    {
+      "text": "000227325000094",
+      "confidence": 91.78637180707788,
+      "bbox": {
+        "x": 245,
+        "y": 1492,
+        "width": 138,
+        "height": 18
+      }
+    },
+    {
+      "text": "RIB",
+      "confidence": 99.98542289818614,
+      "bbox": {
+        "x": 393,
+        "y": 1493,
+        "width": 28,
+        "height": 18
+      }
+    },
+    {
+      "text": "022 780 000 235 00 280123 67",
+      "confidence": 75.45743133495623,
+      "bbox": {
+        "x": 429,
+        "y": 1491,
+        "width": 228,
+        "height": 20
+      }
+    },
+    {
+      "text": "Site Internet",
+      "confidence": 99.09307730703983,
+      "bbox": {
+        "x": 95,
+        "y": 1511,
+        "width": 94,
+        "height": 18
+      }
+    },
+    {
+      "text": "WWW.genious.net",
+      "confidence": 91.58737625857178,
+      "bbox": {
+        "x": 199,
+        "y": 1513,
+        "width": 126,
+        "height": 16
+      }
+    },
+    {
+      "text": "Email",
+      "confidence": 99.99504196809747,
+      "bbox": {
+        "x": 335,
+        "y": 1511,
+        "width": 42,
+        "height": 18
+      }
+    },
+    {
+      "text": "sales@genious.net",
+      "confidence": 74.86492894433968,
+      "bbox": {
+        "x": 387,
+        "y": 1513,
+        "width": 138,
+        "height": 18
+      }
+    },
+    {
+      "text": "Téléphone: (212) 5 24 29 87 00",
+      "confidence": 48.19410020353751,
+      "bbox": {
+        "x": 535,
+        "y": 1509,
+        "width": 228,
+        "height": 20
+      }
+    }
+  ],
+  "full_text": "Genious Communications SARL genious Villa 290. Assif B Code postal: 40 000 Marrakech Maroc Beyondperceptions' Adressé à Eugin Clinic Casablanca (ICE 003457223000019) Casablanca Casablanca, Casablanca-Settat, 20250 Morocco Facture N' #383309 PAYÉE 166.80 Dhs Date de facturation: 15/01/2025 Descriptif Total Enregistrement de domaine elage. ma 1 An(s) (15/01/2025 14/01/2026) 139.00 Dhs + Gestion DNS Sous-total 139.00 Dhs 20.00% Morocco 27.80 Dhs Total 166.80 Dhs Genious Communications S.A.RL. Capital 1 200 000 Dhs Patente 45303375 RC 28655 CNS.5. 7547427 E-TOUB! 06521385 ICE 000227325000094 RIB 022 780 000 235 00 280123 67 Site Internet WWW.genious.net Email sales@genious.net Téléphone: (212) 5 24 29 87 00",
+  "confidence_scores": [
+    75.62788833641903,
+    69.66141514247246,
+    80.22391788363721,
+    89.13881726649132,
+    99.99957481974866,
+    99.99761694957807,
+    99.72995813820701,
+    99.86043704118353,
+    99.56901721742624,
+    99.99645346074615,
+    99.99485424334051,
+    82.63614000112052,
+    99.9940208948003,
+    45.65780189274728,
+    99.89013184355969,
+    99.97477237887202,
+    67.45252909547166,
+    98.5905142817066,
+    77.89292249937606,
+    99.97942131226945,
+    99.79186978379886,
+    50.824678617583054,
+    75.76375700779005,
+    69.5894935892988,
+    76.25767945194126,
+    95.36464749856923,
+    65.18595911190226,
+    98.81476963064121,
+    96.705697924529,
+    97.58088796474735,
+    99.98470464482214,
+    78.13750078686314,
+    76.29271755271103,
+    99.9802824832632,
+    88.34584328998709,
+    99.99848608525616,
+    68.15428705233126,
+    99.96925947277072,
+    99.9998933759633,
+    46.06836756555534,
+    99.99950887965892,
+    83.81629660697271,
+    68.51451960546956,
+    99.95110107333252,
+    91.78637180707788,
+    99.98542289818614,
+    75.45743133495623,
+    99.09307730703983,
+    91.58737625857178,
+    99.99504196809747,
+    74.86492894433968,
+    48.19410020353751
+  ],
+  "average_confidence": 86.57546470147574
+}

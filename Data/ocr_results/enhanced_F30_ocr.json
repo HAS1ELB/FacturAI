@@ -1,0 +1,770 @@
+{
+  "engine": "easyocr",
+  "timestamp": "2025-07-25T10:40:45.187334",
+  "image_path": "Data\\processed_images\\enhanced_F30.png",
+  "text_blocks": [
+    {
+      "text": "WeCount",
+      "confidence": 99.981012450274,
+      "bbox": {
+        "x": 35,
+        "y": 50,
+        "width": 126,
+        "height": 30
+      }
+    },
+    {
+      "text": "Facture",
+      "confidence": 98.73335085220593,
+      "bbox": {
+        "x": 595,
+        "y": 47,
+        "width": 128,
+        "height": 36
+      }
+    },
+    {
+      "text": "Pour facture n",
+      "confidence": 96.71512742270353,
+      "bbox": {
+        "x": 594,
+        "y": 80,
+        "width": 144,
+        "height": 26
+      }
+    },
+    {
+      "text": "123456789",
+      "confidence": 99.889005214337,
+      "bbox": {
+        "x": 748,
+        "y": 80,
+        "width": 114,
+        "height": 28
+      }
+    },
+    {
+      "text": "9ssc",
+      "confidence": 41.9314831495285,
+      "bbox": {
+        "x": 41,
+        "y": 139,
+        "width": 52,
+        "height": 16
+      }
+    },
+    {
+      "text": "Date de facturation",
+      "confidence": 82.19574639197876,
+      "bbox": {
+        "x": 200,
+        "y": 204,
+        "width": 185,
+        "height": 26
+      }
+    },
+    {
+      "text": "29.05.2021",
+      "confidence": 67.0993750214606,
+      "bbox": {
+        "x": 404,
+        "y": 202,
+        "width": 116,
+        "height": 30
+      }
+    },
+    {
+      "text": "Destinataire",
+      "confidence": 87.85135873048436,
+      "bbox": {
+        "x": 830,
+        "y": 204,
+        "width": 144,
+        "height": 26
+      }
+    },
+    {
+      "text": "Paiement effectué le",
+      "confidence": 98.9482428640427,
+      "bbox": {
+        "x": 184,
+        "y": 230,
+        "width": 202,
+        "height": 26
+      }
+    },
+    {
+      "text": "28.06.2021",
+      "confidence": 92.54532397561736,
+      "bbox": {
+        "x": 404,
+        "y": 228,
+        "width": 116,
+        "height": 30
+      }
+    },
+    {
+      "text": "Mon client préféré",
+      "confidence": 59.44120176980097,
+      "bbox": {
+        "x": 830,
+        "y": 228,
+        "width": 174,
+        "height": 30
+      }
+    },
+    {
+      "text": "Numéro de facture",
+      "confidence": 74.44523962818947,
+      "bbox": {
+        "x": 206,
+        "y": 254,
+        "width": 180,
+        "height": 26
+      }
+    },
+    {
+      "text": "123",
+      "confidence": 99.9933170723718,
+      "bbox": {
+        "x": 404,
+        "y": 254,
+        "width": 40,
+        "height": 26
+      }
+    },
+    {
+      "text": "Dr. House",
+      "confidence": 82.81067054724579,
+      "bbox": {
+        "x": 830,
+        "y": 256,
+        "width": 98,
+        "height": 24
+      }
+    },
+    {
+      "text": "Numéro de client",
+      "confidence": 77.84334248948394,
+      "bbox": {
+        "x": 222,
+        "y": 280,
+        "width": 166,
+        "height": 26
+      }
+    },
+    {
+      "text": "Rue dela comptabilité",
+      "confidence": 97.34631972655333,
+      "bbox": {
+        "x": 830,
+        "y": 278,
+        "width": 212,
+        "height": 31
+      }
+    },
+    {
+      "text": "Emis Par",
+      "confidence": 60.72526345829634,
+      "bbox": {
+        "x": 302,
+        "y": 304,
+        "width": 86,
+        "height": 28
+      }
+    },
+    {
+      "text": "Xavier Giard",
+      "confidence": 97.08049426238848,
+      "bbox": {
+        "x": 404,
+        "y": 304,
+        "width": 122,
+        "height": 26
+      }
+    },
+    {
+      "text": "1208Genève",
+      "confidence": 99.92703650876497,
+      "bbox": {
+        "x": 828,
+        "y": 304,
+        "width": 132,
+        "height": 26
+      }
+    },
+    {
+      "text": "Contact client",
+      "confidence": 99.94912101594893,
+      "bbox": {
+        "x": 248,
+        "y": 328,
+        "width": 140,
+        "height": 26
+      }
+    },
+    {
+      "text": "MLclient XYZ",
+      "confidence": 97.89646398034373,
+      "bbox": {
+        "x": 404,
+        "y": 328,
+        "width": 148,
+        "height": 28
+      }
+    },
+    {
+      "text": "Suisse",
+      "confidence": 99.99262202334758,
+      "bbox": {
+        "x": 830,
+        "y": 328,
+        "width": 70,
+        "height": 26
+      }
+    },
+    {
+      "text": "Date delaventelprestation",
+      "confidence": 93.52459488841896,
+      "bbox": {
+        "x": 128,
+        "y": 352,
+        "width": 258,
+        "height": 30
+      }
+    },
+    {
+      "text": "14.05.2021",
+      "confidence": 62.78062034540106,
+      "bbox": {
+        "x": 404,
+        "y": 352,
+        "width": 110,
+        "height": 26
+      }
+    },
+    {
+      "text": "Infos additionnelles",
+      "confidence": 99.13721998502753,
+      "bbox": {
+        "x": 36,
+        "y": 546,
+        "width": 228,
+        "height": 26
+      }
+    },
+    {
+      "text": "Merci davoir choisi Mon Entreprise pour nos services",
+      "confidence": 83.338829150781,
+      "bbox": {
+        "x": 36,
+        "y": 597,
+        "width": 494,
+        "height": 30
+      }
+    },
+    {
+      "text": "Service Après Vente",
+      "confidence": 71.51878355069734,
+      "bbox": {
+        "x": 36,
+        "y": 620,
+        "width": 198,
+        "height": 31
+      }
+    },
+    {
+      "text": "Garantie Ian.",
+      "confidence": 66.6240293861845,
+      "bbox": {
+        "x": 242,
+        "y": 624,
+        "width": 134,
+        "height": 24
+      }
+    },
+    {
+      "text": "Description",
+      "confidence": 98.67698167249472,
+      "bbox": {
+        "x": 35,
+        "y": 693,
+        "width": 137,
+        "height": 30
+      }
+    },
+    {
+      "text": "Quantités",
+      "confidence": 99.83584102406611,
+      "bbox": {
+        "x": 375,
+        "y": 693,
+        "width": 121,
+        "height": 29
+      }
+    },
+    {
+      "text": "Unités ix unitaire HTITVA7",
+      "confidence": 49.44045675189211,
+      "bbox": {
+        "x": 506,
+        "y": 694,
+        "width": 318,
+        "height": 26
+      }
+    },
+    {
+      "text": "TA",
+      "confidence": 70.43531684936201,
+      "bbox": {
+        "x": 904,
+        "y": 694,
+        "width": 56,
+        "height": 26
+      }
+    },
+    {
+      "text": "Main-douvre",
+      "confidence": 94.62739303017975,
+      "bbox": {
+        "x": 36,
+        "y": 722,
+        "width": 138,
+        "height": 24
+      }
+    },
+    {
+      "text": "25",
+      "confidence": 94.80388653470693,
+      "bbox": {
+        "x": 428,
+        "y": 722,
+        "width": 32,
+        "height": 24
+      }
+    },
+    {
+      "text": "h",
+      "confidence": 98.36358108406138,
+      "bbox": {
+        "x": 533,
+        "y": 723,
+        "width": 20,
+        "height": 22
+      }
+    },
+    {
+      "text": "60.0OCHF",
+      "confidence": 41.26979676280859,
+      "bbox": {
+        "x": 626,
+        "y": 720,
+        "width": 106,
+        "height": 26
+      }
+    },
+    {
+      "text": "115.50CHF",
+      "confidence": 68.1922634538204,
+      "bbox": {
+        "x": 840,
+        "y": 720,
+        "width": 110,
+        "height": 26
+      }
+    },
+    {
+      "text": "1615.50CHF",
+      "confidence": 64.41312413949845,
+      "bbox": {
+        "x": 1038,
+        "y": 720,
+        "width": 126,
+        "height": 28
+      }
+    },
+    {
+      "text": "Produit",
+      "confidence": 99.97744370630728,
+      "bbox": {
+        "x": 36,
+        "y": 744,
+        "width": 76,
+        "height": 26
+      }
+    },
+    {
+      "text": "10",
+      "confidence": 98.07114783084478,
+      "bbox": {
+        "x": 430,
+        "y": 746,
+        "width": 28,
+        "height": 24
+      }
+    },
+    {
+      "text": "Pce.",
+      "confidence": 82.88030624389648,
+      "bbox": {
+        "x": 520,
+        "y": 750,
+        "width": 50,
+        "height": 24
+      }
+    },
+    {
+      "text": "103.99 CHF",
+      "confidence": 96.2201198185492,
+      "bbox": {
+        "x": 618,
+        "y": 744,
+        "width": 114,
+        "height": 26
+      }
+    },
+    {
+      "text": "1039.J0CHF",
+      "confidence": 69.43227921118402,
+      "bbox": {
+        "x": 1034,
+        "y": 744,
+        "width": 130,
+        "height": 26
+      }
+    },
+    {
+      "text": "Total HT",
+      "confidence": 88.44510350812916,
+      "bbox": {
+        "x": 748,
+        "y": 1232,
+        "width": 100,
+        "height": 28
+      }
+    },
+    {
+      "text": "2539.J0 CHF",
+      "confidence": 65.21689455564184,
+      "bbox": {
+        "x": 1028,
+        "y": 1232,
+        "width": 136,
+        "height": 30
+      }
+    },
+    {
+      "text": "Iva",
+      "confidence": 81.01744498550526,
+      "bbox": {
+        "x": 746,
+        "y": 1260,
+        "width": 54,
+        "height": 26
+      }
+    },
+    {
+      "text": "115 SOCHF",
+      "confidence": 81.6851595151593,
+      "bbox": {
+        "x": 1054,
+        "y": 1260,
+        "width": 110,
+        "height": 24
+      }
+    },
+    {
+      "text": "Total TTC",
+      "confidence": 99.04756996756214,
+      "bbox": {
+        "x": 750,
+        "y": 1312,
+        "width": 132,
+        "height": 30
+      }
+    },
+    {
+      "text": "2 655.40 CHF",
+      "confidence": 78.4919597026556,
+      "bbox": {
+        "x": 994,
+        "y": 1312,
+        "width": 172,
+        "height": 30
+      }
+    },
+    {
+      "text": "YeCount",
+      "confidence": 73.88669998947785,
+      "bbox": {
+        "x": 36,
+        "y": 1446,
+        "width": 102,
+        "height": 24
+      }
+    },
+    {
+      "text": "Contact",
+      "confidence": 68.69323470850031,
+      "bbox": {
+        "x": 390,
+        "y": 1446,
+        "width": 90,
+        "height": 24
+      }
+    },
+    {
+      "text": "Coordonnées bancaires",
+      "confidence": 87.81446826022965,
+      "bbox": {
+        "x": 830,
+        "y": 1444,
+        "width": 254,
+        "height": 26
+      }
+    },
+    {
+      "text": "Ch. Des Chênes IOB",
+      "confidence": 63.1598082454216,
+      "bbox": {
+        "x": 36,
+        "y": 1468,
+        "width": 178,
+        "height": 26
+      }
+    },
+    {
+      "text": "Xavier Giard",
+      "confidence": 99.95475349497556,
+      "bbox": {
+        "x": 390,
+        "y": 1470,
+        "width": 110,
+        "height": 24
+      }
+    },
+    {
+      "text": "Banque",
+      "confidence": 99.80838111798383,
+      "bbox": {
+        "x": 828,
+        "y": 1469,
+        "width": 74,
+        "height": 28
+      }
+    },
+    {
+      "text": "BNP Paribas",
+      "confidence": 99.50938373690987,
+      "bbox": {
+        "x": 964,
+        "y": 1470,
+        "width": 120,
+        "height": 24
+      }
+    },
+    {
+      "text": "Téléphone +41 76 39124 37",
+      "confidence": 91.2171708283315,
+      "bbox": {
+        "x": 390,
+        "y": 1494,
+        "width": 230,
+        "height": 28
+      }
+    },
+    {
+      "text": "Code banque",
+      "confidence": 99.66019970528819,
+      "bbox": {
+        "x": 828,
+        "y": 1493,
+        "width": 121,
+        "height": 31
+      }
+    },
+    {
+      "text": "Suisse",
+      "confidence": 99.97582158306483,
+      "bbox": {
+        "x": 36,
+        "y": 1520,
+        "width": 64,
+        "height": 24
+      }
+    },
+    {
+      "text": "Email: %avier giard@wecount.swiss",
+      "confidence": 46.7129447591472,
+      "bbox": {
+        "x": 390,
+        "y": 1519,
+        "width": 298,
+        "height": 26
+      }
+    },
+    {
+      "text": "N de compte",
+      "confidence": 69.95658656310202,
+      "bbox": {
+        "x": 828,
+        "y": 1520,
+        "width": 120,
+        "height": 26
+      }
+    },
+    {
+      "text": "12345678",
+      "confidence": 94.37736160921135,
+      "bbox": {
+        "x": 962,
+        "y": 1518,
+        "width": 88,
+        "height": 26
+      }
+    },
+    {
+      "text": "wwwwecount swiss",
+      "confidence": 80.81503495491101,
+      "bbox": {
+        "x": 388,
+        "y": 1544,
+        "width": 172,
+        "height": 24
+      }
+    },
+    {
+      "text": "IBAN",
+      "confidence": 61.63533329963684,
+      "bbox": {
+        "x": 828,
+        "y": 1544,
+        "width": 56,
+        "height": 24
+      }
+    },
+    {
+      "text": "CH58 23411240 9823 $",
+      "confidence": 86.13121683859674,
+      "bbox": {
+        "x": 964,
+        "y": 1542,
+        "width": 198,
+        "height": 26
+      }
+    },
+    {
+      "text": "NTva:%",
+      "confidence": 44.3657899400932,
+      "bbox": {
+        "x": 36,
+        "y": 1568,
+        "width": 122,
+        "height": 24
+      }
+    },
+    {
+      "text": "SwiFTIBIC",
+      "confidence": 36.726973236227366,
+      "bbox": {
+        "x": 828,
+        "y": 1568,
+        "width": 104,
+        "height": 24
+      }
+    },
+    {
+      "text": "FRHHCXXIOOI",
+      "confidence": 69.78564224100235,
+      "bbox": {
+        "x": 964,
+        "y": 1568,
+        "width": 136,
+        "height": 24
+      }
+    },
+    {
+      "text": "Pully",
+      "confidence": 99.98466199443902,
+      "bbox": {
+        "x": 75,
+        "y": 1491,
+        "width": 52,
+        "height": 32
+      }
+    }
+  ],
+  "full_text": "WeCount Facture Pour facture n 123456789 9ssc Date de facturation 29.05.2021 Destinataire Paiement effectué le 28.06.2021 Mon client préféré Numéro de facture 123 Dr. House Numéro de client Rue dela comptabilité Emis Par Xavier Giard 1208Genève Contact client MLclient XYZ Suisse Date delaventelprestation 14.05.2021 Infos additionnelles Merci davoir choisi Mon Entreprise pour nos services Service Après Vente Garantie Ian. Description Quantités Unités ix unitaire HTITVA7 TA Main-douvre 25 h 60.0OCHF 115.50CHF 1615.50CHF Produit 10 Pce. 103.99 CHF 1039.J0CHF Total HT 2539.J0 CHF Iva 115 SOCHF Total TTC 2 655.40 CHF YeCount Contact Coordonnées bancaires Ch. Des Chênes IOB Xavier Giard Banque BNP Paribas Téléphone +41 76 39124 37 Code banque Suisse Email: %avier giard@wecount.swiss N de compte 12345678 wwwwecount swiss IBAN CH58 23411240 9823 $ NTva:% SwiFTIBIC FRHHCXXIOOI Pully",
+  "confidence_scores": [
+    99.981012450274,
+    98.73335085220593,
+    96.71512742270353,
+    99.889005214337,
+    41.9314831495285,
+    82.19574639197876,
+    67.0993750214606,
+    87.85135873048436,
+    98.9482428640427,
+    92.54532397561736,
+    59.44120176980097,
+    74.44523962818947,
+    99.9933170723718,
+    82.81067054724579,
+    77.84334248948394,
+    97.34631972655333,
+    60.72526345829634,
+    97.08049426238848,
+    99.92703650876497,
+    99.94912101594893,
+    97.89646398034373,
+    99.99262202334758,
+    93.52459488841896,
+    62.78062034540106,
+    99.13721998502753,
+    83.338829150781,
+    71.51878355069734,
+    66.6240293861845,
+    98.67698167249472,
+    99.83584102406611,
+    49.44045675189211,
+    70.43531684936201,
+    94.62739303017975,
+    94.80388653470693,
+    98.36358108406138,
+    41.26979676280859,
+    68.1922634538204,
+    64.41312413949845,
+    99.97744370630728,
+    98.07114783084478,
+    82.88030624389648,
+    96.2201198185492,
+    69.43227921118402,
+    88.44510350812916,
+    65.21689455564184,
+    81.01744498550526,
+    81.6851595151593,
+    99.04756996756214,
+    78.4919597026556,
+    73.88669998947785,
+    68.69323470850031,
+    87.81446826022965,
+    63.1598082454216,
+    99.95475349497556,
+    99.80838111798383,
+    99.50938373690987,
+    91.2171708283315,
+    99.66019970528819,
+    99.97582158306483,
+    46.7129447591472,
+    69.95658656310202,
+    94.37736160921135,
+    80.81503495491101,
+    61.63533329963684,
+    86.13121683859674,
+    44.3657899400932,
+    36.726973236227366,
+    69.78564224100235,
+    99.98466199443902
+  ],
+  "average_confidence": 82.39102512053266
+}

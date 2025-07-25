@@ -1,0 +1,154 @@
+{
+  "engine": "easyocr",
+  "timestamp": "2025-07-25T10:41:09.557857",
+  "image_path": "Data\\processed_images\\enhanced_F47.png",
+  "text_blocks": [
+    {
+      "text": "La Bolto",
+      "confidence": 87.68647944671402,
+      "bbox": {
+        "x": 95,
+        "y": 33,
+        "width": 42,
+        "height": 12
+      }
+    },
+    {
+      "text": "Muslque",
+      "confidence": 98.62560793525091,
+      "bbox": {
+        "x": 140,
+        "y": 31,
+        "width": 45,
+        "height": 17
+      }
+    },
+    {
+      "text": "YOUNG Patnce",
+      "confidence": 45.651004367457624,
+      "bbox": {
+        "x": 237,
+        "y": 131,
+        "width": 52,
+        "height": 12
+      }
+    },
+    {
+      "text": "Gtzon",
+      "confidence": 49.15816120753663,
+      "bbox": {
+        "x": 266,
+        "y": 142,
+        "width": 24,
+        "height": 8
+      }
+    },
+    {
+      "text": "Facture N' 28",
+      "confidence": 94.14852987696942,
+      "bbox": {
+        "x": 195,
+        "y": 215,
+        "width": 62,
+        "height": 12
+      }
+    },
+    {
+      "text": "Pencussious",
+      "confidence": 54.36307322373509,
+      "bbox": {
+        "x": 26,
+        "y": 282,
+        "width": 52,
+        "height": 8
+      }
+    },
+    {
+      "text": "230 0o",
+      "confidence": 38.824192427479375,
+      "bbox": {
+        "x": 400,
+        "y": 320,
+        "width": 24,
+        "height": 8
+      }
+    },
+    {
+      "text": "nro",
+      "confidence": 36.77455373648766,
+      "bbox": {
+        "x": 262,
+        "y": 332,
+        "width": 26,
+        "height": 8
+      }
+    },
+    {
+      "text": "169,00",
+      "confidence": 58.62925882353704,
+      "bbox": {
+        "x": 402,
+        "y": 346,
+        "width": 22,
+        "height": 8
+      }
+    },
+    {
+      "text": "OcO",
+      "confidence": 45.976004327971914,
+      "bbox": {
+        "x": 262,
+        "y": 384,
+        "width": 26,
+        "height": 8
+      }
+    },
+    {
+      "text": "16 500,0",
+      "confidence": 30.43396940038755,
+      "bbox": {
+        "x": 392,
+        "y": 446,
+        "width": 32,
+        "height": 8
+      }
+    },
+    {
+      "text": "16 300,00",
+      "confidence": 63.45256805233279,
+      "bbox": {
+        "x": 394,
+        "y": 458,
+        "width": 32,
+        "height": 8
+      }
+    },
+    {
+      "text": "577507",
+      "confidence": 68.09024329668391,
+      "bbox": {
+        "x": 68,
+        "y": 516,
+        "width": 28,
+        "height": 6
+      }
+    }
+  ],
+  "full_text": "La Bolto Muslque YOUNG Patnce Gtzon Facture N' 28 Pencussious 230 0o nro 169,00 OcO 16 500,0 16 300,00 577507",
+  "confidence_scores": [
+    87.68647944671402,
+    98.62560793525091,
+    45.651004367457624,
+    49.15816120753663,
+    94.14852987696942,
+    54.36307322373509,
+    38.824192427479375,
+    36.77455373648766,
+    58.62925882353704,
+    45.976004327971914,
+    30.43396940038755,
+    63.45256805233279,
+    68.09024329668391
+  ],
+  "average_confidence": 59.37028047096492
+}

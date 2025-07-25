@@ -1,0 +1,1374 @@
+{
+  "image_path": "Data/processed_images/enhanced_complex_invoice_0001.png",
+  "timestamp": "2025-07-25T10:32:24.298783",
+  "engines_tested": {
+    "tesseract": {
+      "engine": "tesseract",
+      "timestamp": "2025-07-25T10:31:43.059096",
+      "image_path": "Data/processed_images/enhanced_complex_invoice_0001.png",
+      "text_blocks": [
+        {
+          "text": "1",
+          "confidence": 85,
+          "bbox": {
+            "x": 412,
+            "y": 555,
+            "width": 3,
+            "height": 9
+          },
+          "level": 5
+        },
+        {
+          "text": "fat",
+          "confidence": 57,
+          "bbox": {
+            "x": 466,
+            "y": 542,
+            "width": 39,
+            "height": 42
+          },
+          "level": 5
+        },
+        {
+          "text": "pene",
+          "confidence": 34,
+          "bbox": {
+            "x": 521,
+            "y": 555,
+            "width": 44,
+            "height": 8
+          },
+          "level": 5
+        },
+        {
+          "text": "et",
+          "confidence": 60,
+          "bbox": {
+            "x": 170,
+            "y": 674,
+            "width": 11,
+            "height": 29
+          },
+          "level": 5
+        },
+        {
+          "text": "monitoring",
+          "confidence": 79,
+          "bbox": {
+            "x": 183,
+            "y": 685,
+            "width": 49,
+            "height": 11
+          },
+          "level": 5
+        },
+        {
+          "text": "247",
+          "confidence": 88,
+          "bbox": {
+            "x": 236,
+            "y": 674,
+            "width": 22,
+            "height": 29
+          },
+          "level": 5
+        },
+        {
+          "text": "‘120",
+          "confidence": 52,
+          "bbox": {
+            "x": 408,
+            "y": 673,
+            "width": 20,
+            "height": 30
+          },
+          "level": 5
+        },
+        {
+          "text": "he",
+          "confidence": 48,
+          "bbox": {
+            "x": 470,
+            "y": 676,
+            "width": 82,
+            "height": 34
+          },
+          "level": 5
+        },
+        {
+          "text": "[ise",
+          "confidence": 66,
+          "bbox": {
+            "x": 100,
+            "y": 709,
+            "width": 32,
+            "height": 29
+          },
+          "level": 5
+        },
+        {
+          "text": "fe",
+          "confidence": 40,
+          "bbox": {
+            "x": 406,
+            "y": 707,
+            "width": 21,
+            "height": 42
+          },
+          "level": 5
+        },
+        {
+          "text": "frie",
+          "confidence": 47,
+          "bbox": {
+            "x": 455,
+            "y": 707,
+            "width": 49,
+            "height": 42
+          },
+          "level": 5
+        },
+        {
+          "text": "re",
+          "confidence": 47,
+          "bbox": {
+            "x": 521,
+            "y": 720,
+            "width": 37,
+            "height": 8
+          },
+          "level": 5
+        },
+        {
+          "text": "2",
+          "confidence": 35,
+          "bbox": {
+            "x": 596,
+            "y": 707,
+            "width": 32,
+            "height": 42
+          },
+          "level": 5
+        },
+        {
+          "text": "REF-2945",
+          "confidence": 43,
+          "bbox": {
+            "x": 42,
+            "y": 756,
+            "width": 43,
+            "height": 9
+          },
+          "level": 5
+        },
+        {
+          "text": "niveau",
+          "confidence": 82,
+          "bbox": {
+            "x": 204,
+            "y": 744,
+            "width": 30,
+            "height": 29
+          },
+          "level": 5
+        },
+        {
+          "text": "2et3",
+          "confidence": 56,
+          "bbox": {
+            "x": 238,
+            "y": 744,
+            "width": 28,
+            "height": 29
+          },
+          "level": 5
+        },
+        {
+          "text": "pe",
+          "confidence": 37,
+          "bbox": {
+            "x": 406,
+            "y": 742,
+            "width": 63,
+            "height": 42
+          },
+          "level": 5
+        },
+        {
+          "text": "se",
+          "confidence": 39,
+          "bbox": {
+            "x": 525,
+            "y": 746,
+            "width": 28,
+            "height": 34
+          },
+          "level": 5
+        },
+        {
+          "text": "+",
+          "confidence": 44,
+          "bbox": {
+            "x": 596,
+            "y": 742,
+            "width": 11,
+            "height": 42
+          },
+          "level": 5
+        },
+        {
+          "text": "REF-2728",
+          "confidence": 42,
+          "bbox": {
+            "x": 42,
+            "y": 826,
+            "width": 44,
+            "height": 9
+          },
+          "level": 5
+        },
+        {
+          "text": "Optimisation",
+          "confidence": 60,
+          "bbox": {
+            "x": 111,
+            "y": 814,
+            "width": 56,
+            "height": 29
+          },
+          "level": 5
+        },
+        {
+          "text": "performance",
+          "confidence": 95,
+          "bbox": {
+            "x": 173,
+            "y": 814,
+            "width": 56,
+            "height": 29
+          },
+          "level": 5
+        },
+        {
+          "text": "serveurs",
+          "confidence": 77,
+          "bbox": {
+            "x": 233,
+            "y": 814,
+            "width": 41,
+            "height": 29
+          },
+          "level": 5
+        },
+        {
+          "text": "2",
+          "confidence": 95,
+          "bbox": {
+            "x": 412,
+            "y": 825,
+            "width": 5,
+            "height": 9
+          },
+          "level": 5
+        },
+        {
+          "text": "fe",
+          "confidence": 41,
+          "bbox": {
+            "x": 466,
+            "y": 812,
+            "width": 39,
+            "height": 42
+          },
+          "level": 5
+        },
+        {
+          "text": "[",
+          "confidence": 51,
+          "bbox": {
+            "x": 601,
+            "y": 829,
+            "width": 3,
+            "height": 1
+          },
+          "level": 5
+        }
+      ],
+      "full_text": "'ReF-2243 _|[DeveloppementaAPtRESTet 1 fat pene bps\n\nReF-9745 —|Supervision et monitoring 247 ‘120 he bam\n\neF-2016 [ise ajoursecuritesysteme fe frie re 2 es\n\nREF-2945 | Supporttechnique niveau 2et3 pe se + perso\n\nREF-2728 Optimisation performance serveurs 2 fe fson [ sacoo0\nee\n",
+      "confidence_scores": [
+        85,
+        57,
+        34,
+        60,
+        79,
+        88,
+        52,
+        48,
+        66,
+        40,
+        47,
+        47,
+        35,
+        43,
+        82,
+        56,
+        37,
+        39,
+        44,
+        42,
+        60,
+        95,
+        77,
+        95,
+        41,
+        51
+      ],
+      "average_confidence": 57.69230769230769
+    },
+    "easyocr": {
+      "engine": "easyocr",
+      "timestamp": "2025-07-25T10:32:24.296525",
+      "image_path": "Data/processed_images/enhanced_complex_invoice_0001.png",
+      "text_blocks": [
+        {
+          "text": "FFCTUREDE SOLDE",
+          "confidence": 75.77260443527607,
+          "bbox": {
+            "x": 195,
+            "y": 29,
+            "width": 98,
+            "height": 16
+          }
+        },
+        {
+          "text": "Dale: 21,06/2024",
+          "confidence": 49.99702417108152,
+          "bbox": {
+            "x": 947,
+            "y": 29,
+            "width": 82,
+            "height": 14
+          }
+        },
+        {
+          "text": "Echeance 12,08/2024",
+          "confidence": 89.3630676158245,
+          "bbox": {
+            "x": 945,
+            "y": 49,
+            "width": 112,
+            "height": 14
+          }
+        },
+        {
+          "text": "N:FFCT 2024-2314",
+          "confidence": 30.1062238178273,
+          "bbox": {
+            "x": 197,
+            "y": 70,
+            "width": 98,
+            "height": 14
+          }
+        },
+        {
+          "text": "@METTEUR",
+          "confidence": 98.00149185542274,
+          "bbox": {
+            "x": 45,
+            "y": 179,
+            "width": 58,
+            "height": 14
+          }
+        },
+        {
+          "text": "DESTINATAIRE",
+          "confidence": 99.63122705601266,
+          "bbox": {
+            "x": 627,
+            "y": 177,
+            "width": 74,
+            "height": 14
+          }
+        },
+        {
+          "text": "CASABLANCAITCONSULTING",
+          "confidence": 79.4338194330233,
+          "bbox": {
+            "x": 47,
+            "y": 211,
+            "width": 146,
+            "height": 14
+          }
+        },
+        {
+          "text": "FESCLOUD TECHNOLOGIES",
+          "confidence": 73.68202178473982,
+          "bbox": {
+            "x": 627,
+            "y": 209,
+            "width": 138,
+            "height": 14
+          }
+        },
+        {
+          "text": "Secteur Constructicn et BTP",
+          "confidence": 62.29948217593153,
+          "bbox": {
+            "x": 47,
+            "y": 227,
+            "width": 136,
+            "height": 12
+          }
+        },
+        {
+          "text": "Secteur Transportet lcgistique",
+          "confidence": 77.8790263974867,
+          "bbox": {
+            "x": 627,
+            "y": 225,
+            "width": 148,
+            "height": 14
+          }
+        },
+        {
+          "text": "Rue Zerktouni 45, Mohammedia",
+          "confidence": 79.23259016827907,
+          "bbox": {
+            "x": 47,
+            "y": 241,
+            "width": 154,
+            "height": 14
+          }
+        },
+        {
+          "text": "4691",
+          "confidence": 74.22827533584817,
+          "bbox": {
+            "x": 207,
+            "y": 241,
+            "width": 28,
+            "height": 14
+          }
+        },
+        {
+          "text": "Quartier Anfa 95, El Jadida 51068",
+          "confidence": 60.555315823620184,
+          "bbox": {
+            "x": 627,
+            "y": 239,
+            "width": 160,
+            "height": 14
+          }
+        },
+        {
+          "text": "Tel +2120523-41-86-69",
+          "confidence": 94.17161757133151,
+          "bbox": {
+            "x": 47,
+            "y": 256,
+            "width": 117,
+            "height": 13
+          }
+        },
+        {
+          "text": "Tel +2120658-97-27-23",
+          "confidence": 94.9917993405806,
+          "bbox": {
+            "x": 627,
+            "y": 255,
+            "width": 117,
+            "height": 14
+          }
+        },
+        {
+          "text": "Email vves45 @example.net",
+          "confidence": 39.19115617212178,
+          "bbox": {
+            "x": 47,
+            "y": 271,
+            "width": 136,
+            "height": 14
+          }
+        },
+        {
+          "text": "Email gomesrichard@example 0ig",
+          "confidence": 67.19906261946534,
+          "bbox": {
+            "x": 627,
+            "y": 271,
+            "width": 164,
+            "height": 14
+          }
+        },
+        {
+          "text": "ICE 00679688751600083",
+          "confidence": 97.46131902444488,
+          "bbox": {
+            "x": 627,
+            "y": 285,
+            "width": 126,
+            "height": 14
+          }
+        },
+        {
+          "text": "ICE 00718866322800029",
+          "confidence": 96.47186353024091,
+          "bbox": {
+            "x": 47,
+            "y": 305,
+            "width": 126,
+            "height": 14
+          }
+        },
+        {
+          "text": "RC: 13180",
+          "confidence": 71.56961222643183,
+          "bbox": {
+            "x": 627,
+            "y": 305,
+            "width": 50,
+            "height": 14
+          }
+        },
+        {
+          "text": "FC. 80142",
+          "confidence": 43.74532404176425,
+          "bbox": {
+            "x": 47,
+            "y": 321,
+            "width": 50,
+            "height": 14
+          }
+        },
+        {
+          "text": "Patente: 41275563",
+          "confidence": 75.84295505044048,
+          "bbox": {
+            "x": 47,
+            "y": 335,
+            "width": 92,
+            "height": 14
+          }
+        },
+        {
+          "text": "Capibl 8907348 DH",
+          "confidence": 60.00870881805347,
+          "bbox": {
+            "x": 47,
+            "y": 351,
+            "width": 100,
+            "height": 14
+          }
+        },
+        {
+          "text": "DETAILSDELAFACTURE",
+          "confidence": 63.93275556903283,
+          "bbox": {
+            "x": 47,
+            "y": 395,
+            "width": 120,
+            "height": 14
+          }
+        },
+        {
+          "text": "Devise DH",
+          "confidence": 74.57678876050791,
+          "bbox": {
+            "x": 897,
+            "y": 425,
+            "width": 54,
+            "height": 12
+          }
+        },
+        {
+          "text": "Rer",
+          "confidence": 34.660739388789956,
+          "bbox": {
+            "x": 41,
+            "y": 495,
+            "width": 22,
+            "height": 16
+          }
+        },
+        {
+          "text": "Déscriplion",
+          "confidence": 34.88067554638249,
+          "bbox": {
+            "x": 113,
+            "y": 499,
+            "width": 56,
+            "height": 14
+          }
+        },
+        {
+          "text": "Unite",
+          "confidence": 64.10924420057313,
+          "bbox": {
+            "x": 471,
+            "y": 497,
+            "width": 32,
+            "height": 16
+          }
+        },
+        {
+          "text": "Prix Unit `",
+          "confidence": 87.73583141347493,
+          "bbox": {
+            "x": 523,
+            "y": 497,
+            "width": 46,
+            "height": 14
+          }
+        },
+        {
+          "text": "Pemisz",
+          "confidence": 42.059862661595645,
+          "bbox": {
+            "x": 601,
+            "y": 497,
+            "width": 40,
+            "height": 14
+          }
+        },
+        {
+          "text": "TotalHT",
+          "confidence": 58.512554227867284,
+          "bbox": {
+            "x": 661,
+            "y": 497,
+            "width": 44,
+            "height": 14
+          }
+        },
+        {
+          "text": "CATEGORIE DEVELOPMENT",
+          "confidence": 98.08351423890787,
+          "bbox": {
+            "x": 43,
+            "y": 525,
+            "width": 136,
+            "height": 14
+          }
+        },
+        {
+          "text": "REF-2243",
+          "confidence": 66.10257601038121,
+          "bbox": {
+            "x": 41,
+            "y": 553,
+            "width": 48,
+            "height": 14
+          }
+        },
+        {
+          "text": "Developpementd'PI RESTet",
+          "confidence": 60.72025307360109,
+          "bbox": {
+            "x": 111,
+            "y": 553,
+            "width": 140,
+            "height": 16
+          }
+        },
+        {
+          "text": "Forlait",
+          "confidence": 89.2915077026576,
+          "bbox": {
+            "x": 469,
+            "y": 553,
+            "width": 34,
+            "height": 14
+          }
+        },
+        {
+          "text": "75539.14",
+          "confidence": 60.53322773455434,
+          "bbox": {
+            "x": 519,
+            "y": 553,
+            "width": 50,
+            "height": 14
+          }
+        },
+        {
+          "text": "75530.14",
+          "confidence": 55.628321935684646,
+          "bbox": {
+            "x": 659,
+            "y": 553,
+            "width": 50,
+            "height": 14
+          }
+        },
+        {
+          "text": "integrationis",
+          "confidence": 80.4097777431,
+          "bbox": {
+            "x": 109,
+            "y": 567,
+            "width": 62,
+            "height": 14
+          }
+        },
+        {
+          "text": "REF-2237",
+          "confidence": 99.55852544023189,
+          "bbox": {
+            "x": 41,
+            "y": 589,
+            "width": 46,
+            "height": 14
+          }
+        },
+        {
+          "text": "Systeme de gestion documentite",
+          "confidence": 52.45111299556531,
+          "bbox": {
+            "x": 111,
+            "y": 591,
+            "width": 158,
+            "height": 12
+          }
+        },
+        {
+          "text": "Forlait",
+          "confidence": 94.81841004065707,
+          "bbox": {
+            "x": 471,
+            "y": 589,
+            "width": 32,
+            "height": 12
+          }
+        },
+        {
+          "text": "32353.00",
+          "confidence": 98.22928829252122,
+          "bbox": {
+            "x": 519,
+            "y": 587,
+            "width": 48,
+            "height": 14
+          }
+        },
+        {
+          "text": "32353.00",
+          "confidence": 98.01865790490754,
+          "bbox": {
+            "x": 659,
+            "y": 587,
+            "width": 48,
+            "height": 14
+          }
+        },
+        {
+          "text": "(GED)",
+          "confidence": 61.49426301490038,
+          "bbox": {
+            "x": 109,
+            "y": 601,
+            "width": 32,
+            "height": 14
+          }
+        },
+        {
+          "text": "REF-4767",
+          "confidence": 92.91845034224309,
+          "bbox": {
+            "x": 41,
+            "y": 623,
+            "width": 48,
+            "height": 14
+          }
+        },
+        {
+          "text": "Platetorme de formation en ligne",
+          "confidence": 75.67009720744198,
+          "bbox": {
+            "x": 111,
+            "y": 625,
+            "width": 154,
+            "height": 14
+          }
+        },
+        {
+          "text": "Forhait",
+          "confidence": 55.63919378709832,
+          "bbox": {
+            "x": 471,
+            "y": 623,
+            "width": 32,
+            "height": 14
+          }
+        },
+        {
+          "text": "33071.82",
+          "confidence": 99.66744290242517,
+          "bbox": {
+            "x": 519,
+            "y": 623,
+            "width": 48,
+            "height": 14
+          }
+        },
+        {
+          "text": "33071.82",
+          "confidence": 99.73926094797145,
+          "bbox": {
+            "x": 659,
+            "y": 623,
+            "width": 48,
+            "height": 14
+          }
+        },
+        {
+          "text": "CATEGORIE: MAINTENANCE",
+          "confidence": 84.26344912900484,
+          "bbox": {
+            "x": 43,
+            "y": 655,
+            "width": 136,
+            "height": 14
+          }
+        },
+        {
+          "text": "REF-9745",
+          "confidence": 99.88468818045766,
+          "bbox": {
+            "x": 41,
+            "y": 683,
+            "width": 48,
+            "height": 14
+          }
+        },
+        {
+          "text": "Supervision et monitoring 247",
+          "confidence": 85.33209773943057,
+          "bbox": {
+            "x": 111,
+            "y": 685,
+            "width": 146,
+            "height": 14
+          }
+        },
+        {
+          "text": "397.38",
+          "confidence": 96.93907652980182,
+          "bbox": {
+            "x": 519,
+            "y": 683,
+            "width": 36,
+            "height": 14
+          }
+        },
+        {
+          "text": "51262.21",
+          "confidence": 99.52408452163591,
+          "bbox": {
+            "x": 659,
+            "y": 683,
+            "width": 48,
+            "height": 14
+          }
+        },
+        {
+          "text": "PEF-20 16",
+          "confidence": 68.13787755038334,
+          "bbox": {
+            "x": 41,
+            "y": 719,
+            "width": 48,
+            "height": 14
+          }
+        },
+        {
+          "text": "Mlise G jour scurile systeme",
+          "confidence": 40.21272659125816,
+          "bbox": {
+            "x": 109,
+            "y": 719,
+            "width": 134,
+            "height": 14
+          }
+        },
+        {
+          "text": "Unite",
+          "confidence": 89.1795329027689,
+          "bbox": {
+            "x": 469,
+            "y": 719,
+            "width": 30,
+            "height": 12
+          }
+        },
+        {
+          "text": "3743.10",
+          "confidence": 98.32330692510449,
+          "bbox": {
+            "x": 519,
+            "y": 717,
+            "width": 42,
+            "height": 14
+          }
+        },
+        {
+          "text": "1226",
+          "confidence": 40.5567467212677,
+          "bbox": {
+            "x": 601,
+            "y": 719,
+            "width": 22,
+            "height": 12
+          }
+        },
+        {
+          "text": "33026.43",
+          "confidence": 94.81518558959381,
+          "bbox": {
+            "x": 659,
+            "y": 719,
+            "width": 48,
+            "height": 12
+          }
+        },
+        {
+          "text": "REF-8945",
+          "confidence": 72.7084214225253,
+          "bbox": {
+            "x": 41,
+            "y": 753,
+            "width": 48,
+            "height": 14
+          }
+        },
+        {
+          "text": "Supporttechnique niveju 2et3",
+          "confidence": 70.34310426435496,
+          "bbox": {
+            "x": 111,
+            "y": 753,
+            "width": 154,
+            "height": 16
+          }
+        },
+        {
+          "text": "695.52",
+          "confidence": 97.84573627553378,
+          "bbox": {
+            "x": 519,
+            "y": 753,
+            "width": 36,
+            "height": 14
+          }
+        },
+        {
+          "text": "98763.90",
+          "confidence": 89.15096782010849,
+          "bbox": {
+            "x": 659,
+            "y": 753,
+            "width": 48,
+            "height": 14
+          }
+        },
+        {
+          "text": "REF-9679",
+          "confidence": 87.93903955727971,
+          "bbox": {
+            "x": 41,
+            "y": 789,
+            "width": 48,
+            "height": 14
+          }
+        },
+        {
+          "text": "Sjuvegarde etarchivage donnees",
+          "confidence": 76.49604862479868,
+          "bbox": {
+            "x": 111,
+            "y": 789,
+            "width": 160,
+            "height": 14
+          }
+        },
+        {
+          "text": "Unite",
+          "confidence": 85.68755820788019,
+          "bbox": {
+            "x": 469,
+            "y": 789,
+            "width": 30,
+            "height": 12
+          }
+        },
+        {
+          "text": "4070.22",
+          "confidence": 99.48921089345555,
+          "bbox": {
+            "x": 521,
+            "y": 789,
+            "width": 42,
+            "height": 12
+          }
+        },
+        {
+          "text": "1221067",
+          "confidence": 99.99143006355881,
+          "bbox": {
+            "x": 661,
+            "y": 787,
+            "width": 46,
+            "height": 14
+          }
+        },
+        {
+          "text": "REF 9728",
+          "confidence": 84.52750085700919,
+          "bbox": {
+            "x": 41,
+            "y": 823,
+            "width": 48,
+            "height": 14
+          }
+        },
+        {
+          "text": "Unite",
+          "confidence": 99.84846303259415,
+          "bbox": {
+            "x": 471,
+            "y": 823,
+            "width": 28,
+            "height": 14
+          }
+        },
+        {
+          "text": "3195.00",
+          "confidence": 83.727427493201,
+          "bbox": {
+            "x": 519,
+            "y": 823,
+            "width": 42,
+            "height": 14
+          }
+        },
+        {
+          "text": "6390.00",
+          "confidence": 97.80831789270331,
+          "bbox": {
+            "x": 659,
+            "y": 823,
+            "width": 44,
+            "height": 14
+          }
+        },
+        {
+          "text": "342617.16 DH",
+          "confidence": 70.91114488632293,
+          "bbox": {
+            "x": 1007,
+            "y": 903,
+            "width": 72,
+            "height": 14
+          }
+        },
+        {
+          "text": "34570.77 DH",
+          "confidence": 79.25520607945515,
+          "bbox": {
+            "x": 1009,
+            "y": 923,
+            "width": 68,
+            "height": 14
+          }
+        },
+        {
+          "text": "Sous",
+          "confidence": 96.28219604492188,
+          "bbox": {
+            "x": 819,
+            "y": 945,
+            "width": 26,
+            "height": 12
+          }
+        },
+        {
+          "text": "308045.39 DH",
+          "confidence": 96.2842880500174,
+          "bbox": {
+            "x": 1007,
+            "y": 943,
+            "width": 72,
+            "height": 14
+          }
+        },
+        {
+          "text": "TVA (14844",
+          "confidence": 34.22660946216584,
+          "bbox": {
+            "x": 819,
+            "y": 965,
+            "width": 52,
+            "height": 12
+          }
+        },
+        {
+          "text": "43126.49 DH",
+          "confidence": 96.99264226941361,
+          "bbox": {
+            "x": 1009,
+            "y": 963,
+            "width": 64,
+            "height": 14
+          }
+        },
+        {
+          "text": "Tamble liscal",
+          "confidence": 42.2586010143565,
+          "bbox": {
+            "x": 819,
+            "y": 985,
+            "width": 66,
+            "height": 12
+          }
+        },
+        {
+          "text": "20.00 DH",
+          "confidence": 94.10260926475095,
+          "bbox": {
+            "x": 1009,
+            "y": 983,
+            "width": 46,
+            "height": 14
+          }
+        },
+        {
+          "text": "TOTAL TTC;",
+          "confidence": 81.46718949320773,
+          "bbox": {
+            "x": 817,
+            "y": 1021,
+            "width": 58,
+            "height": 18
+          }
+        },
+        {
+          "text": "35119288 DH",
+          "confidence": 67.02426382063389,
+          "bbox": {
+            "x": 1007,
+            "y": 1021,
+            "width": 72,
+            "height": 16
+          }
+        },
+        {
+          "text": "INFORMATIONS BANCAIRES",
+          "confidence": 80.70222993514837,
+          "bbox": {
+            "x": 51,
+            "y": 2005,
+            "width": 136,
+            "height": 14
+          }
+        },
+        {
+          "text": "Bnque: BMvICEEnk",
+          "confidence": 40.54222293398952,
+          "bbox": {
+            "x": 51,
+            "y": 2027,
+            "width": 100,
+            "height": 14
+          }
+        },
+        {
+          "text": "Titulaire: CASABLANCAITCONSULTING",
+          "confidence": 66.9641326379932,
+          "bbox": {
+            "x": 51,
+            "y": 2041,
+            "width": 190,
+            "height": 14
+          }
+        },
+        {
+          "text": "RIE 825 3725435655427 29",
+          "confidence": 60.251797528722825,
+          "bbox": {
+            "x": 51,
+            "y": 2057,
+            "width": 136,
+            "height": 14
+          }
+        },
+        {
+          "text": "SWIFT EMGEMAMIC",
+          "confidence": 33.82707410646753,
+          "bbox": {
+            "x": 51,
+            "y": 2071,
+            "width": 98,
+            "height": 14
+          }
+        },
+        {
+          "text": "MOTES",
+          "confidence": 99.65796096586644,
+          "bbox": {
+            "x": 51,
+            "y": 2091,
+            "width": 38,
+            "height": 14
+          }
+        },
+        {
+          "text": "legislationen viqueur.",
+          "confidence": 88.22834051609287,
+          "bbox": {
+            "x": 167,
+            "y": 2107,
+            "width": 110,
+            "height": 14
+          }
+        },
+        {
+          "text": "CONDITIONSGENERALES",
+          "confidence": 94.23319365598704,
+          "bbox": {
+            "x": 51,
+            "y": 2130,
+            "width": 125,
+            "height": 14
+          }
+        },
+        {
+          "text": "oualo",
+          "confidence": 45.1191053020781,
+          "bbox": {
+            "x": 840,
+            "y": 943,
+            "width": 30,
+            "height": 13
+          }
+        },
+        {
+          "text": "Pos",
+          "confidence": 93.68105608714625,
+          "bbox": {
+            "x": 868,
+            "y": 944,
+            "width": 24,
+            "height": 11
+          }
+        }
+      ],
+      "full_text": "FFCTUREDE SOLDE Dale: 21,06/2024 Echeance 12,08/2024 N:FFCT 2024-2314 @METTEUR DESTINATAIRE CASABLANCAITCONSULTING FESCLOUD TECHNOLOGIES Secteur Constructicn et BTP Secteur Transportet lcgistique Rue Zerktouni 45, Mohammedia 4691 Quartier Anfa 95, El Jadida 51068 Tel +2120523-41-86-69 Tel +2120658-97-27-23 Email vves45 @example.net Email gomesrichard@example 0ig ICE 00679688751600083 ICE 00718866322800029 RC: 13180 FC. 80142 Patente: 41275563 Capibl 8907348 DH DETAILSDELAFACTURE Devise DH Rer Déscriplion Unite Prix Unit ` Pemisz TotalHT CATEGORIE DEVELOPMENT REF-2243 Developpementd'PI RESTet Forlait 75539.14 75530.14 integrationis REF-2237 Systeme de gestion documentite Forlait 32353.00 32353.00 (GED) REF-4767 Platetorme de formation en ligne Forhait 33071.82 33071.82 CATEGORIE: MAINTENANCE REF-9745 Supervision et monitoring 247 397.38 51262.21 PEF-20 16 Mlise G jour scurile systeme Unite 3743.10 1226 33026.43 REF-8945 Supporttechnique niveju 2et3 695.52 98763.90 REF-9679 Sjuvegarde etarchivage donnees Unite 4070.22 1221067 REF 9728 Unite 3195.00 6390.00 342617.16 DH 34570.77 DH Sous 308045.39 DH TVA (14844 43126.49 DH Tamble liscal 20.00 DH TOTAL TTC; 35119288 DH INFORMATIONS BANCAIRES Bnque: BMvICEEnk Titulaire: CASABLANCAITCONSULTING RIE 825 3725435655427 29 SWIFT EMGEMAMIC MOTES legislationen viqueur. CONDITIONSGENERALES oualo Pos",
+      "confidence_scores": [
+        75.77260443527607,
+        49.99702417108152,
+        89.3630676158245,
+        30.1062238178273,
+        98.00149185542274,
+        99.63122705601266,
+        79.4338194330233,
+        73.68202178473982,
+        62.29948217593153,
+        77.8790263974867,
+        79.23259016827907,
+        74.22827533584817,
+        60.555315823620184,
+        94.17161757133151,
+        94.9917993405806,
+        39.19115617212178,
+        67.19906261946534,
+        97.46131902444488,
+        96.47186353024091,
+        71.56961222643183,
+        43.74532404176425,
+        75.84295505044048,
+        60.00870881805347,
+        63.93275556903283,
+        74.57678876050791,
+        34.660739388789956,
+        34.88067554638249,
+        64.10924420057313,
+        87.73583141347493,
+        42.059862661595645,
+        58.512554227867284,
+        98.08351423890787,
+        66.10257601038121,
+        60.72025307360109,
+        89.2915077026576,
+        60.53322773455434,
+        55.628321935684646,
+        80.4097777431,
+        99.55852544023189,
+        52.45111299556531,
+        94.81841004065707,
+        98.22928829252122,
+        98.01865790490754,
+        61.49426301490038,
+        92.91845034224309,
+        75.67009720744198,
+        55.63919378709832,
+        99.66744290242517,
+        99.73926094797145,
+        84.26344912900484,
+        99.88468818045766,
+        85.33209773943057,
+        96.93907652980182,
+        99.52408452163591,
+        68.13787755038334,
+        40.21272659125816,
+        89.1795329027689,
+        98.32330692510449,
+        40.5567467212677,
+        94.81518558959381,
+        72.7084214225253,
+        70.34310426435496,
+        97.84573627553378,
+        89.15096782010849,
+        87.93903955727971,
+        76.49604862479868,
+        85.68755820788019,
+        99.48921089345555,
+        99.99143006355881,
+        84.52750085700919,
+        99.84846303259415,
+        83.727427493201,
+        97.80831789270331,
+        70.91114488632293,
+        79.25520607945515,
+        96.28219604492188,
+        96.2842880500174,
+        34.22660946216584,
+        96.99264226941361,
+        42.2586010143565,
+        94.10260926475095,
+        81.46718949320773,
+        67.02426382063389,
+        80.70222993514837,
+        40.54222293398952,
+        66.9641326379932,
+        60.251797528722825,
+        33.82707410646753,
+        99.65796096586644,
+        88.22834051609287,
+        94.23319365598704,
+        45.1191053020781,
+        93.68105608714625
+      ],
+      "average_confidence": 76.29055682138464
+    },
+    "paddleocr": {
+      "engine": "paddleocr",
+      "error": "Unknown argument: show_log",
+      "timestamp": "2025-07-25T10:32:24.298783",
+      "image_path": "Data/processed_images/enhanced_complex_invoice_0001.png"
+    }
+  },
+  "summary": {
+    "total_engines": 3,
+    "available_engines": 3,
+    "successful_engines": 2
+  }
+}

@@ -65,3 +65,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+#python preprocessing/batch_image_enhancement.py --input-dir "Data/images" --output-dir "Data/processed_images"

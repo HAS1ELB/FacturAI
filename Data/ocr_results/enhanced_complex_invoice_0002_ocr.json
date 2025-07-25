@@ -1,0 +1,1045 @@
+{
+  "engine": "easyocr",
+  "timestamp": "2025-07-25T10:40:19.276012",
+  "image_path": "Data\\processed_images\\enhanced_complex_invoice_0002.png",
+  "text_blocks": [
+    {
+      "text": "Dale: 09/04'202",
+      "confidence": 33.31766567472981,
+      "bbox": {
+        "x": 941,
+        "y": 27,
+        "width": 74,
+        "height": 14
+      }
+    },
+    {
+      "text": "FACTUREDACOMPTE",
+      "confidence": 94.26956284246437,
+      "bbox": {
+        "x": 191,
+        "y": 31,
+        "width": 106,
+        "height": 16
+      }
+    },
+    {
+      "text": "N:FiCT-20247947",
+      "confidence": 40.156547820718245,
+      "bbox": {
+        "x": 189,
+        "y": 71,
+        "width": 98,
+        "height": 16
+      }
+    },
+    {
+      "text": "QUETTEUR",
+      "confidence": 36.42553306923166,
+      "bbox": {
+        "x": 41,
+        "y": 181,
+        "width": 58,
+        "height": 14
+      }
+    },
+    {
+      "text": "DESTINATAIRE",
+      "confidence": 66.73862219318238,
+      "bbox": {
+        "x": 621,
+        "y": 177,
+        "width": 74,
+        "height": 14
+      }
+    },
+    {
+      "text": "ATLAS TRADING COIPHNY",
+      "confidence": 48.46520299490617,
+      "bbox": {
+        "x": 42,
+        "y": 212,
+        "width": 131,
+        "height": 17
+      }
+    },
+    {
+      "text": "A7LAS IRACING COIPANY",
+      "confidence": 40.206417212147514,
+      "bbox": {
+        "x": 623,
+        "y": 209,
+        "width": 130,
+        "height": 14
+      }
+    },
+    {
+      "text": "Secieur Consli Lclionet BTP",
+      "confidence": 55.284411491084704,
+      "bbox": {
+        "x": 43,
+        "y": 229,
+        "width": 136,
+        "height": 14
+      }
+    },
+    {
+      "text": "Pvenue",
+      "confidence": 75.2290271425706,
+      "bbox": {
+        "x": 44,
+        "y": 246,
+        "width": 36,
+        "height": 8
+      }
+    },
+    {
+      "text": "Massila 97, Youssoutia 51829",
+      "confidence": 61.76186561850538,
+      "bbox": {
+        "x": 93,
+        "y": 243,
+        "width": 138,
+        "height": 14
+      }
+    },
+    {
+      "text": "Flace Moulay Yousset 787,Casablanca 85922",
+      "confidence": 83.10755542794097,
+      "bbox": {
+        "x": 623,
+        "y": 239,
+        "width": 212,
+        "height": 14
+      }
+    },
+    {
+      "text": "Tel +2120756-62 10-66",
+      "confidence": 86.25238292378755,
+      "bbox": {
+        "x": 43,
+        "y": 259,
+        "width": 118,
+        "height": 14
+      }
+    },
+    {
+      "text": "Tel: +2120656-17-60-51",
+      "confidence": 85.26287967382574,
+      "bbox": {
+        "x": 623,
+        "y": 255,
+        "width": 118,
+        "height": 14
+      }
+    },
+    {
+      "text": "Ernail garnierlaure@exampleorg",
+      "confidence": 81.6535219397631,
+      "bbox": {
+        "x": 43,
+        "y": 275,
+        "width": 158,
+        "height": 14
+      }
+    },
+    {
+      "text": "Emall: baquelouis@example org",
+      "confidence": 76.24446936614531,
+      "bbox": {
+        "x": 623,
+        "y": 269,
+        "width": 154,
+        "height": 16
+      }
+    },
+    {
+      "text": "Site: \"x marcuesorg",
+      "confidence": 36.5650031826242,
+      "bbox": {
+        "x": 43,
+        "y": 289,
+        "width": 108,
+        "height": 14
+      }
+    },
+    {
+      "text": "ICE00502235783000032",
+      "confidence": 97.96079038039962,
+      "bbox": {
+        "x": 623,
+        "y": 281,
+        "width": 126,
+        "height": 18
+      }
+    },
+    {
+      "text": "ICE00577791950000060",
+      "confidence": 76.93739679915383,
+      "bbox": {
+        "x": 43,
+        "y": 305,
+        "width": 126,
+        "height": 18
+      }
+    },
+    {
+      "text": "AC; 39405",
+      "confidence": 41.60003488954981,
+      "bbox": {
+        "x": 623,
+        "y": 305,
+        "width": 50,
+        "height": 14
+      }
+    },
+    {
+      "text": "FC: 40203",
+      "confidence": 94.33598807680347,
+      "bbox": {
+        "x": 43,
+        "y": 325,
+        "width": 52,
+        "height": 12
+      }
+    },
+    {
+      "text": "Pjiente: 40606117",
+      "confidence": 45.982168641563696,
+      "bbox": {
+        "x": 43,
+        "y": 339,
+        "width": 92,
+        "height": 14
+      }
+    },
+    {
+      "text": "Capital 5979278 DH",
+      "confidence": 62.219823173191735,
+      "bbox": {
+        "x": 43,
+        "y": 353,
+        "width": 100,
+        "height": 14
+      }
+    },
+    {
+      "text": "DETAILSDE LAFACTURE",
+      "confidence": 56.213060922001624,
+      "bbox": {
+        "x": 45,
+        "y": 399,
+        "width": 118,
+        "height": 14
+      }
+    },
+    {
+      "text": "Conditionsde Fulement Fayable a 60 jours",
+      "confidence": 69.04310049264933,
+      "bbox": {
+        "x": 43,
+        "y": 429,
+        "width": 202,
+        "height": 14
+      }
+    },
+    {
+      "text": "Devis: DHI",
+      "confidence": 81.78318770850566,
+      "bbox": {
+        "x": 893,
+        "y": 423,
+        "width": 56,
+        "height": 14
+      }
+    },
+    {
+      "text": "TJux TVA 102",
+      "confidence": 41.721281199155975,
+      "bbox": {
+        "x": 895,
+        "y": 437,
+        "width": 70,
+        "height": 14
+      }
+    },
+    {
+      "text": "Mode de pJlement Especes",
+      "confidence": 76.57785435369155,
+      "bbox": {
+        "x": 43,
+        "y": 443,
+        "width": 134,
+        "height": 14
+      }
+    },
+    {
+      "text": "'Ref",
+      "confidence": 60.56481919671717,
+      "bbox": {
+        "x": 39,
+        "y": 501,
+        "width": 22,
+        "height": 14
+      }
+    },
+    {
+      "text": "Unite ;",
+      "confidence": 73.15346045553112,
+      "bbox": {
+        "x": 469,
+        "y": 497,
+        "width": 34,
+        "height": 16
+      }
+    },
+    {
+      "text": "Pr Unlt",
+      "confidence": 51.2043917620558,
+      "bbox": {
+        "x": 519,
+        "y": 497,
+        "width": 48,
+        "height": 16
+      }
+    },
+    {
+      "text": "Remise",
+      "confidence": 71.08100272963596,
+      "bbox": {
+        "x": 599,
+        "y": 497,
+        "width": 38,
+        "height": 16
+      }
+    },
+    {
+      "text": "Total HT",
+      "confidence": 72.05999482171698,
+      "bbox": {
+        "x": 661,
+        "y": 497,
+        "width": 42,
+        "height": 14
+      }
+    },
+    {
+      "text": "CATEGORIE INFRASTRUCTURE",
+      "confidence": 85.23058737923441,
+      "bbox": {
+        "x": 39,
+        "y": 529,
+        "width": 150,
+        "height": 14
+      }
+    },
+    {
+      "text": "REF-5543",
+      "confidence": 98.17757923143337,
+      "bbox": {
+        "x": 37,
+        "y": 557,
+        "width": 48,
+        "height": 14
+      }
+    },
+    {
+      "text": "Conliguration s-rveursdedles",
+      "confidence": 53.24722091543315,
+      "bbox": {
+        "x": 107,
+        "y": 557,
+        "width": 142,
+        "height": 14
+      }
+    },
+    {
+      "text": "Licence",
+      "confidence": 99.97013486238271,
+      "bbox": {
+        "x": 467,
+        "y": 555,
+        "width": 42,
+        "height": 12
+      }
+    },
+    {
+      "text": "4417,71",
+      "confidence": 89.55878328181093,
+      "bbox": {
+        "x": 517,
+        "y": 553,
+        "width": 42,
+        "height": 14
+      }
+    },
+    {
+      "text": "22088,57",
+      "confidence": 99.97331114023427,
+      "bbox": {
+        "x": 657,
+        "y": 551,
+        "width": 48,
+        "height": 14
+      }
+    },
+    {
+      "text": "REF-1498",
+      "confidence": 47.36073363857882,
+      "bbox": {
+        "x": 37,
+        "y": 591,
+        "width": 48,
+        "height": 14
+      }
+    },
+    {
+      "text": "Mlise en piace slution cloud",
+      "confidence": 48.08297503368383,
+      "bbox": {
+        "x": 107,
+        "y": 591,
+        "width": 136,
+        "height": 14
+      }
+    },
+    {
+      "text": "438,22",
+      "confidence": 43.21132180410037,
+      "bbox": {
+        "x": 517,
+        "y": 589,
+        "width": 36,
+        "height": 14
+      }
+    },
+    {
+      "text": "66886,82",
+      "confidence": 91.47418211820063,
+      "bbox": {
+        "x": 657,
+        "y": 587,
+        "width": 48,
+        "height": 14
+      }
+    },
+    {
+      "text": "REF-5250",
+      "confidence": 50.892774243130454,
+      "bbox": {
+        "x": 39,
+        "y": 627,
+        "width": 48,
+        "height": 14
+      }
+    },
+    {
+      "text": "Defloiement infrastruciuie VPN",
+      "confidence": 43.57276892133547,
+      "bbox": {
+        "x": 109,
+        "y": 625,
+        "width": 152,
+        "height": 16
+      }
+    },
+    {
+      "text": "103",
+      "confidence": 99.75923903436235,
+      "bbox": {
+        "x": 407,
+        "y": 625,
+        "width": 22,
+        "height": 12
+      }
+    },
+    {
+      "text": "Jour",
+      "confidence": 66.75770282745361,
+      "bbox": {
+        "x": 467,
+        "y": 625,
+        "width": 26,
+        "height": 12
+      }
+    },
+    {
+      "text": "657,44",
+      "confidence": 78.88848275287427,
+      "bbox": {
+        "x": 517,
+        "y": 623,
+        "width": 36,
+        "height": 14
+      }
+    },
+    {
+      "text": "1836,05",
+      "confidence": 42.82895452092354,
+      "bbox": {
+        "x": 665,
+        "y": 621,
+        "width": 40,
+        "height": 14
+      }
+    },
+    {
+      "text": "CATEGORIE DEVFLOPMENT",
+      "confidence": 62.48471114441708,
+      "bbox": {
+        "x": 41,
+        "y": 659,
+        "width": 134,
+        "height": 14
+      }
+    },
+    {
+      "text": "REF-7 499",
+      "confidence": 65.91622404533877,
+      "bbox": {
+        "x": 39,
+        "y": 687,
+        "width": 48,
+        "height": 14
+      }
+    },
+    {
+      "text": "Application mobile native",
+      "confidence": 99.29835595361146,
+      "bbox": {
+        "x": 107,
+        "y": 687,
+        "width": 122,
+        "height": 14
+      }
+    },
+    {
+      "text": "Jour",
+      "confidence": 65.13630151748657,
+      "bbox": {
+        "x": 470,
+        "y": 686,
+        "width": 22,
+        "height": 8
+      }
+    },
+    {
+      "text": "372,19",
+      "confidence": 99.3090678195853,
+      "bbox": {
+        "x": 517,
+        "y": 683,
+        "width": 36,
+        "height": 14
+      }
+    },
+    {
+      "text": "54339,84",
+      "confidence": 94.54871660822803,
+      "bbox": {
+        "x": 657,
+        "y": 683,
+        "width": 50,
+        "height": 14
+      }
+    },
+    {
+      "text": "REF-2266",
+      "confidence": 94.2705894078384,
+      "bbox": {
+        "x": 39,
+        "y": 721,
+        "width": 48,
+        "height": 14
+      }
+    },
+    {
+      "text": "DaveloprementdAPI RESTet",
+      "confidence": 54.37099870812697,
+      "bbox": {
+        "x": 109,
+        "y": 721,
+        "width": 140,
+        "height": 14
+      }
+    },
+    {
+      "text": "Unite",
+      "confidence": 99.8861290048366,
+      "bbox": {
+        "x": 469,
+        "y": 719,
+        "width": 28,
+        "height": 14
+      }
+    },
+    {
+      "text": "1506,62",
+      "confidence": 95.8662994947314,
+      "bbox": {
+        "x": 519,
+        "y": 719,
+        "width": 42,
+        "height": 14
+      }
+    },
+    {
+      "text": "13559,58",
+      "confidence": 72.55726261534763,
+      "bbox": {
+        "x": 659,
+        "y": 717,
+        "width": 46,
+        "height": 14
+      }
+    },
+    {
+      "text": "integuatlons",
+      "confidence": 43.020506453691716,
+      "bbox": {
+        "x": 107,
+        "y": 735,
+        "width": 62,
+        "height": 12
+      }
+    },
+    {
+      "text": "REF-1611",
+      "confidence": 97.43820527144594,
+      "bbox": {
+        "x": 39,
+        "y": 757,
+        "width": 48,
+        "height": 14
+      }
+    },
+    {
+      "text": "commne:ce",
+      "confidence": 75.05262189218323,
+      "bbox": {
+        "x": 225,
+        "y": 757,
+        "width": 52,
+        "height": 12
+      }
+    },
+    {
+      "text": "Unite",
+      "confidence": 54.584828587461985,
+      "bbox": {
+        "x": 469,
+        "y": 755,
+        "width": 28,
+        "height": 12
+      }
+    },
+    {
+      "text": "457368",
+      "confidence": 95.78796996354855,
+      "bbox": {
+        "x": 519,
+        "y": 753,
+        "width": 42,
+        "height": 14
+      }
+    },
+    {
+      "text": "13721.05",
+      "confidence": 49.5201159101441,
+      "bbox": {
+        "x": 658,
+        "y": 750,
+        "width": 49,
+        "height": 17
+      }
+    },
+    {
+      "text": "avecCls",
+      "confidence": 38.35196809311287,
+      "bbox": {
+        "x": 107,
+        "y": 769,
+        "width": 52,
+        "height": 12
+      }
+    },
+    {
+      "text": "REF-4111",
+      "confidence": 98.89159449450273,
+      "bbox": {
+        "x": 39,
+        "y": 793,
+        "width": 48,
+        "height": 12
+      }
+    },
+    {
+      "text": "Syslemne de",
+      "confidence": 62.318113894713925,
+      "bbox": {
+        "x": 109,
+        "y": 793,
+        "width": 54,
+        "height": 12
+      }
+    },
+    {
+      "text": "gestion documentaile",
+      "confidence": 76.0621561435885,
+      "bbox": {
+        "x": 162,
+        "y": 789,
+        "width": 107,
+        "height": 18
+      }
+    },
+    {
+      "text": "Mois",
+      "confidence": 78.94583344459534,
+      "bbox": {
+        "x": 469,
+        "y": 789,
+        "width": 26,
+        "height": 14
+      }
+    },
+    {
+      "text": "23219,71",
+      "confidence": 99.62333458982361,
+      "bbox": {
+        "x": 519,
+        "y": 787,
+        "width": 46,
+        "height": 16
+      }
+    },
+    {
+      "text": "46439,42",
+      "confidence": 61.55644616820416,
+      "bbox": {
+        "x": 659,
+        "y": 787,
+        "width": 48,
+        "height": 14
+      }
+    },
+    {
+      "text": "(GEDI",
+      "confidence": 40.82895513646314,
+      "bbox": {
+        "x": 109,
+        "y": 803,
+        "width": 32,
+        "height": 14
+      }
+    },
+    {
+      "text": "REF-9990",
+      "confidence": 75.05932758389042,
+      "bbox": {
+        "x": 39,
+        "y": 827,
+        "width": 48,
+        "height": 14
+      }
+    },
+    {
+      "text": "Daveloppementd'application wabsur",
+      "confidence": 41.34012811184248,
+      "bbox": {
+        "x": 109,
+        "y": 827,
+        "width": 178,
+        "height": 14
+      }
+    },
+    {
+      "text": "Forlait",
+      "confidence": 69.95128261904982,
+      "bbox": {
+        "x": 469,
+        "y": 825,
+        "width": 34,
+        "height": 12
+      }
+    },
+    {
+      "text": "94109,90",
+      "confidence": 95.67923756143927,
+      "bbox": {
+        "x": 519,
+        "y": 823,
+        "width": 48,
+        "height": 14
+      }
+    },
+    {
+      "text": "86994,.73",
+      "confidence": 62.905723297443416,
+      "bbox": {
+        "x": 659,
+        "y": 821,
+        "width": 48,
+        "height": 14
+      }
+    },
+    {
+      "text": "Masure",
+      "confidence": 42.565486410164006,
+      "bbox": {
+        "x": 110,
+        "y": 840,
+        "width": 36,
+        "height": 8
+      }
+    },
+    {
+      "text": "375866.05 DH",
+      "confidence": 90.54070090940967,
+      "bbox": {
+        "x": 1007,
+        "y": 901,
+        "width": 72,
+        "height": 14
+      }
+    },
+    {
+      "text": "37586.61 DH",
+      "confidence": 88.32247635905813,
+      "bbox": {
+        "x": 1007,
+        "y": 921,
+        "width": 66,
+        "height": 14
+      }
+    },
+    {
+      "text": "Timbre fiscal",
+      "confidence": 79.46130809090324,
+      "bbox": {
+        "x": 819,
+        "y": 943,
+        "width": 64,
+        "height": 14
+      }
+    },
+    {
+      "text": "20.00 DH",
+      "confidence": 75.535706321376,
+      "bbox": {
+        "x": 1007,
+        "y": 941,
+        "width": 48,
+        "height": 14
+      }
+    },
+    {
+      "text": "TOTAL TTG:",
+      "confidence": 63.67788815139941,
+      "bbox": {
+        "x": 817,
+        "y": 981,
+        "width": 58,
+        "height": 14
+      }
+    },
+    {
+      "text": "413472.66 DH .",
+      "confidence": 41.39754185784864,
+      "bbox": {
+        "x": 1009,
+        "y": 979,
+        "width": 72,
+        "height": 16
+      }
+    },
+    {
+      "text": "INFCRIATIONS SANCHIRES",
+      "confidence": 69.24724376143075,
+      "bbox": {
+        "x": 55,
+        "y": 2007,
+        "width": 136,
+        "height": 16
+      }
+    },
+    {
+      "text": "Titulaie: ATLAS TRADING COMPANY",
+      "confidence": 82.36297726917641,
+      "bbox": {
+        "x": 57,
+        "y": 2043,
+        "width": 174,
+        "height": 14
+      }
+    },
+    {
+      "text": "RIG 455 1366421722869 15",
+      "confidence": 67.4804445315165,
+      "bbox": {
+        "x": 57,
+        "y": 2057,
+        "width": 136,
+        "height": 16
+      }
+    },
+    {
+      "text": "SWIFT: BMICEMAMC",
+      "confidence": 66.42987344116419,
+      "bbox": {
+        "x": 57,
+        "y": 2073,
+        "width": 96,
+        "height": 14
+      }
+    },
+    {
+      "text": "MOTES",
+      "confidence": 42.47822015948925,
+      "bbox": {
+        "x": 55,
+        "y": 2095,
+        "width": 38,
+        "height": 12
+      }
+    },
+    {
+      "text": "Detaide palement conforne Juxdispcsitions legales",
+      "confidence": 31.370527474974548,
+      "bbox": {
+        "x": 57,
+        "y": 2107,
+        "width": 244,
+        "height": 16
+      }
+    },
+    {
+      "text": "CONDITIONSGENERHLES",
+      "confidence": 67.7970528010969,
+      "bbox": {
+        "x": 57,
+        "y": 2133,
+        "width": 126,
+        "height": 14
+      }
+    },
+    {
+      "text": "@ Reclarnalionsa lormuler Farecrifdans",
+      "confidence": 40.29509984312109,
+      "bbox": {
+        "x": 55,
+        "y": 2173,
+        "width": 186,
+        "height": 12
+      }
+    },
+    {
+      "text": "les8 jouis",
+      "confidence": 51.355493563271025,
+      "bbox": {
+        "x": 239,
+        "y": 2171,
+        "width": 52,
+        "height": 14
+      }
+    }
+  ],
+  "full_text": "Dale: 09/04'202 FACTUREDACOMPTE N:FiCT-20247947 QUETTEUR DESTINATAIRE ATLAS TRADING COIPHNY A7LAS IRACING COIPANY Secieur Consli Lclionet BTP Pvenue Massila 97, Youssoutia 51829 Flace Moulay Yousset 787,Casablanca 85922 Tel +2120756-62 10-66 Tel: +2120656-17-60-51 Ernail garnierlaure@exampleorg Emall: baquelouis@example org Site: \"x marcuesorg ICE00502235783000032 ICE00577791950000060 AC; 39405 FC: 40203 Pjiente: 40606117 Capital 5979278 DH DETAILSDE LAFACTURE Conditionsde Fulement Fayable a 60 jours Devis: DHI TJux TVA 102 Mode de pJlement Especes 'Ref Unite ; Pr Unlt Remise Total HT CATEGORIE INFRASTRUCTURE REF-5543 Conliguration s-rveursdedles Licence 4417,71 22088,57 REF-1498 Mlise en piace slution cloud 438,22 66886,82 REF-5250 Defloiement infrastruciuie VPN 103 Jour 657,44 1836,05 CATEGORIE DEVFLOPMENT REF-7 499 Application mobile native Jour 372,19 54339,84 REF-2266 DaveloprementdAPI RESTet Unite 1506,62 13559,58 integuatlons REF-1611 commne:ce Unite 457368 13721.05 avecCls REF-4111 Syslemne de gestion documentaile Mois 23219,71 46439,42 (GEDI REF-9990 Daveloppementd'application wabsur Forlait 94109,90 86994,.73 Masure 375866.05 DH 37586.61 DH Timbre fiscal 20.00 DH TOTAL TTG: 413472.66 DH . INFCRIATIONS SANCHIRES Titulaie: ATLAS TRADING COMPANY RIG 455 1366421722869 15 SWIFT: BMICEMAMC MOTES Detaide palement conforne Juxdispcsitions legales CONDITIONSGENERHLES @ Reclarnalionsa lormuler Farecrifdans les8 jouis",
+  "confidence_scores": [
+    33.31766567472981,
+    94.26956284246437,
+    40.156547820718245,
+    36.42553306923166,
+    66.73862219318238,
+    48.46520299490617,
+    40.206417212147514,
+    55.284411491084704,
+    75.2290271425706,
+    61.76186561850538,
+    83.10755542794097,
+    86.25238292378755,
+    85.26287967382574,
+    81.6535219397631,
+    76.24446936614531,
+    36.5650031826242,
+    97.96079038039962,
+    76.93739679915383,
+    41.60003488954981,
+    94.33598807680347,
+    45.982168641563696,
+    62.219823173191735,
+    56.213060922001624,
+    69.04310049264933,
+    81.78318770850566,
+    41.721281199155975,
+    76.57785435369155,
+    60.56481919671717,
+    73.15346045553112,
+    51.2043917620558,
+    71.08100272963596,
+    72.05999482171698,
+    85.23058737923441,
+    98.17757923143337,
+    53.24722091543315,
+    99.97013486238271,
+    89.55878328181093,
+    99.97331114023427,
+    47.36073363857882,
+    48.08297503368383,
+    43.21132180410037,
+    91.47418211820063,
+    50.892774243130454,
+    43.57276892133547,
+    99.75923903436235,
+    66.75770282745361,
+    78.88848275287427,
+    42.82895452092354,
+    62.48471114441708,
+    65.91622404533877,
+    99.29835595361146,
+    65.13630151748657,
+    99.3090678195853,
+    94.54871660822803,
+    94.2705894078384,
+    54.37099870812697,
+    99.8861290048366,
+    95.8662994947314,
+    72.55726261534763,
+    43.020506453691716,
+    97.43820527144594,
+    75.05262189218323,
+    54.584828587461985,
+    95.78796996354855,
+    49.5201159101441,
+    38.35196809311287,
+    98.89159449450273,
+    62.318113894713925,
+    76.0621561435885,
+    78.94583344459534,
+    99.62333458982361,
+    61.55644616820416,
+    40.82895513646314,
+    75.05932758389042,
+    41.34012811184248,
+    69.95128261904982,
+    95.67923756143927,
+    62.905723297443416,
+    42.565486410164006,
+    90.54070090940967,
+    88.32247635905813,
+    79.46130809090324,
+    75.535706321376,
+    63.67788815139941,
+    41.39754185784864,
+    69.24724376143075,
+    82.36297726917641,
+    67.4804445315165,
+    66.42987344116419,
+    42.47822015948925,
+    31.370527474974548,
+    67.7970528010969,
+    40.29509984312109,
+    51.355493563271025
+  ],
+  "average_confidence": 68.43879598258741
+}

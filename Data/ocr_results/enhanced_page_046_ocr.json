@@ -1,0 +1,594 @@
+{
+  "engine": "easyocr",
+  "timestamp": "2025-07-25T10:47:23.612022",
+  "image_path": "Data\\processed_images\\enhanced_page_046.png",
+  "text_blocks": [
+    {
+      "text": "support@tudiohost com",
+      "confidence": 74.8305346291459,
+      "bbox": {
+        "x": 912,
+        "y": 86,
+        "width": 200,
+        "height": 24
+      }
+    },
+    {
+      "text": "tudio",
+      "confidence": 92.31702072277542,
+      "bbox": {
+        "x": 94,
+        "y": 64,
+        "width": 234,
+        "height": 96
+      }
+    },
+    {
+      "text": "+212 537 76 96 41",
+      "confidence": 79.09404330375494,
+      "bbox": {
+        "x": 902,
+        "y": 110,
+        "width": 206,
+        "height": 28
+      }
+    },
+    {
+      "text": "systems",
+      "confidence": 95.33666534237084,
+      "bbox": {
+        "x": 201,
+        "y": 146,
+        "width": 117,
+        "height": 30
+      }
+    },
+    {
+      "text": "Facture",
+      "confidence": 99.99988735778877,
+      "bbox": {
+        "x": 905,
+        "y": 149,
+        "width": 208,
+        "height": 60
+      }
+    },
+    {
+      "text": "N'3061",
+      "confidence": 34.34341246686302,
+      "bbox": {
+        "x": 973,
+        "y": 215,
+        "width": 136,
+        "height": 44
+      }
+    },
+    {
+      "text": "FACTURÉ À",
+      "confidence": 85.66040794057372,
+      "bbox": {
+        "x": 94,
+        "y": 348,
+        "width": 132,
+        "height": 32
+      }
+    },
+    {
+      "text": "DATE DE FACTURATION",
+      "confidence": 92.82870580876885,
+      "bbox": {
+        "x": 454,
+        "y": 352,
+        "width": 290,
+        "height": 30
+      }
+    },
+    {
+      "text": "DATE D'ÉCHÉANCE",
+      "confidence": 70.62060649805731,
+      "bbox": {
+        "x": 819,
+        "y": 347,
+        "width": 234,
+        "height": 36
+      }
+    },
+    {
+      "text": "Healthcare Institute SARL,",
+      "confidence": 72.67059731256774,
+      "bbox": {
+        "x": 92,
+        "y": 378,
+        "width": 218,
+        "height": 24
+      }
+    },
+    {
+      "text": "ATT",
+      "confidence": 99.72602154601242,
+      "bbox": {
+        "x": 93,
+        "y": 401,
+        "width": 40,
+        "height": 20
+      }
+    },
+    {
+      "text": "CHAMI Saad",
+      "confidence": 96.75478464257047,
+      "bbox": {
+        "x": 143,
+        "y": 401,
+        "width": 110,
+        "height": 20
+      }
+    },
+    {
+      "text": "12/02/2022",
+      "confidence": 99.99794548557584,
+      "bbox": {
+        "x": 454,
+        "y": 402,
+        "width": 106,
+        "height": 26
+      }
+    },
+    {
+      "text": "08/02/2022",
+      "confidence": 99.98735209527247,
+      "bbox": {
+        "x": 812,
+        "y": 402,
+        "width": 108,
+        "height": 26
+      }
+    },
+    {
+      "text": "6 rue Dayt",
+      "confidence": 72.24311703114734,
+      "bbox": {
+        "x": 94,
+        "y": 422,
+        "width": 90,
+        "height": 24
+      }
+    },
+    {
+      "text": "Agdal",
+      "confidence": 99.99587897121782,
+      "bbox": {
+        "x": 234,
+        "y": 422,
+        "width": 56,
+        "height": 26
+      }
+    },
+    {
+      "text": "Rabat; Rabat;",
+      "confidence": 74.83021446868631,
+      "bbox": {
+        "x": 95,
+        "y": 447,
+        "width": 114,
+        "height": 20
+      }
+    },
+    {
+      "text": "Morocco",
+      "confidence": 99.99772011366768,
+      "bbox": {
+        "x": 95,
+        "y": 471,
+        "width": 72,
+        "height": 18
+      }
+    },
+    {
+      "text": "Code ICE",
+      "confidence": 98.8533944770205,
+      "bbox": {
+        "x": 94,
+        "y": 490,
+        "width": 84,
+        "height": 24
+      }
+    },
+    {
+      "text": "000041883000082",
+      "confidence": 95.6687086853269,
+      "bbox": {
+        "x": 186,
+        "y": 490,
+        "width": 158,
+        "height": 24
+      }
+    },
+    {
+      "text": "DESCRIPTION",
+      "confidence": 97.85543740891951,
+      "bbox": {
+        "x": 408,
+        "y": 628,
+        "width": 172,
+        "height": 30
+      }
+    },
+    {
+      "text": "TOTAL",
+      "confidence": 89.36404739446957,
+      "bbox": {
+        "x": 962,
+        "y": 628,
+        "width": 88,
+        "height": 30
+      }
+    },
+    {
+      "text": "Renouvellement nom de domaine",
+      "confidence": 98.85160984594116,
+      "bbox": {
+        "x": 94,
+        "y": 690,
+        "width": 276,
+        "height": 24
+      }
+    },
+    {
+      "text": "hci.ma",
+      "confidence": 60.398106372559646,
+      "bbox": {
+        "x": 381,
+        "y": 691,
+        "width": 58,
+        "height": 20
+      }
+    },
+    {
+      "text": "Anls (08/02/2022",
+      "confidence": 65.12839108239731,
+      "bbox": {
+        "x": 466,
+        "y": 690,
+        "width": 144,
+        "height": 24
+      }
+    },
+    {
+      "text": "07/02/2023)",
+      "confidence": 68.6608291666435,
+      "bbox": {
+        "x": 618,
+        "y": 690,
+        "width": 104,
+        "height": 24
+      }
+    },
+    {
+      "text": "150,OODH",
+      "confidence": 87.43257342663777,
+      "bbox": {
+        "x": 962,
+        "y": 690,
+        "width": 88,
+        "height": 24
+      }
+    },
+    {
+      "text": "Gestion de la Zone DNS",
+      "confidence": 98.71726774264984,
+      "bbox": {
+        "x": 108,
+        "y": 712,
+        "width": 204,
+        "height": 24
+      }
+    },
+    {
+      "text": "SOUS-TOTAL",
+      "confidence": 99.7951667464542,
+      "bbox": {
+        "x": 280,
+        "y": 869,
+        "width": 214,
+        "height": 36
+      }
+    },
+    {
+      "text": "TVA 20%",
+      "confidence": 56.2923590079045,
+      "bbox": {
+        "x": 577,
+        "y": 869,
+        "width": 142,
+        "height": 36
+      }
+    },
+    {
+      "text": "TOTAL TTC",
+      "confidence": 84.51738421898922,
+      "bbox": {
+        "x": 867,
+        "y": 863,
+        "width": 226,
+        "height": 44
+      }
+    },
+    {
+      "text": "150,OODH",
+      "confidence": 57.68516842101351,
+      "bbox": {
+        "x": 283,
+        "y": 909,
+        "width": 142,
+        "height": 36
+      }
+    },
+    {
+      "text": "30,OODH",
+      "confidence": 73.77068827449136,
+      "bbox": {
+        "x": 573,
+        "y": 909,
+        "width": 126,
+        "height": 36
+      }
+    },
+    {
+      "text": "180,00 DH",
+      "confidence": 99.96448171975779,
+      "bbox": {
+        "x": 888,
+        "y": 914,
+        "width": 200,
+        "height": 48
+      }
+    },
+    {
+      "text": "tudio",
+      "confidence": 79.045543918424,
+      "bbox": {
+        "x": 904,
+        "y": 1383,
+        "width": 144,
+        "height": 56
+      }
+    },
+    {
+      "text": "Tudio Systems SARL",
+      "confidence": 99.68038008551494,
+      "bbox": {
+        "x": 494,
+        "y": 1594,
+        "width": 210,
+        "height": 26
+      }
+    },
+    {
+      "text": "Rue Moulay Abdelaziz; Appt 5 Quartier Hassan; Rabat",
+      "confidence": 81.23717503871048,
+      "bbox": {
+        "x": 311,
+        "y": 1631,
+        "width": 344,
+        "height": 20
+      }
+    },
+    {
+      "text": "Maroc. Email",
+      "confidence": 55.099058747290655,
+      "bbox": {
+        "x": 663,
+        "y": 1633,
+        "width": 86,
+        "height": 16
+      }
+    },
+    {
+      "text": "contact@tudioweb com",
+      "confidence": 62.469263603076364,
+      "bbox": {
+        "x": 756,
+        "y": 1633,
+        "width": 151,
+        "height": 16
+      }
+    },
+    {
+      "text": "Patente: 25790947",
+      "confidence": 90.88232717234465,
+      "bbox": {
+        "x": 119,
+        "y": 1653,
+        "width": 120,
+        "height": 16
+      }
+    },
+    {
+      "text": "R.C: 99795",
+      "confidence": 56.87112617004805,
+      "bbox": {
+        "x": 247,
+        "y": 1651,
+        "width": 76,
+        "height": 18
+      }
+    },
+    {
+      "text": "CNSS: 9735905",
+      "confidence": 99.5181245398588,
+      "bbox": {
+        "x": 333,
+        "y": 1653,
+        "width": 104,
+        "height": 16
+      }
+    },
+    {
+      "text": "LF 3367540",
+      "confidence": 84.32942404527121,
+      "bbox": {
+        "x": 445,
+        "y": 1653,
+        "width": 78,
+        "height": 16
+      }
+    },
+    {
+      "text": "ICE: 001542441000073",
+      "confidence": 99.93856012186602,
+      "bbox": {
+        "x": 529,
+        "y": 1651,
+        "width": 153,
+        "height": 18
+      }
+    },
+    {
+      "text": "N\" de Corpte",
+      "confidence": 52.19601506963026,
+      "bbox": {
+        "x": 693,
+        "y": 1652,
+        "width": 92,
+        "height": 20
+      }
+    },
+    {
+      "text": "007810000105500000074277",
+      "confidence": 95.03554761109592,
+      "bbox": {
+        "x": 793,
+        "y": 1653,
+        "width": 192,
+        "height": 16
+      }
+    },
+    {
+      "text": "BCMAMAMC",
+      "confidence": 99.92637087031757,
+      "bbox": {
+        "x": 995,
+        "y": 1653,
+        "width": 86,
+        "height": 16
+      }
+    },
+    {
+      "text": "PAYÉE",
+      "confidence": 99.5941395920704,
+      "bbox": {
+        "x": 554,
+        "y": 70,
+        "width": 178,
+        "height": 124
+      }
+    },
+    {
+      "text": "Aoua-",
+      "confidence": 99.9124091615197,
+      "bbox": {
+        "x": 182,
+        "y": 422,
+        "width": 54,
+        "height": 27
+      }
+    },
+    {
+      "text": "1",
+      "confidence": 57.809367462419914,
+      "bbox": {
+        "x": 857,
+        "y": 1317,
+        "width": 64,
+        "height": 96
+      }
+    },
+    {
+      "text": "1",
+      "confidence": 46.4533512320088,
+      "bbox": {
+        "x": 1044,
+        "y": 1331,
+        "width": 42,
+        "height": 61
+      }
+    },
+    {
+      "text": "1",
+      "confidence": 34.61768316376492,
+      "bbox": {
+        "x": 1059,
+        "y": 1419,
+        "width": 27,
+        "height": 45
+      }
+    },
+    {
+      "text": "TECHNOPARK # `",
+      "confidence": 46.37471736451673,
+      "bbox": {
+        "x": 905,
+        "y": 1490,
+        "width": 83,
+        "height": 41
+      }
+    }
+  ],
+  "full_text": "support@tudiohost com tudio +212 537 76 96 41 systems Facture N'3061 FACTURÉ À DATE DE FACTURATION DATE D'ÉCHÉANCE Healthcare Institute SARL, ATT CHAMI Saad 12/02/2022 08/02/2022 6 rue Dayt Agdal Rabat; Rabat; Morocco Code ICE 000041883000082 DESCRIPTION TOTAL Renouvellement nom de domaine hci.ma Anls (08/02/2022 07/02/2023) 150,OODH Gestion de la Zone DNS SOUS-TOTAL TVA 20% TOTAL TTC 150,OODH 30,OODH 180,00 DH tudio Tudio Systems SARL Rue Moulay Abdelaziz; Appt 5 Quartier Hassan; Rabat Maroc. Email contact@tudioweb com Patente: 25790947 R.C: 99795 CNSS: 9735905 LF 3367540 ICE: 001542441000073 N\" de Corpte 007810000105500000074277 BCMAMAMC PAYÉE Aoua- 1 1 1 TECHNOPARK # `",
+  "confidence_scores": [
+    74.8305346291459,
+    92.31702072277542,
+    79.09404330375494,
+    95.33666534237084,
+    99.99988735778877,
+    34.34341246686302,
+    85.66040794057372,
+    92.82870580876885,
+    70.62060649805731,
+    72.67059731256774,
+    99.72602154601242,
+    96.75478464257047,
+    99.99794548557584,
+    99.98735209527247,
+    72.24311703114734,
+    99.99587897121782,
+    74.83021446868631,
+    99.99772011366768,
+    98.8533944770205,
+    95.6687086853269,
+    97.85543740891951,
+    89.36404739446957,
+    98.85160984594116,
+    60.398106372559646,
+    65.12839108239731,
+    68.6608291666435,
+    87.43257342663777,
+    98.71726774264984,
+    99.7951667464542,
+    56.2923590079045,
+    84.51738421898922,
+    57.68516842101351,
+    73.77068827449136,
+    99.96448171975779,
+    79.045543918424,
+    99.68038008551494,
+    81.23717503871048,
+    55.099058747290655,
+    62.469263603076364,
+    90.88232717234465,
+    56.87112617004805,
+    99.5181245398588,
+    84.32942404527121,
+    99.93856012186602,
+    52.19601506963026,
+    95.03554761109592,
+    99.92637087031757,
+    99.5941395920704,
+    99.9124091615197,
+    57.809367462419914,
+    46.4533512320088,
+    34.61768316376492,
+    46.37471736451673
+  ],
+  "average_confidence": 81.4185115980706
+}

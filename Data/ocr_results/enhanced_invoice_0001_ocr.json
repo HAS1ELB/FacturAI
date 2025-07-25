@@ -1,0 +1,396 @@
+{
+  "engine": "easyocr",
+  "timestamp": "2025-07-25T10:43:35.515762",
+  "image_path": "Data\\processed_images\\enhanced_invoice_0001.png",
+  "text_blocks": [
+    {
+      "text": "Facture",
+      "confidence": 83.03860658909944,
+      "bbox": {
+        "x": 29,
+        "y": 39,
+        "width": 48,
+        "height": 16
+      }
+    },
+    {
+      "text": "N' Fact-4796",
+      "confidence": 56.353874237332924,
+      "bbox": {
+        "x": 27,
+        "y": 69,
+        "width": 72,
+        "height": 16
+      }
+    },
+    {
+      "text": "DESTINATAIRE",
+      "confidence": 91.88246454573195,
+      "bbox": {
+        "x": 949,
+        "y": 129,
+        "width": 74,
+        "height": 14
+      }
+    },
+    {
+      "text": "TANGERMEDIA",
+      "confidence": 93.85280353136346,
+      "bbox": {
+        "x": 949,
+        "y": 149,
+        "width": 76,
+        "height": 14
+      }
+    },
+    {
+      "text": "48.chemnin Sequin Tanger",
+      "confidence": 42.922703506615484,
+      "bbox": {
+        "x": 29,
+        "y": 164,
+        "width": 132,
+        "height": 18
+      }
+    },
+    {
+      "text": "boulevardde Gerger Hleknes",
+      "confidence": 42.00326021687756,
+      "bbox": {
+        "x": 949,
+        "y": 165,
+        "width": 140,
+        "height": 14
+      }
+    },
+    {
+      "text": "Te( 0682-47-77.56",
+      "confidence": 70.91992477716725,
+      "bbox": {
+        "x": 949,
+        "y": 179,
+        "width": 92,
+        "height": 14
+      }
+    },
+    {
+      "text": "[CE 00787011827100092",
+      "confidence": 98.94077626124181,
+      "bbox": {
+        "x": 27,
+        "y": 195,
+        "width": 128,
+        "height": 14
+      }
+    },
+    {
+      "text": "Date: 16,042025",
+      "confidence": 50.82587408880013,
+      "bbox": {
+        "x": 949,
+        "y": 209,
+        "width": 82,
+        "height": 14
+      }
+    },
+    {
+      "text": "Echeance. 1605/2025",
+      "confidence": 36.82320123001062,
+      "bbox": {
+        "x": 949,
+        "y": 225,
+        "width": 108,
+        "height": 14
+      }
+    },
+    {
+      "text": "Dascriplion",
+      "confidence": 91.78114858978027,
+      "bbox": {
+        "x": 33,
+        "y": 285,
+        "width": 58,
+        "height": 14
+      }
+    },
+    {
+      "text": "Prix Unit",
+      "confidence": 94.33578919434194,
+      "bbox": {
+        "x": 363,
+        "y": 285,
+        "width": 46,
+        "height": 14
+      }
+    },
+    {
+      "text": "Taual",
+      "confidence": 36.35428235448771,
+      "bbox": {
+        "x": 463,
+        "y": 285,
+        "width": 28,
+        "height": 14
+      }
+    },
+    {
+      "text": "610.77 Dhs",
+      "confidence": 98.55277412998115,
+      "bbox": {
+        "x": 363,
+        "y": 309,
+        "width": 58,
+        "height": 12
+      }
+    },
+    {
+      "text": "4275.39 Dhs",
+      "confidence": 97.23218674747478,
+      "bbox": {
+        "x": 463,
+        "y": 307,
+        "width": 64,
+        "height": 14
+      }
+    },
+    {
+      "text": "Concephon glaphique",
+      "confidence": 30.697897551702237,
+      "bbox": {
+        "x": 33,
+        "y": 329,
+        "width": 110,
+        "height": 14
+      }
+    },
+    {
+      "text": "478.28 Dhs",
+      "confidence": 84.69589593809395,
+      "bbox": {
+        "x": 363,
+        "y": 329,
+        "width": 58,
+        "height": 12
+      }
+    },
+    {
+      "text": "430452 Dhs",
+      "confidence": 92.80983396371852,
+      "bbox": {
+        "x": 463,
+        "y": 327,
+        "width": 64,
+        "height": 14
+      }
+    },
+    {
+      "text": "649.18 Dhs",
+      "confidence": 84.6887131427723,
+      "bbox": {
+        "x": 363,
+        "y": 349,
+        "width": 58,
+        "height": 12
+      }
+    },
+    {
+      "text": "1298.36 Dhs",
+      "confidence": 73.38808110556432,
+      "bbox": {
+        "x": 465,
+        "y": 347,
+        "width": 62,
+        "height": 14
+      }
+    },
+    {
+      "text": "1893.26 Dhs",
+      "confidence": 64.65249807971654,
+      "bbox": {
+        "x": 365,
+        "y": 369,
+        "width": 62,
+        "height": 12
+      }
+    },
+    {
+      "text": "5679.78 Dhs",
+      "confidence": 97.57360917729343,
+      "bbox": {
+        "x": 463,
+        "y": 367,
+        "width": 64,
+        "height": 14
+      }
+    },
+    {
+      "text": "Folnalion jlolessionnelle",
+      "confidence": 55.114129866265394,
+      "bbox": {
+        "x": 33,
+        "y": 387,
+        "width": 124,
+        "height": 14
+      }
+    },
+    {
+      "text": "1785.72 Dhs",
+      "confidence": 84.39826820366412,
+      "bbox": {
+        "x": 365,
+        "y": 389,
+        "width": 62,
+        "height": 12
+      }
+    },
+    {
+      "text": "16071.48 Dhs",
+      "confidence": 95.09530784023845,
+      "bbox": {
+        "x": 463,
+        "y": 389,
+        "width": 70,
+        "height": 12
+      }
+    },
+    {
+      "text": "1286.86 Dhs",
+      "confidence": 77.95087041684874,
+      "bbox": {
+        "x": 365,
+        "y": 409,
+        "width": 62,
+        "height": 12
+      }
+    },
+    {
+      "text": "11581.74 Dhs",
+      "confidence": 57.71978557339467,
+      "bbox": {
+        "x": 463,
+        "y": 407,
+        "width": 70,
+        "height": 14
+      }
+    },
+    {
+      "text": "Folnalion plolessionnelle",
+      "confidence": 73.21275767701397,
+      "bbox": {
+        "x": 33,
+        "y": 427,
+        "width": 124,
+        "height": 14
+      }
+    },
+    {
+      "text": "1989.94 Dhs",
+      "confidence": 97.5548893553716,
+      "bbox": {
+        "x": 363,
+        "y": 427,
+        "width": 64,
+        "height": 14
+      }
+    },
+    {
+      "text": "9949.70 Dhs",
+      "confidence": 99.16459689218155,
+      "bbox": {
+        "x": 463,
+        "y": 427,
+        "width": 64,
+        "height": 14
+      }
+    },
+    {
+      "text": "Sous-loll HT:",
+      "confidence": 54.64054853965305,
+      "bbox": {
+        "x": 999,
+        "y": 1549,
+        "width": 66,
+        "height": 14
+      }
+    },
+    {
+      "text": "53160.97 Dhs",
+      "confidence": 91.44694174771146,
+      "bbox": {
+        "x": 1099,
+        "y": 1549,
+        "width": 70,
+        "height": 14
+      }
+    },
+    {
+      "text": "10632,19 Dhs",
+      "confidence": 74.37575031835935,
+      "bbox": {
+        "x": 1101,
+        "y": 1569,
+        "width": 68,
+        "height": 14
+      }
+    },
+    {
+      "text": "TOTAL TTC:",
+      "confidence": 51.4217764144561,
+      "bbox": {
+        "x": 999,
+        "y": 1595,
+        "width": 60,
+        "height": 14
+      }
+    },
+    {
+      "text": "63793,16 Dhs",
+      "confidence": 43.8848058972864,
+      "bbox": {
+        "x": 1099,
+        "y": 1593,
+        "width": 70,
+        "height": 16
+      }
+    }
+  ],
+  "full_text": "Facture N' Fact-4796 DESTINATAIRE TANGERMEDIA 48.chemnin Sequin Tanger boulevardde Gerger Hleknes Te( 0682-47-77.56 [CE 00787011827100092 Date: 16,042025 Echeance. 1605/2025 Dascriplion Prix Unit Taual 610.77 Dhs 4275.39 Dhs Concephon glaphique 478.28 Dhs 430452 Dhs 649.18 Dhs 1298.36 Dhs 1893.26 Dhs 5679.78 Dhs Folnalion jlolessionnelle 1785.72 Dhs 16071.48 Dhs 1286.86 Dhs 11581.74 Dhs Folnalion plolessionnelle 1989.94 Dhs 9949.70 Dhs Sous-loll HT: 53160.97 Dhs 10632,19 Dhs TOTAL TTC: 63793,16 Dhs",
+  "confidence_scores": [
+    83.03860658909944,
+    56.353874237332924,
+    91.88246454573195,
+    93.85280353136346,
+    42.922703506615484,
+    42.00326021687756,
+    70.91992477716725,
+    98.94077626124181,
+    50.82587408880013,
+    36.82320123001062,
+    91.78114858978027,
+    94.33578919434194,
+    36.35428235448771,
+    98.55277412998115,
+    97.23218674747478,
+    30.697897551702237,
+    84.69589593809395,
+    92.80983396371852,
+    84.6887131427723,
+    73.38808110556432,
+    64.65249807971654,
+    97.57360917729343,
+    55.114129866265394,
+    84.39826820366412,
+    95.09530784023845,
+    77.95087041684874,
+    57.71978557339467,
+    73.21275767701397,
+    97.5548893553716,
+    99.16459689218155,
+    54.64054853965305,
+    91.44694174771146,
+    74.37575031835935,
+    51.4217764144561,
+    43.8848058972864
+  ],
+  "average_confidence": 73.43733222004607
+}

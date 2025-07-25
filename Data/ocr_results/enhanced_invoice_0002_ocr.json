@@ -1,0 +1,484 @@
+{
+  "engine": "easyocr",
+  "timestamp": "2025-07-25T10:44:57.262711",
+  "image_path": "Data\\processed_images\\enhanced_invoice_0002.png",
+  "text_blocks": [
+    {
+      "text": "EMIETTEUR",
+      "confidence": 65.15250020493185,
+      "bbox": {
+        "x": 29,
+        "y": 129,
+        "width": 58,
+        "height": 14
+      }
+    },
+    {
+      "text": "DESTNATAIAE",
+      "confidence": 74.65624076484524,
+      "bbox": {
+        "x": 949,
+        "y": 129,
+        "width": 74,
+        "height": 14
+      }
+    },
+    {
+      "text": "FES TECHNOLOGIES",
+      "confidence": 93.4933501542587,
+      "bbox": {
+        "x": 29,
+        "y": 149,
+        "width": 102,
+        "height": 14
+      }
+    },
+    {
+      "text": "ENTREPRISE CASAELANCA SERVICES",
+      "confidence": 69.8217214526782,
+      "bbox": {
+        "x": 949,
+        "y": 149,
+        "width": 178,
+        "height": 14
+      }
+    },
+    {
+      "text": "5,Jvenue Hrchelle Henry Fabal",
+      "confidence": 37.55672946018141,
+      "bbox": {
+        "x": 29,
+        "y": 165,
+        "width": 156,
+        "height": 14
+      }
+    },
+    {
+      "text": "Tet 0649-21-25-23",
+      "confidence": 80.98940064567684,
+      "bbox": {
+        "x": 29,
+        "y": 181,
+        "width": 92,
+        "height": 12
+      }
+    },
+    {
+      "text": "Tet0751-7558-63",
+      "confidence": 86.62989087096953,
+      "bbox": {
+        "x": 949,
+        "y": 179,
+        "width": 92,
+        "height": 14
+      }
+    },
+    {
+      "text": "[CE 00589450454300038",
+      "confidence": 80.98937936985807,
+      "bbox": {
+        "x": 29,
+        "y": 195,
+        "width": 126,
+        "height": 14
+      }
+    },
+    {
+      "text": "Dle:08,08/2024",
+      "confidence": 46.24385733129686,
+      "bbox": {
+        "x": 949,
+        "y": 209,
+        "width": 84,
+        "height": 14
+      }
+    },
+    {
+      "text": "Echeanc: 08,07/2024",
+      "confidence": 85.14827367282453,
+      "bbox": {
+        "x": 949,
+        "y": 225,
+        "width": 110,
+        "height": 14
+      }
+    },
+    {
+      "text": "Dascriptian",
+      "confidence": 61.8798502166013,
+      "bbox": {
+        "x": 33,
+        "y": 285,
+        "width": 58,
+        "height": 14
+      }
+    },
+    {
+      "text": "Prix Unit",
+      "confidence": 40.96782196538578,
+      "bbox": {
+        "x": 363,
+        "y": 285,
+        "width": 48,
+        "height": 14
+      }
+    },
+    {
+      "text": "Total\"",
+      "confidence": 77.48985877422648,
+      "bbox": {
+        "x": 465,
+        "y": 285,
+        "width": 28,
+        "height": 14
+      }
+    },
+    {
+      "text": "Installation resju",
+      "confidence": 74.88861827828825,
+      "bbox": {
+        "x": 33,
+        "y": 309,
+        "width": 88,
+        "height": 12
+      }
+    },
+    {
+      "text": "636.41 Dhs",
+      "confidence": 63.2264752850985,
+      "bbox": {
+        "x": 363,
+        "y": 309,
+        "width": 58,
+        "height": 12
+      }
+    },
+    {
+      "text": "5727.69 Dhs",
+      "confidence": 95.52630902963631,
+      "bbox": {
+        "x": 463,
+        "y": 309,
+        "width": 64,
+        "height": 14
+      }
+    },
+    {
+      "text": "Audil securile",
+      "confidence": 66.61021695926527,
+      "bbox": {
+        "x": 35,
+        "y": 329,
+        "width": 68,
+        "height": 12
+      }
+    },
+    {
+      "text": "1145.48 Dhs",
+      "confidence": 83.52866386704889,
+      "bbox": {
+        "x": 365,
+        "y": 327,
+        "width": 62,
+        "height": 14
+      }
+    },
+    {
+      "text": "1145.48 Dhs",
+      "confidence": 84.61196496102707,
+      "bbox": {
+        "x": 465,
+        "y": 327,
+        "width": 62,
+        "height": 14
+      }
+    },
+    {
+      "text": "Audit securile",
+      "confidence": 59.336289891121176,
+      "bbox": {
+        "x": 35,
+        "y": 349,
+        "width": 68,
+        "height": 12
+      }
+    },
+    {
+      "text": "1225.13 Dhs",
+      "confidence": 85.24454358543532,
+      "bbox": {
+        "x": 365,
+        "y": 349,
+        "width": 62,
+        "height": 12
+      }
+    },
+    {
+      "text": "8575.91 Dhs",
+      "confidence": 97.77757955193302,
+      "bbox": {
+        "x": 463,
+        "y": 347,
+        "width": 64,
+        "height": 14
+      }
+    },
+    {
+      "text": "Marketing digital",
+      "confidence": 56.93868525405665,
+      "bbox": {
+        "x": 34,
+        "y": 366,
+        "width": 85,
+        "height": 17
+      }
+    },
+    {
+      "text": "459.10 Dhs",
+      "confidence": 70.3534355900047,
+      "bbox": {
+        "x": 365,
+        "y": 367,
+        "width": 56,
+        "height": 14
+      }
+    },
+    {
+      "text": "387280 Dhs",
+      "confidence": 91.77904928282375,
+      "bbox": {
+        "x": 463,
+        "y": 367,
+        "width": 64,
+        "height": 14
+      }
+    },
+    {
+      "text": "Conception @raphique",
+      "confidence": 77.95341755480432,
+      "bbox": {
+        "x": 33,
+        "y": 389,
+        "width": 110,
+        "height": 14
+      }
+    },
+    {
+      "text": "1873.55 Dhs",
+      "confidence": 98.5717777632102,
+      "bbox": {
+        "x": 365,
+        "y": 387,
+        "width": 62,
+        "height": 14
+      }
+    },
+    {
+      "text": "3747.10 Dhs",
+      "confidence": 78.64593708362356,
+      "bbox": {
+        "x": 463,
+        "y": 387,
+        "width": 64,
+        "height": 14
+      }
+    },
+    {
+      "text": "Hebergementveb",
+      "confidence": 70.16865362953456,
+      "bbox": {
+        "x": 34,
+        "y": 406,
+        "width": 93,
+        "height": 18
+      }
+    },
+    {
+      "text": "1380.24 Dhs",
+      "confidence": 96.37972820201038,
+      "bbox": {
+        "x": 365,
+        "y": 409,
+        "width": 62,
+        "height": 12
+      }
+    },
+    {
+      "text": "4140.72 Dhs",
+      "confidence": 96.43644723408794,
+      "bbox": {
+        "x": 465,
+        "y": 407,
+        "width": 62,
+        "height": 14
+      }
+    },
+    {
+      "text": "Hebergementveb",
+      "confidence": 68.49978813116891,
+      "bbox": {
+        "x": 34,
+        "y": 426,
+        "width": 93,
+        "height": 18
+      }
+    },
+    {
+      "text": "335.53 Dhs",
+      "confidence": 94.46083612080537,
+      "bbox": {
+        "x": 363,
+        "y": 427,
+        "width": 58,
+        "height": 14
+      }
+    },
+    {
+      "text": "1342.12 Dhs",
+      "confidence": 88.24445962519525,
+      "bbox": {
+        "x": 465,
+        "y": 429,
+        "width": 62,
+        "height": 12
+      }
+    },
+    {
+      "text": "Reelerencement SEO",
+      "confidence": 87.11500230940595,
+      "bbox": {
+        "x": 35,
+        "y": 447,
+        "width": 104,
+        "height": 14
+      }
+    },
+    {
+      "text": "89.78 Dhs",
+      "confidence": 75.47946025708961,
+      "bbox": {
+        "x": 363,
+        "y": 449,
+        "width": 52,
+        "height": 12
+      }
+    },
+    {
+      "text": "359.12 Dhs",
+      "confidence": 90.9406126228901,
+      "bbox": {
+        "x": 463,
+        "y": 447,
+        "width": 58,
+        "height": 14
+      }
+    },
+    {
+      "text": "Sous-loblHI",
+      "confidence": 77.40703060481182,
+      "bbox": {
+        "x": 999,
+        "y": 1551,
+        "width": 66,
+        "height": 12
+      }
+    },
+    {
+      "text": "28710.94 Dls",
+      "confidence": 72.72067811132477,
+      "bbox": {
+        "x": 1099,
+        "y": 1549,
+        "width": 68,
+        "height": 14
+      }
+    },
+    {
+      "text": "TVA (2084",
+      "confidence": 32.299943792482146,
+      "bbox": {
+        "x": 999,
+        "y": 1571,
+        "width": 52,
+        "height": 12
+      }
+    },
+    {
+      "text": "5742.19 Dhs",
+      "confidence": 68.18670510973361,
+      "bbox": {
+        "x": 1097,
+        "y": 1569,
+        "width": 64,
+        "height": 14
+      }
+    },
+    {
+      "text": "TOTAL TTC",
+      "confidence": 91.27363471480754,
+      "bbox": {
+        "x": 999,
+        "y": 1595,
+        "width": 58,
+        "height": 14
+      }
+    },
+    {
+      "text": "34453,13 Dhs",
+      "confidence": 85.57636891658346,
+      "bbox": {
+        "x": 1097,
+        "y": 1595,
+        "width": 70,
+        "height": 14
+      }
+    }
+  ],
+  "full_text": "EMIETTEUR DESTNATAIAE FES TECHNOLOGIES ENTREPRISE CASAELANCA SERVICES 5,Jvenue Hrchelle Henry Fabal Tet 0649-21-25-23 Tet0751-7558-63 [CE 00589450454300038 Dle:08,08/2024 Echeanc: 08,07/2024 Dascriptian Prix Unit Total\" Installation resju 636.41 Dhs 5727.69 Dhs Audil securile 1145.48 Dhs 1145.48 Dhs Audit securile 1225.13 Dhs 8575.91 Dhs Marketing digital 459.10 Dhs 387280 Dhs Conception @raphique 1873.55 Dhs 3747.10 Dhs Hebergementveb 1380.24 Dhs 4140.72 Dhs Hebergementveb 335.53 Dhs 1342.12 Dhs Reelerencement SEO 89.78 Dhs 359.12 Dhs Sous-loblHI 28710.94 Dls TVA (2084 5742.19 Dhs TOTAL TTC 34453,13 Dhs",
+  "confidence_scores": [
+    65.15250020493185,
+    74.65624076484524,
+    93.4933501542587,
+    69.8217214526782,
+    37.55672946018141,
+    80.98940064567684,
+    86.62989087096953,
+    80.98937936985807,
+    46.24385733129686,
+    85.14827367282453,
+    61.8798502166013,
+    40.96782196538578,
+    77.48985877422648,
+    74.88861827828825,
+    63.2264752850985,
+    95.52630902963631,
+    66.61021695926527,
+    83.52866386704889,
+    84.61196496102707,
+    59.336289891121176,
+    85.24454358543532,
+    97.77757955193302,
+    56.93868525405665,
+    70.3534355900047,
+    91.77904928282375,
+    77.95341755480432,
+    98.5717777632102,
+    78.64593708362356,
+    70.16865362953456,
+    96.37972820201038,
+    96.43644723408794,
+    68.49978813116891,
+    94.46083612080537,
+    88.24445962519525,
+    87.11500230940595,
+    75.47946025708961,
+    90.9406126228901,
+    77.40703060481182,
+    72.72067811132477,
+    32.299943792482146,
+    68.18670510973361,
+    91.27363471480754,
+    85.57636891658346
+  ],
+  "average_confidence": 76.30700437681496
+}
