@@ -1,0 +1,39 @@
+{
+  "timestamp": "2025-07-25 12:19:10",
+  "python_version": "3.12.6",
+  "platform": "win32",
+  "tests": {
+    "python_version": {
+      "passed": true,
+      "error": null
+    },
+    "core_dependencies": {
+      "passed": true,
+      "error": null
+    },
+    "ml_dependencies": {
+      "passed": true,
+      "error": null
+    },
+    "ocr_dependencies": {
+      "passed": true,
+      "error": null
+    },
+    "data_structure": {
+      "passed": true,
+      "error": null
+    },
+    "module_imports": {
+      "passed": true,
+      "error": null
+    },
+    "quick_functionality": {
+      "passed": true,
+      "error": null
+    },
+    "gpu_functionality": {
+      "passed": true,
+      "error": null
+    }
+  }
+}
