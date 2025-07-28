@@ -1,0 +1,977 @@
+[
+  {
+    "image_path": "C:\\Users\\HP\\Downloads\\FacturAI4\\HAS1ELB\\FacturAI\\Data\\processed_images\\enhanced_complex_invoice_0002.png",
+    "text": "EMIETTEUR",
+    "bbox": [
+      [
+        29,
+        129
+      ],
+      [
+        87,
+        129
+      ],
+      [
+        87,
+        143
+      ],
+      [
+        29,
+        143
+      ]
+    ],
+    "confidence": 0.6515250020493185,
+    "type": "amount",
+    "enhanced_type": "amount"
+  },
+  {
+    "image_path": "C:\\Users\\HP\\Downloads\\FacturAI4\\HAS1ELB\\FacturAI\\Data\\processed_images\\enhanced_complex_invoice_0002.png",
+    "text": "DESTNATAIAE",
+    "bbox": [
+      [
+        949,
+        129
+      ],
+      [
+        1023,
+        129
+      ],
+      [
+        1023,
+        143
+      ],
+      [
+        949,
+        143
+      ]
+    ],
+    "confidence": 0.7465624076484524,
+    "type": "text",
+    "enhanced_type": "text"
+  },
+  {
+    "image_path": "C:\\Users\\HP\\Downloads\\FacturAI4\\HAS1ELB\\FacturAI\\Data\\processed_images\\enhanced_complex_invoice_0002.png",
+    "text": "FES TECHNOLOGIES",
+    "bbox": [
+      [
+        29,
+        149
+      ],
+      [
+        131,
+        149
+      ],
+      [
+        131,
+        163
+      ],
+      [
+        29,
+        163
+      ]
+    ],
+    "confidence": 0.934933501542587,
+    "type": "text",
+    "enhanced_type": "text"
+  },
+  {
+    "image_path": "C:\\Users\\HP\\Downloads\\FacturAI4\\HAS1ELB\\FacturAI\\Data\\processed_images\\enhanced_complex_invoice_0002.png",
+    "text": "ENTREPRISE CASAELANCA SERVICES",
+    "bbox": [
+      [
+        949,
+        149
+      ],
+      [
+        1127,
+        149
+      ],
+      [
+        1127,
+        163
+      ],
+      [
+        949,
+        163
+      ]
+    ],
+    "confidence": 0.6982172145267821,
+    "type": "text",
+    "enhanced_type": "text"
+  },
+  {
+    "image_path": "C:\\Users\\HP\\Downloads\\FacturAI4\\HAS1ELB\\FacturAI\\Data\\processed_images\\enhanced_complex_invoice_0002.png",
+    "text": "Tet0751-7558-63",
+    "bbox": [
+      [
+        949,
+        179
+      ],
+      [
+        1041,
+        179
+      ],
+      [
+        1041,
+        193
+      ],
+      [
+        949,
+        193
+      ]
+    ],
+    "confidence": 0.8662989087096953,
+    "type": "phone",
+    "enhanced_type": "document_number"
+  },
+  {
+    "image_path": "C:\\Users\\HP\\Downloads\\FacturAI4\\HAS1ELB\\FacturAI\\Data\\processed_images\\enhanced_complex_invoice_0002.png",
+    "text": "Tet 0649-21-25-23",
+    "bbox": [
+      [
+        29,
+        181
+      ],
+      [
+        121,
+        181
+      ],
+      [
+        121,
+        193
+      ],
+      [
+        29,
+        193
+      ]
+    ],
+    "confidence": 0.8098940064567683,
+    "type": "phone",
+    "enhanced_type": "document_number"
+  },
+  {
+    "image_path": "C:\\Users\\HP\\Downloads\\FacturAI4\\HAS1ELB\\FacturAI\\Data\\processed_images\\enhanced_complex_invoice_0002.png",
+    "text": "[CE 00589450454300038",
+    "bbox": [
+      [
+        29,
+        195
+      ],
+      [
+        155,
+        195
+      ],
+      [
+        155,
+        209
+      ],
+      [
+        29,
+        209
+      ]
+    ],
+    "confidence": 0.8098937936985807,
+    "type": "phone",
+    "enhanced_type": "phone"
+  },
+  {
+    "image_path": "C:\\Users\\HP\\Downloads\\FacturAI4\\HAS1ELB\\FacturAI\\Data\\processed_images\\enhanced_complex_invoice_0002.png",
+    "text": "Echeanc: 08,07/2024",
+    "bbox": [
+      [
+        949,
+        225
+      ],
+      [
+        1059,
+        225
+      ],
+      [
+        1059,
+        239
+      ],
+      [
+        949,
+        239
+      ]
+    ],
+    "confidence": 0.8514827367282453,
+    "type": "phone",
+    "enhanced_type": "document_number"
+  },
+  {
+    "image_path": "C:\\Users\\HP\\Downloads\\FacturAI4\\HAS1ELB\\FacturAI\\Data\\processed_images\\enhanced_complex_invoice_0002.png",
+    "text": "Dascriptian",
+    "bbox": [
+      [
+        33,
+        285
+      ],
+      [
+        91,
+        285
+      ],
+      [
+        91,
+        299
+      ],
+      [
+        33,
+        299
+      ]
+    ],
+    "confidence": 0.618798502166013,
+    "type": "text",
+    "enhanced_type": "text"
+  },
+  {
+    "image_path": "C:\\Users\\HP\\Downloads\\FacturAI4\\HAS1ELB\\FacturAI\\Data\\processed_images\\enhanced_complex_invoice_0002.png",
+    "text": "Total\"",
+    "bbox": [
+      [
+        465,
+        285
+      ],
+      [
+        493,
+        285
+      ],
+      [
+        493,
+        299
+      ],
+      [
+        465,
+        299
+      ]
+    ],
+    "confidence": 0.7748985877422647,
+    "type": "text",
+    "enhanced_type": "text"
+  },
+  {
+    "image_path": "C:\\Users\\HP\\Downloads\\FacturAI4\\HAS1ELB\\FacturAI\\Data\\processed_images\\enhanced_complex_invoice_0002.png",
+    "text": "Installation resju",
+    "bbox": [
+      [
+        33,
+        309
+      ],
+      [
+        121,
+        309
+      ],
+      [
+        121,
+        321
+      ],
+      [
+        33,
+        321
+      ]
+    ],
+    "confidence": 0.7488861827828824,
+    "type": "text",
+    "enhanced_type": "text"
+  },
+  {
+    "image_path": "C:\\Users\\HP\\Downloads\\FacturAI4\\HAS1ELB\\FacturAI\\Data\\processed_images\\enhanced_complex_invoice_0002.png",
+    "text": "636.41 Dhs",
+    "bbox": [
+      [
+        363,
+        309
+      ],
+      [
+        421,
+        309
+      ],
+      [
+        421,
+        321
+      ],
+      [
+        363,
+        321
+      ]
+    ],
+    "confidence": 0.632264752850985,
+    "type": "amount",
+    "enhanced_type": "document_number"
+  },
+  {
+    "image_path": "C:\\Users\\HP\\Downloads\\FacturAI4\\HAS1ELB\\FacturAI\\Data\\processed_images\\enhanced_complex_invoice_0002.png",
+    "text": "5727.69 Dhs",
+    "bbox": [
+      [
+        463,
+        309
+      ],
+      [
+        527,
+        309
+      ],
+      [
+        527,
+        323
+      ],
+      [
+        463,
+        323
+      ]
+    ],
+    "confidence": 0.9552630902963631,
+    "type": "amount",
+    "enhanced_type": "document_number"
+  },
+  {
+    "image_path": "C:\\Users\\HP\\Downloads\\FacturAI4\\HAS1ELB\\FacturAI\\Data\\processed_images\\enhanced_complex_invoice_0002.png",
+    "text": "1145.48 Dhs",
+    "bbox": [
+      [
+        365,
+        327
+      ],
+      [
+        427,
+        327
+      ],
+      [
+        427,
+        341
+      ],
+      [
+        365,
+        341
+      ]
+    ],
+    "confidence": 0.8352866386704889,
+    "type": "amount",
+    "enhanced_type": "amount"
+  },
+  {
+    "image_path": "C:\\Users\\HP\\Downloads\\FacturAI4\\HAS1ELB\\FacturAI\\Data\\processed_images\\enhanced_complex_invoice_0002.png",
+    "text": "1145.48 Dhs",
+    "bbox": [
+      [
+        465,
+        327
+      ],
+      [
+        527,
+        327
+      ],
+      [
+        527,
+        341
+      ],
+      [
+        465,
+        341
+      ]
+    ],
+    "confidence": 0.8461196496102708,
+    "type": "amount",
+    "enhanced_type": "amount"
+  },
+  {
+    "image_path": "C:\\Users\\HP\\Downloads\\FacturAI4\\HAS1ELB\\FacturAI\\Data\\processed_images\\enhanced_complex_invoice_0002.png",
+    "text": "Audil securile",
+    "bbox": [
+      [
+        35,
+        329
+      ],
+      [
+        103,
+        329
+      ],
+      [
+        103,
+        341
+      ],
+      [
+        35,
+        341
+      ]
+    ],
+    "confidence": 0.6661021695926528,
+    "type": "text",
+    "enhanced_type": "text"
+  },
+  {
+    "image_path": "C:\\Users\\HP\\Downloads\\FacturAI4\\HAS1ELB\\FacturAI\\Data\\processed_images\\enhanced_complex_invoice_0002.png",
+    "text": "8575.91 Dhs",
+    "bbox": [
+      [
+        463,
+        347
+      ],
+      [
+        527,
+        347
+      ],
+      [
+        527,
+        361
+      ],
+      [
+        463,
+        361
+      ]
+    ],
+    "confidence": 0.9777757955193301,
+    "type": "amount",
+    "enhanced_type": "amount"
+  },
+  {
+    "image_path": "C:\\Users\\HP\\Downloads\\FacturAI4\\HAS1ELB\\FacturAI\\Data\\processed_images\\enhanced_complex_invoice_0002.png",
+    "text": "Audit securile",
+    "bbox": [
+      [
+        35,
+        349
+      ],
+      [
+        103,
+        349
+      ],
+      [
+        103,
+        361
+      ],
+      [
+        35,
+        361
+      ]
+    ],
+    "confidence": 0.5933628989112117,
+    "type": "text",
+    "enhanced_type": "text"
+  },
+  {
+    "image_path": "C:\\Users\\HP\\Downloads\\FacturAI4\\HAS1ELB\\FacturAI\\Data\\processed_images\\enhanced_complex_invoice_0002.png",
+    "text": "1225.13 Dhs",
+    "bbox": [
+      [
+        365,
+        349
+      ],
+      [
+        427,
+        349
+      ],
+      [
+        427,
+        361
+      ],
+      [
+        365,
+        361
+      ]
+    ],
+    "confidence": 0.8524454358543533,
+    "type": "amount",
+    "enhanced_type": "amount"
+  },
+  {
+    "image_path": "C:\\Users\\HP\\Downloads\\FacturAI4\\HAS1ELB\\FacturAI\\Data\\processed_images\\enhanced_complex_invoice_0002.png",
+    "text": "Marketing digital",
+    "bbox": [
+      [
+        34,
+        366
+      ],
+      [
+        119,
+        366
+      ],
+      [
+        119,
+        383
+      ],
+      [
+        34,
+        383
+      ]
+    ],
+    "confidence": 0.5693868525405665,
+    "type": "text",
+    "enhanced_type": "text"
+  },
+  {
+    "image_path": "C:\\Users\\HP\\Downloads\\FacturAI4\\HAS1ELB\\FacturAI\\Data\\processed_images\\enhanced_complex_invoice_0002.png",
+    "text": "459.10 Dhs",
+    "bbox": [
+      [
+        365,
+        367
+      ],
+      [
+        421,
+        367
+      ],
+      [
+        421,
+        381
+      ],
+      [
+        365,
+        381
+      ]
+    ],
+    "confidence": 0.703534355900047,
+    "type": "amount",
+    "enhanced_type": "amount"
+  },
+  {
+    "image_path": "C:\\Users\\HP\\Downloads\\FacturAI4\\HAS1ELB\\FacturAI\\Data\\processed_images\\enhanced_complex_invoice_0002.png",
+    "text": "387280 Dhs",
+    "bbox": [
+      [
+        463,
+        367
+      ],
+      [
+        527,
+        367
+      ],
+      [
+        527,
+        381
+      ],
+      [
+        463,
+        381
+      ]
+    ],
+    "confidence": 0.9177904928282374,
+    "type": "amount",
+    "enhanced_type": "amount"
+  },
+  {
+    "image_path": "C:\\Users\\HP\\Downloads\\FacturAI4\\HAS1ELB\\FacturAI\\Data\\processed_images\\enhanced_complex_invoice_0002.png",
+    "text": "1873.55 Dhs",
+    "bbox": [
+      [
+        365,
+        387
+      ],
+      [
+        427,
+        387
+      ],
+      [
+        427,
+        401
+      ],
+      [
+        365,
+        401
+      ]
+    ],
+    "confidence": 0.9857177776321021,
+    "type": "amount",
+    "enhanced_type": "amount"
+  },
+  {
+    "image_path": "C:\\Users\\HP\\Downloads\\FacturAI4\\HAS1ELB\\FacturAI\\Data\\processed_images\\enhanced_complex_invoice_0002.png",
+    "text": "3747.10 Dhs",
+    "bbox": [
+      [
+        463,
+        387
+      ],
+      [
+        527,
+        387
+      ],
+      [
+        527,
+        401
+      ],
+      [
+        463,
+        401
+      ]
+    ],
+    "confidence": 0.7864593708362356,
+    "type": "amount",
+    "enhanced_type": "amount"
+  },
+  {
+    "image_path": "C:\\Users\\HP\\Downloads\\FacturAI4\\HAS1ELB\\FacturAI\\Data\\processed_images\\enhanced_complex_invoice_0002.png",
+    "text": "Conception @raphique",
+    "bbox": [
+      [
+        33,
+        389
+      ],
+      [
+        143,
+        389
+      ],
+      [
+        143,
+        403
+      ],
+      [
+        33,
+        403
+      ]
+    ],
+    "confidence": 0.7795341755480432,
+    "type": "email",
+    "enhanced_type": "email"
+  },
+  {
+    "image_path": "C:\\Users\\HP\\Downloads\\FacturAI4\\HAS1ELB\\FacturAI\\Data\\processed_images\\enhanced_complex_invoice_0002.png",
+    "text": "Hebergementveb",
+    "bbox": [
+      [
+        34,
+        406
+      ],
+      [
+        127,
+        406
+      ],
+      [
+        127,
+        424
+      ],
+      [
+        34,
+        424
+      ]
+    ],
+    "confidence": 0.7016865362953456,
+    "type": "text",
+    "enhanced_type": "text"
+  },
+  {
+    "image_path": "C:\\Users\\HP\\Downloads\\FacturAI4\\HAS1ELB\\FacturAI\\Data\\processed_images\\enhanced_complex_invoice_0002.png",
+    "text": "4140.72 Dhs",
+    "bbox": [
+      [
+        465,
+        407
+      ],
+      [
+        527,
+        407
+      ],
+      [
+        527,
+        421
+      ],
+      [
+        465,
+        421
+      ]
+    ],
+    "confidence": 0.9643644723408794,
+    "type": "amount",
+    "enhanced_type": "amount"
+  },
+  {
+    "image_path": "C:\\Users\\HP\\Downloads\\FacturAI4\\HAS1ELB\\FacturAI\\Data\\processed_images\\enhanced_complex_invoice_0002.png",
+    "text": "1380.24 Dhs",
+    "bbox": [
+      [
+        365,
+        409
+      ],
+      [
+        427,
+        409
+      ],
+      [
+        427,
+        421
+      ],
+      [
+        365,
+        421
+      ]
+    ],
+    "confidence": 0.9637972820201038,
+    "type": "amount",
+    "enhanced_type": "amount"
+  },
+  {
+    "image_path": "C:\\Users\\HP\\Downloads\\FacturAI4\\HAS1ELB\\FacturAI\\Data\\processed_images\\enhanced_complex_invoice_0002.png",
+    "text": "Hebergementveb",
+    "bbox": [
+      [
+        34,
+        426
+      ],
+      [
+        127,
+        426
+      ],
+      [
+        127,
+        444
+      ],
+      [
+        34,
+        444
+      ]
+    ],
+    "confidence": 0.6849978813116891,
+    "type": "text",
+    "enhanced_type": "text"
+  },
+  {
+    "image_path": "C:\\Users\\HP\\Downloads\\FacturAI4\\HAS1ELB\\FacturAI\\Data\\processed_images\\enhanced_complex_invoice_0002.png",
+    "text": "335.53 Dhs",
+    "bbox": [
+      [
+        363,
+        427
+      ],
+      [
+        421,
+        427
+      ],
+      [
+        421,
+        441
+      ],
+      [
+        363,
+        441
+      ]
+    ],
+    "confidence": 0.9446083612080537,
+    "type": "amount",
+    "enhanced_type": "amount"
+  },
+  {
+    "image_path": "C:\\Users\\HP\\Downloads\\FacturAI4\\HAS1ELB\\FacturAI\\Data\\processed_images\\enhanced_complex_invoice_0002.png",
+    "text": "1342.12 Dhs",
+    "bbox": [
+      [
+        465,
+        429
+      ],
+      [
+        527,
+        429
+      ],
+      [
+        527,
+        441
+      ],
+      [
+        465,
+        441
+      ]
+    ],
+    "confidence": 0.8824445962519525,
+    "type": "amount",
+    "enhanced_type": "amount"
+  },
+  {
+    "image_path": "C:\\Users\\HP\\Downloads\\FacturAI4\\HAS1ELB\\FacturAI\\Data\\processed_images\\enhanced_complex_invoice_0002.png",
+    "text": "Reelerencement SEO",
+    "bbox": [
+      [
+        35,
+        447
+      ],
+      [
+        139,
+        447
+      ],
+      [
+        139,
+        461
+      ],
+      [
+        35,
+        461
+      ]
+    ],
+    "confidence": 0.8711500230940595,
+    "type": "text",
+    "enhanced_type": "text"
+  },
+  {
+    "image_path": "C:\\Users\\HP\\Downloads\\FacturAI4\\HAS1ELB\\FacturAI\\Data\\processed_images\\enhanced_complex_invoice_0002.png",
+    "text": "359.12 Dhs",
+    "bbox": [
+      [
+        463,
+        447
+      ],
+      [
+        521,
+        447
+      ],
+      [
+        521,
+        461
+      ],
+      [
+        463,
+        461
+      ]
+    ],
+    "confidence": 0.909406126228901,
+    "type": "amount",
+    "enhanced_type": "amount"
+  },
+  {
+    "image_path": "C:\\Users\\HP\\Downloads\\FacturAI4\\HAS1ELB\\FacturAI\\Data\\processed_images\\enhanced_complex_invoice_0002.png",
+    "text": "89.78 Dhs",
+    "bbox": [
+      [
+        363,
+        449
+      ],
+      [
+        415,
+        449
+      ],
+      [
+        415,
+        461
+      ],
+      [
+        363,
+        461
+      ]
+    ],
+    "confidence": 0.7547946025708961,
+    "type": "amount",
+    "enhanced_type": "amount"
+  },
+  {
+    "image_path": "C:\\Users\\HP\\Downloads\\FacturAI4\\HAS1ELB\\FacturAI\\Data\\processed_images\\enhanced_complex_invoice_0002.png",
+    "text": "28710.94 Dls",
+    "bbox": [
+      [
+        1099,
+        1549
+      ],
+      [
+        1167,
+        1549
+      ],
+      [
+        1167,
+        1563
+      ],
+      [
+        1099,
+        1563
+      ]
+    ],
+    "confidence": 0.7272067811132478,
+    "type": "text",
+    "enhanced_type": "text"
+  },
+  {
+    "image_path": "C:\\Users\\HP\\Downloads\\FacturAI4\\HAS1ELB\\FacturAI\\Data\\processed_images\\enhanced_complex_invoice_0002.png",
+    "text": "Sous-loblHI",
+    "bbox": [
+      [
+        999,
+        1551
+      ],
+      [
+        1065,
+        1551
+      ],
+      [
+        1065,
+        1563
+      ],
+      [
+        999,
+        1563
+      ]
+    ],
+    "confidence": 0.7740703060481182,
+    "type": "date",
+    "enhanced_type": "date"
+  },
+  {
+    "image_path": "C:\\Users\\HP\\Downloads\\FacturAI4\\HAS1ELB\\FacturAI\\Data\\processed_images\\enhanced_complex_invoice_0002.png",
+    "text": "5742.19 Dhs",
+    "bbox": [
+      [
+        1097,
+        1569
+      ],
+      [
+        1161,
+        1569
+      ],
+      [
+        1161,
+        1583
+      ],
+      [
+        1097,
+        1583
+      ]
+    ],
+    "confidence": 0.6818670510973361,
+    "type": "amount",
+    "enhanced_type": "amount"
+  },
+  {
+    "image_path": "C:\\Users\\HP\\Downloads\\FacturAI4\\HAS1ELB\\FacturAI\\Data\\processed_images\\enhanced_complex_invoice_0002.png",
+    "text": "TOTAL TTC",
+    "bbox": [
+      [
+        999,
+        1595
+      ],
+      [
+        1057,
+        1595
+      ],
+      [
+        1057,
+        1609
+      ],
+      [
+        999,
+        1609
+      ]
+    ],
+    "confidence": 0.9127363471480754,
+    "type": "amount",
+    "enhanced_type": "amount"
+  },
+  {
+    "image_path": "C:\\Users\\HP\\Downloads\\FacturAI4\\HAS1ELB\\FacturAI\\Data\\processed_images\\enhanced_complex_invoice_0002.png",
+    "text": "34453,13 Dhs",
+    "bbox": [
+      [
+        1097,
+        1595
+      ],
+      [
+        1167,
+        1595
+      ],
+      [
+        1167,
+        1609
+      ],
+      [
+        1097,
+        1609
+      ]
+    ],
+    "confidence": 0.8557636891658347,
+    "type": "amount",
+    "enhanced_type": "amount"
+  }
+]

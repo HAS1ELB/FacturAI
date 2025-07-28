@@ -1,0 +1,25 @@
+{
+  "total_samples": 284,
+  "splits": {
+    "train": 216,
+    "validation": 29,
+    "test": 39
+  },
+  "text_type_distribution": {
+    "text": 142,
+    "email": 9,
+    "document_number": 19,
+    "document_type": 6,
+    "date": 15,
+    "phone": 26,
+    "amount": 53,
+    "address": 4,
+    "number": 5,
+    "total_label": 1,
+    "total_amount": 3,
+    "header": 1
+  },
+  "created_at": "2025-07-28T15:19:17.874778",
+  "format": "easyocr",
+  "description": "Dataset préparé pour le fine-tuning EasyOCR - annotations de texte individuelles"
+}

@@ -1,0 +1,945 @@
+[
+  {
+    "image_path": "C:\\Users\\HP\\Downloads\\FacturAI4\\HAS1ELB\\FacturAI\\Data\\processed_images\\enhanced_complex_invoice_0002.png",
+    "lines": [
+      {
+        "transcription": "EMIETTEUR",
+        "points": [
+          [
+            29,
+            129
+          ],
+          [
+            87,
+            129
+          ],
+          [
+            87,
+            143
+          ],
+          [
+            29,
+            143
+          ]
+        ],
+        "difficult": false,
+        "confidence": 0.6515250020493185,
+        "type": "amount"
+      },
+      {
+        "transcription": "DESTNATAIAE",
+        "points": [
+          [
+            949,
+            129
+          ],
+          [
+            1023,
+            129
+          ],
+          [
+            1023,
+            143
+          ],
+          [
+            949,
+            143
+          ]
+        ],
+        "difficult": false,
+        "confidence": 0.7465624076484524,
+        "type": "text"
+      },
+      {
+        "transcription": "FES TECHNOLOGIES",
+        "points": [
+          [
+            29,
+            149
+          ],
+          [
+            131,
+            149
+          ],
+          [
+            131,
+            163
+          ],
+          [
+            29,
+            163
+          ]
+        ],
+        "difficult": false,
+        "confidence": 0.934933501542587,
+        "type": "text"
+      },
+      {
+        "transcription": "ENTREPRISE CASAELANCA SERVICES",
+        "points": [
+          [
+            949,
+            149
+          ],
+          [
+            1127,
+            149
+          ],
+          [
+            1127,
+            163
+          ],
+          [
+            949,
+            163
+          ]
+        ],
+        "difficult": false,
+        "confidence": 0.6982172145267821,
+        "type": "text"
+      },
+      {
+        "transcription": "Tet0751-7558-63",
+        "points": [
+          [
+            949,
+            179
+          ],
+          [
+            1041,
+            179
+          ],
+          [
+            1041,
+            193
+          ],
+          [
+            949,
+            193
+          ]
+        ],
+        "difficult": false,
+        "confidence": 0.8662989087096953,
+        "type": "document_number"
+      },
+      {
+        "transcription": "Tet 0649-21-25-23",
+        "points": [
+          [
+            29,
+            181
+          ],
+          [
+            121,
+            181
+          ],
+          [
+            121,
+            193
+          ],
+          [
+            29,
+            193
+          ]
+        ],
+        "difficult": false,
+        "confidence": 0.8098940064567683,
+        "type": "document_number"
+      },
+      {
+        "transcription": "[CE 00589450454300038",
+        "points": [
+          [
+            29,
+            195
+          ],
+          [
+            155,
+            195
+          ],
+          [
+            155,
+            209
+          ],
+          [
+            29,
+            209
+          ]
+        ],
+        "difficult": false,
+        "confidence": 0.8098937936985807,
+        "type": "phone"
+      },
+      {
+        "transcription": "Echeanc: 08,07/2024",
+        "points": [
+          [
+            949,
+            225
+          ],
+          [
+            1059,
+            225
+          ],
+          [
+            1059,
+            239
+          ],
+          [
+            949,
+            239
+          ]
+        ],
+        "difficult": false,
+        "confidence": 0.8514827367282453,
+        "type": "document_number"
+      },
+      {
+        "transcription": "Dascriptian",
+        "points": [
+          [
+            33,
+            285
+          ],
+          [
+            91,
+            285
+          ],
+          [
+            91,
+            299
+          ],
+          [
+            33,
+            299
+          ]
+        ],
+        "difficult": false,
+        "confidence": 0.618798502166013,
+        "type": "text"
+      },
+      {
+        "transcription": "Total\"",
+        "points": [
+          [
+            465,
+            285
+          ],
+          [
+            493,
+            285
+          ],
+          [
+            493,
+            299
+          ],
+          [
+            465,
+            299
+          ]
+        ],
+        "difficult": false,
+        "confidence": 0.7748985877422647,
+        "type": "text"
+      },
+      {
+        "transcription": "Installation resju",
+        "points": [
+          [
+            33,
+            309
+          ],
+          [
+            121,
+            309
+          ],
+          [
+            121,
+            321
+          ],
+          [
+            33,
+            321
+          ]
+        ],
+        "difficult": false,
+        "confidence": 0.7488861827828824,
+        "type": "text"
+      },
+      {
+        "transcription": "636.41 Dhs",
+        "points": [
+          [
+            363,
+            309
+          ],
+          [
+            421,
+            309
+          ],
+          [
+            421,
+            321
+          ],
+          [
+            363,
+            321
+          ]
+        ],
+        "difficult": false,
+        "confidence": 0.632264752850985,
+        "type": "document_number"
+      },
+      {
+        "transcription": "5727.69 Dhs",
+        "points": [
+          [
+            463,
+            309
+          ],
+          [
+            527,
+            309
+          ],
+          [
+            527,
+            323
+          ],
+          [
+            463,
+            323
+          ]
+        ],
+        "difficult": false,
+        "confidence": 0.9552630902963631,
+        "type": "document_number"
+      },
+      {
+        "transcription": "1145.48 Dhs",
+        "points": [
+          [
+            365,
+            327
+          ],
+          [
+            427,
+            327
+          ],
+          [
+            427,
+            341
+          ],
+          [
+            365,
+            341
+          ]
+        ],
+        "difficult": false,
+        "confidence": 0.8352866386704889,
+        "type": "amount"
+      },
+      {
+        "transcription": "1145.48 Dhs",
+        "points": [
+          [
+            465,
+            327
+          ],
+          [
+            527,
+            327
+          ],
+          [
+            527,
+            341
+          ],
+          [
+            465,
+            341
+          ]
+        ],
+        "difficult": false,
+        "confidence": 0.8461196496102708,
+        "type": "amount"
+      },
+      {
+        "transcription": "Audil securile",
+        "points": [
+          [
+            35,
+            329
+          ],
+          [
+            103,
+            329
+          ],
+          [
+            103,
+            341
+          ],
+          [
+            35,
+            341
+          ]
+        ],
+        "difficult": false,
+        "confidence": 0.6661021695926528,
+        "type": "text"
+      },
+      {
+        "transcription": "8575.91 Dhs",
+        "points": [
+          [
+            463,
+            347
+          ],
+          [
+            527,
+            347
+          ],
+          [
+            527,
+            361
+          ],
+          [
+            463,
+            361
+          ]
+        ],
+        "difficult": false,
+        "confidence": 0.9777757955193301,
+        "type": "amount"
+      },
+      {
+        "transcription": "Audit securile",
+        "points": [
+          [
+            35,
+            349
+          ],
+          [
+            103,
+            349
+          ],
+          [
+            103,
+            361
+          ],
+          [
+            35,
+            361
+          ]
+        ],
+        "difficult": false,
+        "confidence": 0.5933628989112117,
+        "type": "text"
+      },
+      {
+        "transcription": "1225.13 Dhs",
+        "points": [
+          [
+            365,
+            349
+          ],
+          [
+            427,
+            349
+          ],
+          [
+            427,
+            361
+          ],
+          [
+            365,
+            361
+          ]
+        ],
+        "difficult": false,
+        "confidence": 0.8524454358543533,
+        "type": "amount"
+      },
+      {
+        "transcription": "Marketing digital",
+        "points": [
+          [
+            34,
+            366
+          ],
+          [
+            119,
+            366
+          ],
+          [
+            119,
+            383
+          ],
+          [
+            34,
+            383
+          ]
+        ],
+        "difficult": false,
+        "confidence": 0.5693868525405665,
+        "type": "text"
+      },
+      {
+        "transcription": "459.10 Dhs",
+        "points": [
+          [
+            365,
+            367
+          ],
+          [
+            421,
+            367
+          ],
+          [
+            421,
+            381
+          ],
+          [
+            365,
+            381
+          ]
+        ],
+        "difficult": false,
+        "confidence": 0.703534355900047,
+        "type": "amount"
+      },
+      {
+        "transcription": "387280 Dhs",
+        "points": [
+          [
+            463,
+            367
+          ],
+          [
+            527,
+            367
+          ],
+          [
+            527,
+            381
+          ],
+          [
+            463,
+            381
+          ]
+        ],
+        "difficult": false,
+        "confidence": 0.9177904928282374,
+        "type": "amount"
+      },
+      {
+        "transcription": "1873.55 Dhs",
+        "points": [
+          [
+            365,
+            387
+          ],
+          [
+            427,
+            387
+          ],
+          [
+            427,
+            401
+          ],
+          [
+            365,
+            401
+          ]
+        ],
+        "difficult": false,
+        "confidence": 0.9857177776321021,
+        "type": "amount"
+      },
+      {
+        "transcription": "3747.10 Dhs",
+        "points": [
+          [
+            463,
+            387
+          ],
+          [
+            527,
+            387
+          ],
+          [
+            527,
+            401
+          ],
+          [
+            463,
+            401
+          ]
+        ],
+        "difficult": false,
+        "confidence": 0.7864593708362356,
+        "type": "amount"
+      },
+      {
+        "transcription": "Conception @raphique",
+        "points": [
+          [
+            33,
+            389
+          ],
+          [
+            143,
+            389
+          ],
+          [
+            143,
+            403
+          ],
+          [
+            33,
+            403
+          ]
+        ],
+        "difficult": false,
+        "confidence": 0.7795341755480432,
+        "type": "email"
+      },
+      {
+        "transcription": "Hebergementveb",
+        "points": [
+          [
+            34,
+            406
+          ],
+          [
+            127,
+            406
+          ],
+          [
+            127,
+            424
+          ],
+          [
+            34,
+            424
+          ]
+        ],
+        "difficult": false,
+        "confidence": 0.7016865362953456,
+        "type": "text"
+      },
+      {
+        "transcription": "4140.72 Dhs",
+        "points": [
+          [
+            465,
+            407
+          ],
+          [
+            527,
+            407
+          ],
+          [
+            527,
+            421
+          ],
+          [
+            465,
+            421
+          ]
+        ],
+        "difficult": false,
+        "confidence": 0.9643644723408794,
+        "type": "amount"
+      },
+      {
+        "transcription": "1380.24 Dhs",
+        "points": [
+          [
+            365,
+            409
+          ],
+          [
+            427,
+            409
+          ],
+          [
+            427,
+            421
+          ],
+          [
+            365,
+            421
+          ]
+        ],
+        "difficult": false,
+        "confidence": 0.9637972820201038,
+        "type": "amount"
+      },
+      {
+        "transcription": "Hebergementveb",
+        "points": [
+          [
+            34,
+            426
+          ],
+          [
+            127,
+            426
+          ],
+          [
+            127,
+            444
+          ],
+          [
+            34,
+            444
+          ]
+        ],
+        "difficult": false,
+        "confidence": 0.6849978813116891,
+        "type": "text"
+      },
+      {
+        "transcription": "335.53 Dhs",
+        "points": [
+          [
+            363,
+            427
+          ],
+          [
+            421,
+            427
+          ],
+          [
+            421,
+            441
+          ],
+          [
+            363,
+            441
+          ]
+        ],
+        "difficult": false,
+        "confidence": 0.9446083612080537,
+        "type": "amount"
+      },
+      {
+        "transcription": "1342.12 Dhs",
+        "points": [
+          [
+            465,
+            429
+          ],
+          [
+            527,
+            429
+          ],
+          [
+            527,
+            441
+          ],
+          [
+            465,
+            441
+          ]
+        ],
+        "difficult": false,
+        "confidence": 0.8824445962519525,
+        "type": "amount"
+      },
+      {
+        "transcription": "Reelerencement SEO",
+        "points": [
+          [
+            35,
+            447
+          ],
+          [
+            139,
+            447
+          ],
+          [
+            139,
+            461
+          ],
+          [
+            35,
+            461
+          ]
+        ],
+        "difficult": false,
+        "confidence": 0.8711500230940595,
+        "type": "text"
+      },
+      {
+        "transcription": "359.12 Dhs",
+        "points": [
+          [
+            463,
+            447
+          ],
+          [
+            521,
+            447
+          ],
+          [
+            521,
+            461
+          ],
+          [
+            463,
+            461
+          ]
+        ],
+        "difficult": false,
+        "confidence": 0.909406126228901,
+        "type": "amount"
+      },
+      {
+        "transcription": "89.78 Dhs",
+        "points": [
+          [
+            363,
+            449
+          ],
+          [
+            415,
+            449
+          ],
+          [
+            415,
+            461
+          ],
+          [
+            363,
+            461
+          ]
+        ],
+        "difficult": false,
+        "confidence": 0.7547946025708961,
+        "type": "amount"
+      },
+      {
+        "transcription": "28710.94 Dls",
+        "points": [
+          [
+            1099,
+            1549
+          ],
+          [
+            1167,
+            1549
+          ],
+          [
+            1167,
+            1563
+          ],
+          [
+            1099,
+            1563
+          ]
+        ],
+        "difficult": false,
+        "confidence": 0.7272067811132478,
+        "type": "text"
+      },
+      {
+        "transcription": "Sous-loblHI",
+        "points": [
+          [
+            999,
+            1551
+          ],
+          [
+            1065,
+            1551
+          ],
+          [
+            1065,
+            1563
+          ],
+          [
+            999,
+            1563
+          ]
+        ],
+        "difficult": false,
+        "confidence": 0.7740703060481182,
+        "type": "date"
+      },
+      {
+        "transcription": "5742.19 Dhs",
+        "points": [
+          [
+            1097,
+            1569
+          ],
+          [
+            1161,
+            1569
+          ],
+          [
+            1161,
+            1583
+          ],
+          [
+            1097,
+            1583
+          ]
+        ],
+        "difficult": false,
+        "confidence": 0.6818670510973361,
+        "type": "amount"
+      },
+      {
+        "transcription": "TOTAL TTC",
+        "points": [
+          [
+            999,
+            1595
+          ],
+          [
+            1057,
+            1595
+          ],
+          [
+            1057,
+            1609
+          ],
+          [
+            999,
+            1609
+          ]
+        ],
+        "difficult": false,
+        "confidence": 0.9127363471480754,
+        "type": "amount"
+      },
+      {
+        "transcription": "34453,13 Dhs",
+        "points": [
+          [
+            1097,
+            1595
+          ],
+          [
+            1167,
+            1595
+          ],
+          [
+            1167,
+            1609
+          ],
+          [
+            1097,
+            1609
+          ]
+        ],
+        "difficult": false,
+        "confidence": 0.8557636891658347,
+        "type": "amount"
+      }
+    ],
+    "image_name": "enhanced_complex_invoice_0002.png",
+    "num_lines": 39
+  }
+]

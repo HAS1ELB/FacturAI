@@ -31,9 +31,30 @@ logger = logging.getLogger(__name__)
 class InvoiceOCRDataset(Dataset):
     """Dataset personnalisé pour le fine-tuning EasyOCR"""
     
-    def __init__(self, data_file: str, transform=None, max_text_length: int = 100):
+    def __init__(self, data_file: str, vocab: List[str] = None, transform=None, max_text_length: int = None):
         self.transform = transform
-        self.max_text_length = max_text_length
+        
+        # Use provided vocabulary or create a default one
+        if vocab is not None:
+            self.vocab = vocab
+        else:
+            # Default vocabulary (fallback)
+            base_chars = ' !"#$%&\'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz'
+            french_chars = 'àâäéèêëïîôöùûüÿç'
+            special_chars = '€°§'
+            vocab_chars = base_chars + french_chars + special_chars
+            self.vocab = list(vocab_chars) + ['<PAD>', '<UNK>']
+        
+        # Construire le mapping caractère -> indice
+        self.char_to_idx = {char: idx for idx, char in enumerate(self.vocab)}
+        
+        # Calculer la longueur de séquence basée sur l'architecture du modèle
+        # Image input: 256 width
+        # Après CNN avec pooling: 256 -> 128 -> 64 -> 64 -> 32 -> 16 -> 16 -> 16
+        # Le nombre de MaxPool2d (stride 2) en width: 256/2/2/2/2 = 16
+        # Avec les MaxPool2d((2,1)): pas de réduction en width
+        # Donc séquence finale ≈ 64 (en fonction de l'architecture CNN)
+        self.max_text_length = max_text_length if max_text_length else 64
         
         # Charger les données
         with open(data_file, 'r', encoding='utf-8') as f:
@@ -92,22 +113,15 @@ class InvoiceOCRDataset(Dataset):
     
     def encode_text(self, text: str) -> torch.Tensor:
         """Encode le texte en indices de caractères"""
-        # Vocabulaire simple pour commencer
-        vocab = ' !"#$%&\'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyzàâäéèêëïîôöùûüÿç{|}~€'
-        
-        # Créer le mapping caractère -> indice
-        char_to_idx = {char: idx for idx, char in enumerate(vocab)}
-        char_to_idx['<PAD>'] = len(vocab)
-        char_to_idx['<UNK>'] = len(vocab) + 1
-        
-        # Encoder le texte
+        # Utiliser le vocabulaire défini dans le constructeur
         encoded = []
         for char in text[:self.max_text_length]:
-            encoded.append(char_to_idx.get(char, char_to_idx['<UNK>']))
+            encoded.append(self.char_to_idx.get(char, self.char_to_idx.get('<UNK>', len(self.vocab)-1)))
         
         # Padding
+        pad_idx = self.char_to_idx.get('<PAD>', len(self.vocab)-2)
         while len(encoded) < self.max_text_length:
-            encoded.append(char_to_idx['<PAD>'])
+            encoded.append(pad_idx)
         
         return torch.tensor(encoded, dtype=torch.long)
 
@@ -153,7 +167,10 @@ class CRNN(nn.Module):
             nn.Conv2d(512, 512, 3, padding=1),
             nn.BatchNorm2d(512),
             nn.ReLU(inplace=True),
-            nn.MaxPool2d((2, 1))
+            nn.MaxPool2d((2, 1)),
+            
+            # Adaptive pooling pour s'assurer que height=1
+            nn.AdaptiveAvgPool2d((1, None))  # (batch, 512, 1, W')
         )
         
         # Partie RNN
@@ -167,12 +184,12 @@ class CRNN(nn.Module):
     
     def forward(self, x):
         # CNN features
-        cnn_features = self.cnn(x)  # (batch, 512, H', W')
+        cnn_features = self.cnn(x)  # (batch, 512, 1, W')
         
-        # Reshape pour RNN
+        # Reshape pour RNN - maintenant height=1, donc channels*height=512*1=512
         batch_size, channels, height, width = cnn_features.size()
-        cnn_features = cnn_features.permute(0, 3, 1, 2)  # (batch, W', 512, H')
-        cnn_features = cnn_features.reshape(batch_size, width, channels * height)
+        cnn_features = cnn_features.permute(0, 3, 1, 2)  # (batch, W', 512, 1)
+        cnn_features = cnn_features.reshape(batch_size, width, channels * height)  # (batch, W', 512)
         
         # RNN
         rnn_out, _ = self.rnn(cnn_features)  # (batch, W', hidden_size*2)
@@ -207,7 +224,10 @@ class EasyOCRFineTuner:
             self.model.parameters(), 
             lr=self.config.get('learning_rate', 0.001)
         )
-        self.criterion = nn.CrossEntropyLoss(ignore_index=self.vocab_size-1)  # Ignore PAD
+        
+        # Trouver l'index du token PAD pour l'ignorer dans la perte
+        pad_idx = self.vocab.index('<PAD>') if '<PAD>' in self.vocab else self.vocab_size - 2
+        self.criterion = nn.CrossEntropyLoss(ignore_index=pad_idx)
         
         # Métriques
         self.training_history = {
@@ -261,9 +281,26 @@ class EasyOCRFineTuner:
         with open(val_file, 'w', encoding='utf-8') as f:
             json.dump(val_data, f, ensure_ascii=False)
         
-        # Créer les datasets
-        train_dataset = InvoiceOCRDataset(str(train_file), transform=train_transform)
-        val_dataset = InvoiceOCRDataset(str(val_file), transform=val_transform)
+        # Créer les datasets avec la longueur de séquence correcte ET le vocabulaire
+        # Calculer la longueur de séquence de sortie du modèle
+        # Image input: (3, 64, 256)
+        # Après CNN: (512, 1, W') où W' dépend des pooling operations
+        # MaxPool2d(2, 2): 256 -> 128 (width réduit)
+        # MaxPool2d(2, 2): 128 -> 64 (width réduit) 
+        # MaxPool2d((2, 1)): 64 -> 64 (width inchangé)
+        # MaxPool2d((2, 1)): 64 -> 64 (width inchangé)
+        # AdaptiveAvgPool2d((1, None)): height -> 1, width inchangé
+        # Donc la séquence finale devrait être de longueur 64
+        model_seq_length = 64  # Basé sur l'architecture CNN
+        
+        train_dataset = InvoiceOCRDataset(str(train_file), 
+                                        vocab=self.vocab,  # ✅ Passer le vocabulaire du fine-tuner
+                                        transform=train_transform, 
+                                        max_text_length=model_seq_length)
+        val_dataset = InvoiceOCRDataset(str(val_file), 
+                                      vocab=self.vocab,  # ✅ Passer le vocabulaire du fine-tuner
+                                      transform=val_transform, 
+                                      max_text_length=model_seq_length)
         
         # DataLoaders
         self.train_loader = DataLoader(
@@ -295,11 +332,20 @@ class EasyOCRFineTuner:
             # Forward pass
             outputs = self.model(images)  # (batch, seq_len, vocab_size)
             
-            # Reshape pour le calcul de la perte
-            outputs = outputs.permute(0, 2, 1)  # (batch, vocab_size, seq_len)
+            # Pour le calcul de la perte, on doit aligner les dimensions
+            # outputs: (batch, seq_len, vocab_size)
+            # texts_encoded: (batch, max_text_length)
+            
+            # Prendre seulement la longueur de séquence produite par le modèle
+            seq_len = outputs.size(1)
+            texts_encoded_aligned = texts_encoded[:, :seq_len]  # (batch, seq_len)
+            
+            # Reshape pour CrossEntropyLoss: (batch*seq_len, vocab_size) et (batch*seq_len,)
+            outputs_flat = outputs.view(-1, outputs.size(-1))  # (batch*seq_len, vocab_size)
+            texts_flat = texts_encoded_aligned.view(-1)  # (batch*seq_len,)
             
             # Calculer la perte
-            loss = self.criterion(outputs, texts_encoded)
+            loss = self.criterion(outputs_flat, texts_flat)
             
             # Backward pass
             loss.backward()
@@ -309,8 +355,8 @@ class EasyOCRFineTuner:
             total_loss += loss.item()
             
             # Calculer l'accuracy
-            predictions = torch.argmax(outputs, dim=1)
-            correct = (predictions == texts_encoded).float()
+            predictions = torch.argmax(outputs, dim=-1)  # (batch, seq_len)
+            correct = (predictions == texts_encoded_aligned).float()
             correct_predictions += correct.sum().item()
             total_predictions += correct.numel()
             
@@ -334,14 +380,21 @@ class EasyOCRFineTuner:
                 images = batch['image'].to(self.device)
                 texts_encoded = batch['text_encoded'].to(self.device)
                 
-                outputs = self.model(images)
-                outputs = outputs.permute(0, 2, 1)
+                outputs = self.model(images)  # (batch, seq_len, vocab_size)
                 
-                loss = self.criterion(outputs, texts_encoded)
+                # Aligner les dimensions comme dans l'entraînement
+                seq_len = outputs.size(1)
+                texts_encoded_aligned = texts_encoded[:, :seq_len]  # (batch, seq_len)
+                
+                # Reshape pour CrossEntropyLoss
+                outputs_flat = outputs.view(-1, outputs.size(-1))  # (batch*seq_len, vocab_size)
+                texts_flat = texts_encoded_aligned.view(-1)  # (batch*seq_len,)
+                
+                loss = self.criterion(outputs_flat, texts_flat)
                 total_loss += loss.item()
                 
-                predictions = torch.argmax(outputs, dim=1)
-                correct = (predictions == texts_encoded).float()
+                predictions = torch.argmax(outputs, dim=-1)  # (batch, seq_len)
+                correct = (predictions == texts_encoded_aligned).float()
                 correct_predictions += correct.sum().item()
                 total_predictions += correct.numel()
         
@@ -562,7 +615,7 @@ def main():
     parser.add_argument('--epochs', type=int, default=50, help='Nombre d\'époques')
     parser.add_argument('--batch_size', type=int, default=8, help='Taille de batch')
     parser.add_argument('--learning_rate', type=float, default=0.001, help='Taux d\'apprentissage')
-    parser.add_argument('--output_dir', default='models/easyocr_finetuned', help='Dossier de sortie')
+    parser.add_argument('--output_dir', default='fine-tuning-ocr/models/easyocr_finetuned', help='Dossier de sortie')
     
     args = parser.parse_args()
     

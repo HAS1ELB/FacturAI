@@ -26,6 +26,7 @@ from PIL import Image
 import numpy as np
 from torch.utils.data import DataLoader
 from sklearn.metrics import accuracy_score
+from sklearn.model_selection import train_test_split
 import evaluate
 import transformers
 
@@ -106,27 +107,82 @@ class TrOCRFineTuner:
         """Prépare les datasets d'entraînement"""
         logger.info("Préparation des datasets TrOCR...")
         
-        # Charger les annotations depuis le fichier dataset si spécifié
+        datasets = {}
+        
+        # Essayer de charger les fichiers de splits séparés d'abord
         if "dataset_path" in self.config and os.path.exists(self.config["dataset_path"]):
-            logger.info(f"Chargement du dataset: {self.config['dataset_path']}")
-            with open(self.config["dataset_path"], 'r', encoding='utf-8') as f:
-                dataset_data = json.load(f)
+            dataset_dir = Path(self.config["dataset_path"]).parent
+            logger.info(f"Recherche des splits dans: {dataset_dir}")
             
-            datasets = {}
-            for split in ["train", "validation", "test"]:
-                if split in dataset_data:
-                    annotations = dataset_data[split]
+            # Charger les fichiers de splits séparés
+            split_files = {
+                "train": dataset_dir / "train.json",
+                "validation": dataset_dir / "validation.json", 
+                "test": dataset_dir / "test.json"
+            }
+            
+            for split_name, split_file in split_files.items():
+                if split_file.exists():
+                    logger.info(f"Chargement du split {split_name}: {split_file}")
+                    with open(split_file, 'r', encoding='utf-8') as f:
+                        annotations = json.load(f)
+                    
                     dataset = TrOCRDataset(
                         annotations, 
                         self.processor,
                         max_target_length=self.config.get("max_length", 512)
                     )
-                    datasets[split] = dataset
-                    logger.info(f"Dataset {split}: {len(annotations)} échantillons")
-        else:
-            # Fallback vers l'ancienne méthode
+                    datasets[split_name] = dataset
+                    logger.info(f"Dataset {split_name}: {len(annotations)} échantillons")
+                else:
+                    logger.warning(f"Fichier de split manquant: {split_file}")
+            
+            # Si aucun split trouvé, essayer le format unifié
+            if not datasets:
+                logger.info(f"Aucun split trouvé, chargement du dataset complet: {self.config['dataset_path']}")
+                with open(self.config["dataset_path"], 'r', encoding='utf-8') as f:
+                    dataset_data = json.load(f)
+                
+                # Vérifier si c'est au format {"train": [...], "validation": [...]} 
+                if isinstance(dataset_data, dict) and "train" in dataset_data:
+                    for split in ["train", "validation", "test"]:
+                        if split in dataset_data:
+                            annotations = dataset_data[split]
+                            dataset = TrOCRDataset(
+                                annotations, 
+                                self.processor,
+                                max_target_length=self.config.get("max_length", 512)
+                            )
+                            datasets[split] = dataset
+                            logger.info(f"Dataset {split}: {len(annotations)} échantillons")
+                # Sinon c'est une liste d'échantillons - créer un split artificiel
+                elif isinstance(dataset_data, list):
+                    logger.info("Dataset unifié détecté, création de splits automatiques...")
+                    
+                    # Split 80/10/10
+                    train_data, temp_data = train_test_split(dataset_data, test_size=0.2, random_state=42)
+                    val_data, test_data = train_test_split(temp_data, test_size=0.5, random_state=42)
+                    
+                    splits = {
+                        "train": train_data,
+                        "validation": val_data,
+                        "test": test_data
+                    }
+                    
+                    for split_name, split_data in splits.items():
+                        if split_data:
+                            dataset = TrOCRDataset(
+                                split_data, 
+                                self.processor,
+                                max_target_length=self.config.get("max_length", 512)
+                            )
+                            datasets[split_name] = dataset
+                            logger.info(f"Dataset {split_name}: {len(split_data)} échantillons")
+        
+        # Fallback vers l'ancienne méthode
+        if not datasets:
+            logger.info("Fallback vers l'ancienne méthode...")
             annotations_dir = "Data/fine_tuning/annotations"
-            datasets = {}
             
             for split in ["train", "validation", "test"]:
                 annotations_file = os.path.join(annotations_dir, f"{split}_annotations.json")
@@ -153,14 +209,31 @@ class TrOCRFineTuner:
     
     def compute_metrics(self, eval_pred):
         """Calcule les métriques d'évaluation"""
-        predictions, labels = eval_pred
-        
-        # Décoder les prédictions et labels
-        decoded_preds = self.processor.batch_decode(predictions, skip_special_tokens=True)
-        
-        # Remplacer -100 par pad_token_id pour le décodage
-        labels = np.where(labels != -100, labels, self.processor.tokenizer.pad_token_id)
-        decoded_labels = self.processor.batch_decode(labels, skip_special_tokens=True)
+        try:
+            predictions, labels = eval_pred
+            
+            # Convertir les logits en token IDs (prendre l'argmax)
+            if isinstance(predictions, tuple):
+                predictions = predictions[0]  # Parfois les prédictions sont dans un tuple
+            
+            # Convertir les logits en token IDs
+            if torch.is_tensor(predictions):
+                predicted_ids = torch.argmax(torch.tensor(predictions), dim=-1).numpy()
+            else:
+                predicted_ids = np.argmax(predictions, axis=-1)
+            
+            # Décoder les prédictions et labels
+            decoded_preds = self.processor.batch_decode(predicted_ids, skip_special_tokens=True)
+            
+            # Remplacer -100 par pad_token_id pour le décodage
+            labels = np.where(labels != -100, labels, self.processor.tokenizer.pad_token_id)
+            decoded_labels = self.processor.batch_decode(labels, skip_special_tokens=True)
+            
+        except Exception as e:
+            logger.error(f"Erreur dans compute_metrics: {str(e)}")
+            logger.error(f"Shape predictions: {predictions.shape if hasattr(predictions, 'shape') else type(predictions)}")
+            logger.error(f"Shape labels: {labels.shape if hasattr(labels, 'shape') else type(labels)}")
+            raise e
         
         # Nettoyer les textes
         decoded_preds = [pred.strip() for pred in decoded_preds]

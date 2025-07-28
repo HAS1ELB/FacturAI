@@ -1,0 +1,6 @@
+{
+  "model_type": "paddleocr",
+  "dataset_path": "Data\\fine_tuning\\datasets\\paddleocr\\dataset.json",
+  "dataset_dir": "Data\\fine_tuning\\datasets\\paddleocr",
+  "output_dir": "models/paddleocr_finetuned"
+}

@@ -1,0 +1,29 @@
+enhanced_complex_invoice_0001.png	Facture
+enhanced_complex_invoice_0001.png	N' Fact-4796
+enhanced_complex_invoice_0001.png	DESTINATAIRE
+enhanced_complex_invoice_0001.png	TANGERMEDIA
+enhanced_complex_invoice_0001.png	Te( 0682-47-77.56
+enhanced_complex_invoice_0001.png	[CE 00787011827100092
+enhanced_complex_invoice_0001.png	Date: 16,042025
+enhanced_complex_invoice_0001.png	Dascriplion
+enhanced_complex_invoice_0001.png	Prix Unit
+enhanced_complex_invoice_0001.png	4275.39 Dhs
+enhanced_complex_invoice_0001.png	610.77 Dhs
+enhanced_complex_invoice_0001.png	430452 Dhs
+enhanced_complex_invoice_0001.png	478.28 Dhs
+enhanced_complex_invoice_0001.png	1298.36 Dhs
+enhanced_complex_invoice_0001.png	649.18 Dhs
+enhanced_complex_invoice_0001.png	5679.78 Dhs
+enhanced_complex_invoice_0001.png	1893.26 Dhs
+enhanced_complex_invoice_0001.png	Folnalion jlolessionnelle
+enhanced_complex_invoice_0001.png	1785.72 Dhs
+enhanced_complex_invoice_0001.png	16071.48 Dhs
+enhanced_complex_invoice_0001.png	11581.74 Dhs
+enhanced_complex_invoice_0001.png	1286.86 Dhs
+enhanced_complex_invoice_0001.png	Folnalion plolessionnelle
+enhanced_complex_invoice_0001.png	1989.94 Dhs
+enhanced_complex_invoice_0001.png	9949.70 Dhs
+enhanced_complex_invoice_0001.png	Sous-loll HT:
+enhanced_complex_invoice_0001.png	53160.97 Dhs
+enhanced_complex_invoice_0001.png	10632,19 Dhs
+enhanced_complex_invoice_0001.png	TOTAL TTC:

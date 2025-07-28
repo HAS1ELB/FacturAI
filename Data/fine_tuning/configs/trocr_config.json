@@ -1,0 +1,13 @@
+{
+  "model_type": "trocr",
+  "base_model": "microsoft/trocr-large-printed",
+  "dataset_path": "Data\\fine_tuning\\datasets\\trocr\\dataset.json",
+  "train_split_path": "Data\\fine_tuning\\datasets\\trocr\\train.json",
+  "val_split_path": "Data\\fine_tuning\\datasets\\trocr\\validation.json",
+  "test_split_path": "Data\\fine_tuning\\datasets\\trocr\\test.json",
+  "output_dir": "models/trocr_finetuned",
+  "epochs": 30,
+  "batch_size": 4,
+  "learning_rate": 5e-05,
+  "max_length": 512
+}

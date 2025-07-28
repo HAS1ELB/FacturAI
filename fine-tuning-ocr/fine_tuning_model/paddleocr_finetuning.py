@@ -629,7 +629,7 @@ def main():
     
     parser = argparse.ArgumentParser(description="Fine-tuning PaddleOCR pour factures")
     parser.add_argument('--dataset', required=True, help='Fichier dataset JSON')
-    parser.add_argument('--output_dir', default='models/paddleocr_finetuned', help='Dossier de sortie')
+    parser.add_argument('--output_dir', default='fine-tuning-ocr/models/paddleocr_finetuned', help='Dossier de sortie')
     
     args = parser.parse_args()
     
