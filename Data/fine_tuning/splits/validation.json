@@ -1,0 +1,732 @@
+[
+  {
+    "image_path": "Data\\processed_images\\enhanced_complex_invoice_0001.png",
+    "annotations": [
+      {
+        "text": "Facture",
+        "bbox": [
+          [
+            29,
+            39
+          ],
+          [
+            77,
+            39
+          ],
+          [
+            77,
+            55
+          ],
+          [
+            29,
+            55
+          ]
+        ],
+        "confidence": 0.8303860658909944,
+        "type": "header",
+        "zone_type": "header",
+        "enhanced_type": "document_type"
+      },
+      {
+        "text": "N' Fact-4796",
+        "bbox": [
+          [
+            27,
+            69
+          ],
+          [
+            99,
+            69
+          ],
+          [
+            99,
+            85
+          ],
+          [
+            27,
+            85
+          ]
+        ],
+        "confidence": 0.5635387423733292,
+        "type": "date",
+        "zone_type": "header",
+        "enhanced_type": "document_number"
+      },
+      {
+        "text": "DESTINATAIRE",
+        "bbox": [
+          [
+            949,
+            129
+          ],
+          [
+            1023,
+            129
+          ],
+          [
+            1023,
+            143
+          ],
+          [
+            949,
+            143
+          ]
+        ],
+        "confidence": 0.9188246454573195,
+        "type": "text",
+        "zone_type": "header",
+        "enhanced_type": "text"
+      },
+      {
+        "text": "TANGERMEDIA",
+        "bbox": [
+          [
+            949,
+            149
+          ],
+          [
+            1025,
+            149
+          ],
+          [
+            1025,
+            163
+          ],
+          [
+            949,
+            163
+          ]
+        ],
+        "confidence": 0.9385280353136346,
+        "type": "text",
+        "zone_type": "header",
+        "enhanced_type": "text"
+      },
+      {
+        "text": "Te( 0682-47-77.56",
+        "bbox": [
+          [
+            949,
+            179
+          ],
+          [
+            1041,
+            179
+          ],
+          [
+            1041,
+            193
+          ],
+          [
+            949,
+            193
+          ]
+        ],
+        "confidence": 0.7091992477716725,
+        "type": "phone",
+        "zone_type": "header",
+        "enhanced_type": "document_number"
+      },
+      {
+        "text": "[CE 00787011827100092",
+        "bbox": [
+          [
+            27,
+            195
+          ],
+          [
+            155,
+            195
+          ],
+          [
+            155,
+            209
+          ],
+          [
+            27,
+            209
+          ]
+        ],
+        "confidence": 0.989407762612418,
+        "type": "phone",
+        "zone_type": "header",
+        "enhanced_type": "phone"
+      },
+      {
+        "text": "Date: 16,042025",
+        "bbox": [
+          [
+            949,
+            209
+          ],
+          [
+            1031,
+            209
+          ],
+          [
+            1031,
+            223
+          ],
+          [
+            949,
+            223
+          ]
+        ],
+        "confidence": 0.5082587408880013,
+        "type": "phone",
+        "zone_type": "header",
+        "enhanced_type": "document_number"
+      },
+      {
+        "text": "Dascriplion",
+        "bbox": [
+          [
+            33,
+            285
+          ],
+          [
+            91,
+            285
+          ],
+          [
+            91,
+            299
+          ],
+          [
+            33,
+            299
+          ]
+        ],
+        "confidence": 0.9178114858978027,
+        "type": "text",
+        "zone_type": "header",
+        "enhanced_type": "text"
+      },
+      {
+        "text": "Prix Unit",
+        "bbox": [
+          [
+            363,
+            285
+          ],
+          [
+            409,
+            285
+          ],
+          [
+            409,
+            299
+          ],
+          [
+            363,
+            299
+          ]
+        ],
+        "confidence": 0.9433578919434195,
+        "type": "text",
+        "zone_type": "header",
+        "enhanced_type": "text"
+      },
+      {
+        "text": "4275.39 Dhs",
+        "bbox": [
+          [
+            463,
+            307
+          ],
+          [
+            527,
+            307
+          ],
+          [
+            527,
+            321
+          ],
+          [
+            463,
+            321
+          ]
+        ],
+        "confidence": 0.9723218674747478,
+        "type": "amount",
+        "zone_type": "header",
+        "enhanced_type": "document_number"
+      },
+      {
+        "text": "610.77 Dhs",
+        "bbox": [
+          [
+            363,
+            309
+          ],
+          [
+            421,
+            309
+          ],
+          [
+            421,
+            321
+          ],
+          [
+            363,
+            321
+          ]
+        ],
+        "confidence": 0.9855277412998115,
+        "type": "amount",
+        "zone_type": "header",
+        "enhanced_type": "document_number"
+      },
+      {
+        "text": "430452 Dhs",
+        "bbox": [
+          [
+            463,
+            327
+          ],
+          [
+            527,
+            327
+          ],
+          [
+            527,
+            341
+          ],
+          [
+            463,
+            341
+          ]
+        ],
+        "confidence": 0.9280983396371851,
+        "type": "amount",
+        "zone_type": "company_info",
+        "enhanced_type": "amount"
+      },
+      {
+        "text": "478.28 Dhs",
+        "bbox": [
+          [
+            363,
+            329
+          ],
+          [
+            421,
+            329
+          ],
+          [
+            421,
+            341
+          ],
+          [
+            363,
+            341
+          ]
+        ],
+        "confidence": 0.8469589593809396,
+        "type": "amount",
+        "zone_type": "company_info",
+        "enhanced_type": "amount"
+      },
+      {
+        "text": "1298.36 Dhs",
+        "bbox": [
+          [
+            465,
+            347
+          ],
+          [
+            527,
+            347
+          ],
+          [
+            527,
+            361
+          ],
+          [
+            465,
+            361
+          ]
+        ],
+        "confidence": 0.7338808110556433,
+        "type": "amount",
+        "zone_type": "company_info",
+        "enhanced_type": "amount"
+      },
+      {
+        "text": "649.18 Dhs",
+        "bbox": [
+          [
+            363,
+            349
+          ],
+          [
+            421,
+            349
+          ],
+          [
+            421,
+            361
+          ],
+          [
+            363,
+            361
+          ]
+        ],
+        "confidence": 0.846887131427723,
+        "type": "amount",
+        "zone_type": "company_info",
+        "enhanced_type": "amount"
+      },
+      {
+        "text": "5679.78 Dhs",
+        "bbox": [
+          [
+            463,
+            367
+          ],
+          [
+            527,
+            367
+          ],
+          [
+            527,
+            381
+          ],
+          [
+            463,
+            381
+          ]
+        ],
+        "confidence": 0.9757360917729343,
+        "type": "amount",
+        "zone_type": "company_info",
+        "enhanced_type": "amount"
+      },
+      {
+        "text": "1893.26 Dhs",
+        "bbox": [
+          [
+            365,
+            369
+          ],
+          [
+            427,
+            369
+          ],
+          [
+            427,
+            381
+          ],
+          [
+            365,
+            381
+          ]
+        ],
+        "confidence": 0.6465249807971654,
+        "type": "amount",
+        "zone_type": "company_info",
+        "enhanced_type": "amount"
+      },
+      {
+        "text": "Folnalion jlolessionnelle",
+        "bbox": [
+          [
+            33,
+            387
+          ],
+          [
+            157,
+            387
+          ],
+          [
+            157,
+            401
+          ],
+          [
+            33,
+            401
+          ]
+        ],
+        "confidence": 0.5511412986626539,
+        "type": "text",
+        "zone_type": "company_info",
+        "enhanced_type": "text"
+      },
+      {
+        "text": "1785.72 Dhs",
+        "bbox": [
+          [
+            365,
+            389
+          ],
+          [
+            427,
+            389
+          ],
+          [
+            427,
+            401
+          ],
+          [
+            365,
+            401
+          ]
+        ],
+        "confidence": 0.8439826820366412,
+        "type": "amount",
+        "zone_type": "company_info",
+        "enhanced_type": "amount"
+      },
+      {
+        "text": "16071.48 Dhs",
+        "bbox": [
+          [
+            463,
+            389
+          ],
+          [
+            533,
+            389
+          ],
+          [
+            533,
+            401
+          ],
+          [
+            463,
+            401
+          ]
+        ],
+        "confidence": 0.9509530784023845,
+        "type": "amount",
+        "zone_type": "company_info",
+        "enhanced_type": "amount"
+      },
+      {
+        "text": "11581.74 Dhs",
+        "bbox": [
+          [
+            463,
+            407
+          ],
+          [
+            533,
+            407
+          ],
+          [
+            533,
+            421
+          ],
+          [
+            463,
+            421
+          ]
+        ],
+        "confidence": 0.5771978557339467,
+        "type": "amount",
+        "zone_type": "company_info",
+        "enhanced_type": "amount"
+      },
+      {
+        "text": "1286.86 Dhs",
+        "bbox": [
+          [
+            365,
+            409
+          ],
+          [
+            427,
+            409
+          ],
+          [
+            427,
+            421
+          ],
+          [
+            365,
+            421
+          ]
+        ],
+        "confidence": 0.7795087041684874,
+        "type": "amount",
+        "zone_type": "company_info",
+        "enhanced_type": "amount"
+      },
+      {
+        "text": "Folnalion plolessionnelle",
+        "bbox": [
+          [
+            33,
+            427
+          ],
+          [
+            157,
+            427
+          ],
+          [
+            157,
+            441
+          ],
+          [
+            33,
+            441
+          ]
+        ],
+        "confidence": 0.7321275767701397,
+        "type": "text",
+        "zone_type": "company_info",
+        "enhanced_type": "text"
+      },
+      {
+        "text": "1989.94 Dhs",
+        "bbox": [
+          [
+            363,
+            427
+          ],
+          [
+            427,
+            427
+          ],
+          [
+            427,
+            441
+          ],
+          [
+            363,
+            441
+          ]
+        ],
+        "confidence": 0.975548893553716,
+        "type": "amount",
+        "zone_type": "company_info",
+        "enhanced_type": "amount"
+      },
+      {
+        "text": "9949.70 Dhs",
+        "bbox": [
+          [
+            463,
+            427
+          ],
+          [
+            527,
+            427
+          ],
+          [
+            527,
+            441
+          ],
+          [
+            463,
+            441
+          ]
+        ],
+        "confidence": 0.9916459689218154,
+        "type": "amount",
+        "zone_type": "company_info",
+        "enhanced_type": "amount"
+      },
+      {
+        "text": "Sous-loll HT:",
+        "bbox": [
+          [
+            999,
+            1549
+          ],
+          [
+            1065,
+            1549
+          ],
+          [
+            1065,
+            1563
+          ],
+          [
+            999,
+            1563
+          ]
+        ],
+        "confidence": 0.5464054853965304,
+        "type": "amount",
+        "zone_type": "footer",
+        "enhanced_type": "amount"
+      },
+      {
+        "text": "53160.97 Dhs",
+        "bbox": [
+          [
+            1099,
+            1549
+          ],
+          [
+            1169,
+            1549
+          ],
+          [
+            1169,
+            1563
+          ],
+          [
+            1099,
+            1563
+          ]
+        ],
+        "confidence": 0.9144694174771146,
+        "type": "amount",
+        "zone_type": "footer",
+        "enhanced_type": "amount"
+      },
+      {
+        "text": "10632,19 Dhs",
+        "bbox": [
+          [
+            1101,
+            1569
+          ],
+          [
+            1169,
+            1569
+          ],
+          [
+            1169,
+            1583
+          ],
+          [
+            1101,
+            1583
+          ]
+        ],
+        "confidence": 0.7437575031835935,
+        "type": "amount",
+        "zone_type": "footer",
+        "enhanced_type": "amount"
+      },
+      {
+        "text": "TOTAL TTC:",
+        "bbox": [
+          [
+            999,
+            1595
+          ],
+          [
+            1059,
+            1595
+          ],
+          [
+            1059,
+            1609
+          ],
+          [
+            999,
+            1609
+          ]
+        ],
+        "confidence": 0.514217764144561,
+        "type": "amount",
+        "zone_type": "footer",
+        "enhanced_type": "amount"
+      }
+    ]
+  }
+]

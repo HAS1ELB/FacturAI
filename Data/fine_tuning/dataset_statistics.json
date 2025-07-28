@@ -1,0 +1,16 @@
+{
+  "total_images": 7,
+  "total_annotations": 284,
+  "text_types": {
+    "header": 7,
+    "date": 16,
+    "text": 147,
+    "phone": 36,
+    "amount": 58,
+    "email": 9,
+    "number": 7,
+    "address": 4
+  },
+  "avg_confidence": 0.847023525071835,
+  "avg_annotations_per_image": 40.57142857142857
+}

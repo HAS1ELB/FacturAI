@@ -1,0 +1,6534 @@
+[
+  {
+    "image_path": "Data\\processed_images\\enhanced_complex_invoice_0001.png",
+    "text": "Facture",
+    "bbox": [
+      [
+        29,
+        39
+      ],
+      [
+        77,
+        39
+      ],
+      [
+        77,
+        55
+      ],
+      [
+        29,
+        55
+      ]
+    ],
+    "confidence": 0.8303860658909944
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_complex_invoice_0001.png",
+    "text": "N' Fact-4796",
+    "bbox": [
+      [
+        27,
+        69
+      ],
+      [
+        99,
+        69
+      ],
+      [
+        99,
+        85
+      ],
+      [
+        27,
+        85
+      ]
+    ],
+    "confidence": 0.5635387423733292
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_complex_invoice_0001.png",
+    "text": "DESTINATAIRE",
+    "bbox": [
+      [
+        949,
+        129
+      ],
+      [
+        1023,
+        129
+      ],
+      [
+        1023,
+        143
+      ],
+      [
+        949,
+        143
+      ]
+    ],
+    "confidence": 0.9188246454573195
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_complex_invoice_0001.png",
+    "text": "TANGERMEDIA",
+    "bbox": [
+      [
+        949,
+        149
+      ],
+      [
+        1025,
+        149
+      ],
+      [
+        1025,
+        163
+      ],
+      [
+        949,
+        163
+      ]
+    ],
+    "confidence": 0.9385280353136346
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_complex_invoice_0001.png",
+    "text": "Te( 0682-47-77.56",
+    "bbox": [
+      [
+        949,
+        179
+      ],
+      [
+        1041,
+        179
+      ],
+      [
+        1041,
+        193
+      ],
+      [
+        949,
+        193
+      ]
+    ],
+    "confidence": 0.7091992477716725
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_complex_invoice_0001.png",
+    "text": "[CE 00787011827100092",
+    "bbox": [
+      [
+        27,
+        195
+      ],
+      [
+        155,
+        195
+      ],
+      [
+        155,
+        209
+      ],
+      [
+        27,
+        209
+      ]
+    ],
+    "confidence": 0.989407762612418
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_complex_invoice_0001.png",
+    "text": "Date: 16,042025",
+    "bbox": [
+      [
+        949,
+        209
+      ],
+      [
+        1031,
+        209
+      ],
+      [
+        1031,
+        223
+      ],
+      [
+        949,
+        223
+      ]
+    ],
+    "confidence": 0.5082587408880013
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_complex_invoice_0001.png",
+    "text": "Dascriplion",
+    "bbox": [
+      [
+        33,
+        285
+      ],
+      [
+        91,
+        285
+      ],
+      [
+        91,
+        299
+      ],
+      [
+        33,
+        299
+      ]
+    ],
+    "confidence": 0.9178114858978027
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_complex_invoice_0001.png",
+    "text": "Prix Unit",
+    "bbox": [
+      [
+        363,
+        285
+      ],
+      [
+        409,
+        285
+      ],
+      [
+        409,
+        299
+      ],
+      [
+        363,
+        299
+      ]
+    ],
+    "confidence": 0.9433578919434195
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_complex_invoice_0001.png",
+    "text": "4275.39 Dhs",
+    "bbox": [
+      [
+        463,
+        307
+      ],
+      [
+        527,
+        307
+      ],
+      [
+        527,
+        321
+      ],
+      [
+        463,
+        321
+      ]
+    ],
+    "confidence": 0.9723218674747478
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_complex_invoice_0001.png",
+    "text": "610.77 Dhs",
+    "bbox": [
+      [
+        363,
+        309
+      ],
+      [
+        421,
+        309
+      ],
+      [
+        421,
+        321
+      ],
+      [
+        363,
+        321
+      ]
+    ],
+    "confidence": 0.9855277412998115
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_complex_invoice_0001.png",
+    "text": "430452 Dhs",
+    "bbox": [
+      [
+        463,
+        327
+      ],
+      [
+        527,
+        327
+      ],
+      [
+        527,
+        341
+      ],
+      [
+        463,
+        341
+      ]
+    ],
+    "confidence": 0.9280983396371851
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_complex_invoice_0001.png",
+    "text": "478.28 Dhs",
+    "bbox": [
+      [
+        363,
+        329
+      ],
+      [
+        421,
+        329
+      ],
+      [
+        421,
+        341
+      ],
+      [
+        363,
+        341
+      ]
+    ],
+    "confidence": 0.8469589593809396
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_complex_invoice_0001.png",
+    "text": "1298.36 Dhs",
+    "bbox": [
+      [
+        465,
+        347
+      ],
+      [
+        527,
+        347
+      ],
+      [
+        527,
+        361
+      ],
+      [
+        465,
+        361
+      ]
+    ],
+    "confidence": 0.7338808110556433
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_complex_invoice_0001.png",
+    "text": "649.18 Dhs",
+    "bbox": [
+      [
+        363,
+        349
+      ],
+      [
+        421,
+        349
+      ],
+      [
+        421,
+        361
+      ],
+      [
+        363,
+        361
+      ]
+    ],
+    "confidence": 0.846887131427723
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_complex_invoice_0001.png",
+    "text": "5679.78 Dhs",
+    "bbox": [
+      [
+        463,
+        367
+      ],
+      [
+        527,
+        367
+      ],
+      [
+        527,
+        381
+      ],
+      [
+        463,
+        381
+      ]
+    ],
+    "confidence": 0.9757360917729343
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_complex_invoice_0001.png",
+    "text": "1893.26 Dhs",
+    "bbox": [
+      [
+        365,
+        369
+      ],
+      [
+        427,
+        369
+      ],
+      [
+        427,
+        381
+      ],
+      [
+        365,
+        381
+      ]
+    ],
+    "confidence": 0.6465249807971654
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_complex_invoice_0001.png",
+    "text": "Folnalion jlolessionnelle",
+    "bbox": [
+      [
+        33,
+        387
+      ],
+      [
+        157,
+        387
+      ],
+      [
+        157,
+        401
+      ],
+      [
+        33,
+        401
+      ]
+    ],
+    "confidence": 0.5511412986626539
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_complex_invoice_0001.png",
+    "text": "1785.72 Dhs",
+    "bbox": [
+      [
+        365,
+        389
+      ],
+      [
+        427,
+        389
+      ],
+      [
+        427,
+        401
+      ],
+      [
+        365,
+        401
+      ]
+    ],
+    "confidence": 0.8439826820366412
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_complex_invoice_0001.png",
+    "text": "16071.48 Dhs",
+    "bbox": [
+      [
+        463,
+        389
+      ],
+      [
+        533,
+        389
+      ],
+      [
+        533,
+        401
+      ],
+      [
+        463,
+        401
+      ]
+    ],
+    "confidence": 0.9509530784023845
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_complex_invoice_0001.png",
+    "text": "11581.74 Dhs",
+    "bbox": [
+      [
+        463,
+        407
+      ],
+      [
+        533,
+        407
+      ],
+      [
+        533,
+        421
+      ],
+      [
+        463,
+        421
+      ]
+    ],
+    "confidence": 0.5771978557339467
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_complex_invoice_0001.png",
+    "text": "1286.86 Dhs",
+    "bbox": [
+      [
+        365,
+        409
+      ],
+      [
+        427,
+        409
+      ],
+      [
+        427,
+        421
+      ],
+      [
+        365,
+        421
+      ]
+    ],
+    "confidence": 0.7795087041684874
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_complex_invoice_0001.png",
+    "text": "Folnalion plolessionnelle",
+    "bbox": [
+      [
+        33,
+        427
+      ],
+      [
+        157,
+        427
+      ],
+      [
+        157,
+        441
+      ],
+      [
+        33,
+        441
+      ]
+    ],
+    "confidence": 0.7321275767701397
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_complex_invoice_0001.png",
+    "text": "1989.94 Dhs",
+    "bbox": [
+      [
+        363,
+        427
+      ],
+      [
+        427,
+        427
+      ],
+      [
+        427,
+        441
+      ],
+      [
+        363,
+        441
+      ]
+    ],
+    "confidence": 0.975548893553716
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_complex_invoice_0001.png",
+    "text": "9949.70 Dhs",
+    "bbox": [
+      [
+        463,
+        427
+      ],
+      [
+        527,
+        427
+      ],
+      [
+        527,
+        441
+      ],
+      [
+        463,
+        441
+      ]
+    ],
+    "confidence": 0.9916459689218154
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_complex_invoice_0001.png",
+    "text": "Sous-loll HT:",
+    "bbox": [
+      [
+        999,
+        1549
+      ],
+      [
+        1065,
+        1549
+      ],
+      [
+        1065,
+        1563
+      ],
+      [
+        999,
+        1563
+      ]
+    ],
+    "confidence": 0.5464054853965304
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_complex_invoice_0001.png",
+    "text": "53160.97 Dhs",
+    "bbox": [
+      [
+        1099,
+        1549
+      ],
+      [
+        1169,
+        1549
+      ],
+      [
+        1169,
+        1563
+      ],
+      [
+        1099,
+        1563
+      ]
+    ],
+    "confidence": 0.9144694174771146
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_complex_invoice_0001.png",
+    "text": "10632,19 Dhs",
+    "bbox": [
+      [
+        1101,
+        1569
+      ],
+      [
+        1169,
+        1569
+      ],
+      [
+        1169,
+        1583
+      ],
+      [
+        1101,
+        1583
+      ]
+    ],
+    "confidence": 0.7437575031835935
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_complex_invoice_0001.png",
+    "text": "TOTAL TTC:",
+    "bbox": [
+      [
+        999,
+        1595
+      ],
+      [
+        1059,
+        1595
+      ],
+      [
+        1059,
+        1609
+      ],
+      [
+        999,
+        1609
+      ]
+    ],
+    "confidence": 0.514217764144561
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_complex_invoice_0002.png",
+    "text": "EMIETTEUR",
+    "bbox": [
+      [
+        29,
+        129
+      ],
+      [
+        87,
+        129
+      ],
+      [
+        87,
+        143
+      ],
+      [
+        29,
+        143
+      ]
+    ],
+    "confidence": 0.6515250020493185
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_complex_invoice_0002.png",
+    "text": "DESTNATAIAE",
+    "bbox": [
+      [
+        949,
+        129
+      ],
+      [
+        1023,
+        129
+      ],
+      [
+        1023,
+        143
+      ],
+      [
+        949,
+        143
+      ]
+    ],
+    "confidence": 0.7465624076484524
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_complex_invoice_0002.png",
+    "text": "FES TECHNOLOGIES",
+    "bbox": [
+      [
+        29,
+        149
+      ],
+      [
+        131,
+        149
+      ],
+      [
+        131,
+        163
+      ],
+      [
+        29,
+        163
+      ]
+    ],
+    "confidence": 0.934933501542587
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_complex_invoice_0002.png",
+    "text": "ENTREPRISE CASAELANCA SERVICES",
+    "bbox": [
+      [
+        949,
+        149
+      ],
+      [
+        1127,
+        149
+      ],
+      [
+        1127,
+        163
+      ],
+      [
+        949,
+        163
+      ]
+    ],
+    "confidence": 0.6982172145267821
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_complex_invoice_0002.png",
+    "text": "Tet0751-7558-63",
+    "bbox": [
+      [
+        949,
+        179
+      ],
+      [
+        1041,
+        179
+      ],
+      [
+        1041,
+        193
+      ],
+      [
+        949,
+        193
+      ]
+    ],
+    "confidence": 0.8662989087096953
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_complex_invoice_0002.png",
+    "text": "Tet 0649-21-25-23",
+    "bbox": [
+      [
+        29,
+        181
+      ],
+      [
+        121,
+        181
+      ],
+      [
+        121,
+        193
+      ],
+      [
+        29,
+        193
+      ]
+    ],
+    "confidence": 0.8098940064567683
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_complex_invoice_0002.png",
+    "text": "[CE 00589450454300038",
+    "bbox": [
+      [
+        29,
+        195
+      ],
+      [
+        155,
+        195
+      ],
+      [
+        155,
+        209
+      ],
+      [
+        29,
+        209
+      ]
+    ],
+    "confidence": 0.8098937936985807
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_complex_invoice_0002.png",
+    "text": "Echeanc: 08,07/2024",
+    "bbox": [
+      [
+        949,
+        225
+      ],
+      [
+        1059,
+        225
+      ],
+      [
+        1059,
+        239
+      ],
+      [
+        949,
+        239
+      ]
+    ],
+    "confidence": 0.8514827367282453
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_complex_invoice_0002.png",
+    "text": "Dascriptian",
+    "bbox": [
+      [
+        33,
+        285
+      ],
+      [
+        91,
+        285
+      ],
+      [
+        91,
+        299
+      ],
+      [
+        33,
+        299
+      ]
+    ],
+    "confidence": 0.618798502166013
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_complex_invoice_0002.png",
+    "text": "Total\"",
+    "bbox": [
+      [
+        465,
+        285
+      ],
+      [
+        493,
+        285
+      ],
+      [
+        493,
+        299
+      ],
+      [
+        465,
+        299
+      ]
+    ],
+    "confidence": 0.7748985877422647
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_complex_invoice_0002.png",
+    "text": "Installation resju",
+    "bbox": [
+      [
+        33,
+        309
+      ],
+      [
+        121,
+        309
+      ],
+      [
+        121,
+        321
+      ],
+      [
+        33,
+        321
+      ]
+    ],
+    "confidence": 0.7488861827828824
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_complex_invoice_0002.png",
+    "text": "636.41 Dhs",
+    "bbox": [
+      [
+        363,
+        309
+      ],
+      [
+        421,
+        309
+      ],
+      [
+        421,
+        321
+      ],
+      [
+        363,
+        321
+      ]
+    ],
+    "confidence": 0.632264752850985
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_complex_invoice_0002.png",
+    "text": "5727.69 Dhs",
+    "bbox": [
+      [
+        463,
+        309
+      ],
+      [
+        527,
+        309
+      ],
+      [
+        527,
+        323
+      ],
+      [
+        463,
+        323
+      ]
+    ],
+    "confidence": 0.9552630902963631
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_complex_invoice_0002.png",
+    "text": "1145.48 Dhs",
+    "bbox": [
+      [
+        365,
+        327
+      ],
+      [
+        427,
+        327
+      ],
+      [
+        427,
+        341
+      ],
+      [
+        365,
+        341
+      ]
+    ],
+    "confidence": 0.8352866386704889
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_complex_invoice_0002.png",
+    "text": "1145.48 Dhs",
+    "bbox": [
+      [
+        465,
+        327
+      ],
+      [
+        527,
+        327
+      ],
+      [
+        527,
+        341
+      ],
+      [
+        465,
+        341
+      ]
+    ],
+    "confidence": 0.8461196496102708
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_complex_invoice_0002.png",
+    "text": "Audil securile",
+    "bbox": [
+      [
+        35,
+        329
+      ],
+      [
+        103,
+        329
+      ],
+      [
+        103,
+        341
+      ],
+      [
+        35,
+        341
+      ]
+    ],
+    "confidence": 0.6661021695926528
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_complex_invoice_0002.png",
+    "text": "8575.91 Dhs",
+    "bbox": [
+      [
+        463,
+        347
+      ],
+      [
+        527,
+        347
+      ],
+      [
+        527,
+        361
+      ],
+      [
+        463,
+        361
+      ]
+    ],
+    "confidence": 0.9777757955193301
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_complex_invoice_0002.png",
+    "text": "Audit securile",
+    "bbox": [
+      [
+        35,
+        349
+      ],
+      [
+        103,
+        349
+      ],
+      [
+        103,
+        361
+      ],
+      [
+        35,
+        361
+      ]
+    ],
+    "confidence": 0.5933628989112117
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_complex_invoice_0002.png",
+    "text": "1225.13 Dhs",
+    "bbox": [
+      [
+        365,
+        349
+      ],
+      [
+        427,
+        349
+      ],
+      [
+        427,
+        361
+      ],
+      [
+        365,
+        361
+      ]
+    ],
+    "confidence": 0.8524454358543533
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_complex_invoice_0002.png",
+    "text": "Marketing digital",
+    "bbox": [
+      [
+        34,
+        366
+      ],
+      [
+        119,
+        366
+      ],
+      [
+        119,
+        383
+      ],
+      [
+        34,
+        383
+      ]
+    ],
+    "confidence": 0.5693868525405665
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_complex_invoice_0002.png",
+    "text": "459.10 Dhs",
+    "bbox": [
+      [
+        365,
+        367
+      ],
+      [
+        421,
+        367
+      ],
+      [
+        421,
+        381
+      ],
+      [
+        365,
+        381
+      ]
+    ],
+    "confidence": 0.703534355900047
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_complex_invoice_0002.png",
+    "text": "387280 Dhs",
+    "bbox": [
+      [
+        463,
+        367
+      ],
+      [
+        527,
+        367
+      ],
+      [
+        527,
+        381
+      ],
+      [
+        463,
+        381
+      ]
+    ],
+    "confidence": 0.9177904928282374
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_complex_invoice_0002.png",
+    "text": "1873.55 Dhs",
+    "bbox": [
+      [
+        365,
+        387
+      ],
+      [
+        427,
+        387
+      ],
+      [
+        427,
+        401
+      ],
+      [
+        365,
+        401
+      ]
+    ],
+    "confidence": 0.9857177776321021
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_complex_invoice_0002.png",
+    "text": "3747.10 Dhs",
+    "bbox": [
+      [
+        463,
+        387
+      ],
+      [
+        527,
+        387
+      ],
+      [
+        527,
+        401
+      ],
+      [
+        463,
+        401
+      ]
+    ],
+    "confidence": 0.7864593708362356
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_complex_invoice_0002.png",
+    "text": "Conception @raphique",
+    "bbox": [
+      [
+        33,
+        389
+      ],
+      [
+        143,
+        389
+      ],
+      [
+        143,
+        403
+      ],
+      [
+        33,
+        403
+      ]
+    ],
+    "confidence": 0.7795341755480432
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_complex_invoice_0002.png",
+    "text": "Hebergementveb",
+    "bbox": [
+      [
+        34,
+        406
+      ],
+      [
+        127,
+        406
+      ],
+      [
+        127,
+        424
+      ],
+      [
+        34,
+        424
+      ]
+    ],
+    "confidence": 0.7016865362953456
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_complex_invoice_0002.png",
+    "text": "4140.72 Dhs",
+    "bbox": [
+      [
+        465,
+        407
+      ],
+      [
+        527,
+        407
+      ],
+      [
+        527,
+        421
+      ],
+      [
+        465,
+        421
+      ]
+    ],
+    "confidence": 0.9643644723408794
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_complex_invoice_0002.png",
+    "text": "1380.24 Dhs",
+    "bbox": [
+      [
+        365,
+        409
+      ],
+      [
+        427,
+        409
+      ],
+      [
+        427,
+        421
+      ],
+      [
+        365,
+        421
+      ]
+    ],
+    "confidence": 0.9637972820201038
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_complex_invoice_0002.png",
+    "text": "Hebergementveb",
+    "bbox": [
+      [
+        34,
+        426
+      ],
+      [
+        127,
+        426
+      ],
+      [
+        127,
+        444
+      ],
+      [
+        34,
+        444
+      ]
+    ],
+    "confidence": 0.6849978813116891
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_complex_invoice_0002.png",
+    "text": "335.53 Dhs",
+    "bbox": [
+      [
+        363,
+        427
+      ],
+      [
+        421,
+        427
+      ],
+      [
+        421,
+        441
+      ],
+      [
+        363,
+        441
+      ]
+    ],
+    "confidence": 0.9446083612080537
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_complex_invoice_0002.png",
+    "text": "1342.12 Dhs",
+    "bbox": [
+      [
+        465,
+        429
+      ],
+      [
+        527,
+        429
+      ],
+      [
+        527,
+        441
+      ],
+      [
+        465,
+        441
+      ]
+    ],
+    "confidence": 0.8824445962519525
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_complex_invoice_0002.png",
+    "text": "Reelerencement SEO",
+    "bbox": [
+      [
+        35,
+        447
+      ],
+      [
+        139,
+        447
+      ],
+      [
+        139,
+        461
+      ],
+      [
+        35,
+        461
+      ]
+    ],
+    "confidence": 0.8711500230940595
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_complex_invoice_0002.png",
+    "text": "359.12 Dhs",
+    "bbox": [
+      [
+        463,
+        447
+      ],
+      [
+        521,
+        447
+      ],
+      [
+        521,
+        461
+      ],
+      [
+        463,
+        461
+      ]
+    ],
+    "confidence": 0.909406126228901
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_complex_invoice_0002.png",
+    "text": "89.78 Dhs",
+    "bbox": [
+      [
+        363,
+        449
+      ],
+      [
+        415,
+        449
+      ],
+      [
+        415,
+        461
+      ],
+      [
+        363,
+        461
+      ]
+    ],
+    "confidence": 0.7547946025708961
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_complex_invoice_0002.png",
+    "text": "28710.94 Dls",
+    "bbox": [
+      [
+        1099,
+        1549
+      ],
+      [
+        1167,
+        1549
+      ],
+      [
+        1167,
+        1563
+      ],
+      [
+        1099,
+        1563
+      ]
+    ],
+    "confidence": 0.7272067811132478
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_complex_invoice_0002.png",
+    "text": "Sous-loblHI",
+    "bbox": [
+      [
+        999,
+        1551
+      ],
+      [
+        1065,
+        1551
+      ],
+      [
+        1065,
+        1563
+      ],
+      [
+        999,
+        1563
+      ]
+    ],
+    "confidence": 0.7740703060481182
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_complex_invoice_0002.png",
+    "text": "5742.19 Dhs",
+    "bbox": [
+      [
+        1097,
+        1569
+      ],
+      [
+        1161,
+        1569
+      ],
+      [
+        1161,
+        1583
+      ],
+      [
+        1097,
+        1583
+      ]
+    ],
+    "confidence": 0.6818670510973361
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_complex_invoice_0002.png",
+    "text": "TOTAL TTC",
+    "bbox": [
+      [
+        999,
+        1595
+      ],
+      [
+        1057,
+        1595
+      ],
+      [
+        1057,
+        1609
+      ],
+      [
+        999,
+        1609
+      ]
+    ],
+    "confidence": 0.9127363471480754
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_complex_invoice_0002.png",
+    "text": "34453,13 Dhs",
+    "bbox": [
+      [
+        1097,
+        1595
+      ],
+      [
+        1167,
+        1595
+      ],
+      [
+        1167,
+        1609
+      ],
+      [
+        1097,
+        1609
+      ]
+    ],
+    "confidence": 0.8557636891658347
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_F30.png",
+    "text": "Facture",
+    "bbox": [
+      [
+        595,
+        47
+      ],
+      [
+        723,
+        47
+      ],
+      [
+        723,
+        83
+      ],
+      [
+        595,
+        83
+      ]
+    ],
+    "confidence": 0.9873335085220593
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_F30.png",
+    "text": "WeCount",
+    "bbox": [
+      [
+        35,
+        50
+      ],
+      [
+        161,
+        50
+      ],
+      [
+        161,
+        80
+      ],
+      [
+        35,
+        80
+      ]
+    ],
+    "confidence": 0.99981012450274
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_F30.png",
+    "text": "Pour facture n",
+    "bbox": [
+      [
+        594,
+        80
+      ],
+      [
+        738,
+        80
+      ],
+      [
+        738,
+        106
+      ],
+      [
+        594,
+        106
+      ]
+    ],
+    "confidence": 0.9671512742270353
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_F30.png",
+    "text": "123456789",
+    "bbox": [
+      [
+        748,
+        80
+      ],
+      [
+        862,
+        80
+      ],
+      [
+        862,
+        108
+      ],
+      [
+        748,
+        108
+      ]
+    ],
+    "confidence": 0.99889005214337
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_F30.png",
+    "text": "29.05.2021",
+    "bbox": [
+      [
+        404,
+        202
+      ],
+      [
+        520,
+        202
+      ],
+      [
+        520,
+        232
+      ],
+      [
+        404,
+        232
+      ]
+    ],
+    "confidence": 0.670993750214606
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_F30.png",
+    "text": "Date de facturation",
+    "bbox": [
+      [
+        200,
+        204
+      ],
+      [
+        385,
+        204
+      ],
+      [
+        385,
+        230
+      ],
+      [
+        200,
+        230
+      ]
+    ],
+    "confidence": 0.8219574639197876
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_F30.png",
+    "text": "Destinataire",
+    "bbox": [
+      [
+        830,
+        204
+      ],
+      [
+        974,
+        204
+      ],
+      [
+        974,
+        230
+      ],
+      [
+        830,
+        230
+      ]
+    ],
+    "confidence": 0.8785135873048436
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_F30.png",
+    "text": "28.06.2021",
+    "bbox": [
+      [
+        404,
+        228
+      ],
+      [
+        520,
+        228
+      ],
+      [
+        520,
+        258
+      ],
+      [
+        404,
+        258
+      ]
+    ],
+    "confidence": 0.9254532397561737
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_F30.png",
+    "text": "Mon client préféré",
+    "bbox": [
+      [
+        830,
+        228
+      ],
+      [
+        1004,
+        228
+      ],
+      [
+        1004,
+        258
+      ],
+      [
+        830,
+        258
+      ]
+    ],
+    "confidence": 0.5944120176980097
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_F30.png",
+    "text": "Paiement effectué le",
+    "bbox": [
+      [
+        184,
+        230
+      ],
+      [
+        386,
+        230
+      ],
+      [
+        386,
+        256
+      ],
+      [
+        184,
+        256
+      ]
+    ],
+    "confidence": 0.989482428640427
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_F30.png",
+    "text": "Numéro de facture",
+    "bbox": [
+      [
+        206,
+        254
+      ],
+      [
+        386,
+        254
+      ],
+      [
+        386,
+        280
+      ],
+      [
+        206,
+        280
+      ]
+    ],
+    "confidence": 0.7444523962818947
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_F30.png",
+    "text": "123",
+    "bbox": [
+      [
+        404,
+        254
+      ],
+      [
+        444,
+        254
+      ],
+      [
+        444,
+        280
+      ],
+      [
+        404,
+        280
+      ]
+    ],
+    "confidence": 0.9999331707237179
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_F30.png",
+    "text": "Dr. House",
+    "bbox": [
+      [
+        830,
+        256
+      ],
+      [
+        928,
+        256
+      ],
+      [
+        928,
+        280
+      ],
+      [
+        830,
+        280
+      ]
+    ],
+    "confidence": 0.8281067054724579
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_F30.png",
+    "text": "Rue dela comptabilité",
+    "bbox": [
+      [
+        830,
+        278
+      ],
+      [
+        1042,
+        278
+      ],
+      [
+        1042,
+        309
+      ],
+      [
+        830,
+        309
+      ]
+    ],
+    "confidence": 0.9734631972655333
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_F30.png",
+    "text": "Numéro de client",
+    "bbox": [
+      [
+        222,
+        280
+      ],
+      [
+        388,
+        280
+      ],
+      [
+        388,
+        306
+      ],
+      [
+        222,
+        306
+      ]
+    ],
+    "confidence": 0.7784334248948395
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_F30.png",
+    "text": "Emis Par",
+    "bbox": [
+      [
+        302,
+        304
+      ],
+      [
+        388,
+        304
+      ],
+      [
+        388,
+        332
+      ],
+      [
+        302,
+        332
+      ]
+    ],
+    "confidence": 0.6072526345829634
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_F30.png",
+    "text": "Xavier Giard",
+    "bbox": [
+      [
+        404,
+        304
+      ],
+      [
+        526,
+        304
+      ],
+      [
+        526,
+        330
+      ],
+      [
+        404,
+        330
+      ]
+    ],
+    "confidence": 0.9708049426238848
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_F30.png",
+    "text": "1208Genève",
+    "bbox": [
+      [
+        828,
+        304
+      ],
+      [
+        960,
+        304
+      ],
+      [
+        960,
+        330
+      ],
+      [
+        828,
+        330
+      ]
+    ],
+    "confidence": 0.9992703650876497
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_F30.png",
+    "text": "Contact client",
+    "bbox": [
+      [
+        248,
+        328
+      ],
+      [
+        388,
+        328
+      ],
+      [
+        388,
+        354
+      ],
+      [
+        248,
+        354
+      ]
+    ],
+    "confidence": 0.9994912101594893
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_F30.png",
+    "text": "MLclient XYZ",
+    "bbox": [
+      [
+        404,
+        328
+      ],
+      [
+        552,
+        328
+      ],
+      [
+        552,
+        356
+      ],
+      [
+        404,
+        356
+      ]
+    ],
+    "confidence": 0.9789646398034373
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_F30.png",
+    "text": "Suisse",
+    "bbox": [
+      [
+        830,
+        328
+      ],
+      [
+        900,
+        328
+      ],
+      [
+        900,
+        354
+      ],
+      [
+        830,
+        354
+      ]
+    ],
+    "confidence": 0.9999262202334758
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_F30.png",
+    "text": "Date delaventelprestation",
+    "bbox": [
+      [
+        128,
+        352
+      ],
+      [
+        386,
+        352
+      ],
+      [
+        386,
+        382
+      ],
+      [
+        128,
+        382
+      ]
+    ],
+    "confidence": 0.9352459488841895
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_F30.png",
+    "text": "14.05.2021",
+    "bbox": [
+      [
+        404,
+        352
+      ],
+      [
+        514,
+        352
+      ],
+      [
+        514,
+        378
+      ],
+      [
+        404,
+        378
+      ]
+    ],
+    "confidence": 0.6278062034540106
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_F30.png",
+    "text": "Infos additionnelles",
+    "bbox": [
+      [
+        36,
+        546
+      ],
+      [
+        264,
+        546
+      ],
+      [
+        264,
+        572
+      ],
+      [
+        36,
+        572
+      ]
+    ],
+    "confidence": 0.9913721998502752
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_F30.png",
+    "text": "Merci davoir choisi Mon Entreprise pour nos services",
+    "bbox": [
+      [
+        36,
+        597
+      ],
+      [
+        530,
+        597
+      ],
+      [
+        530,
+        627
+      ],
+      [
+        36,
+        627
+      ]
+    ],
+    "confidence": 0.8333882915078099
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_F30.png",
+    "text": "Service Après Vente",
+    "bbox": [
+      [
+        36,
+        620
+      ],
+      [
+        234,
+        620
+      ],
+      [
+        234,
+        651
+      ],
+      [
+        36,
+        651
+      ]
+    ],
+    "confidence": 0.7151878355069734
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_F30.png",
+    "text": "Garantie Ian.",
+    "bbox": [
+      [
+        242,
+        624
+      ],
+      [
+        376,
+        624
+      ],
+      [
+        376,
+        648
+      ],
+      [
+        242,
+        648
+      ]
+    ],
+    "confidence": 0.666240293861845
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_F30.png",
+    "text": "Description",
+    "bbox": [
+      [
+        35,
+        693
+      ],
+      [
+        172,
+        693
+      ],
+      [
+        172,
+        723
+      ],
+      [
+        35,
+        723
+      ]
+    ],
+    "confidence": 0.9867698167249472
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_F30.png",
+    "text": "Quantités",
+    "bbox": [
+      [
+        375,
+        693
+      ],
+      [
+        496,
+        693
+      ],
+      [
+        496,
+        722
+      ],
+      [
+        375,
+        722
+      ]
+    ],
+    "confidence": 0.9983584102406611
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_F30.png",
+    "text": "TA",
+    "bbox": [
+      [
+        904,
+        694
+      ],
+      [
+        960,
+        694
+      ],
+      [
+        960,
+        720
+      ],
+      [
+        904,
+        720
+      ]
+    ],
+    "confidence": 0.7043531684936201
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_F30.png",
+    "text": "115.50CHF",
+    "bbox": [
+      [
+        840,
+        720
+      ],
+      [
+        950,
+        720
+      ],
+      [
+        950,
+        746
+      ],
+      [
+        840,
+        746
+      ]
+    ],
+    "confidence": 0.681922634538204
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_F30.png",
+    "text": "1615.50CHF",
+    "bbox": [
+      [
+        1038,
+        720
+      ],
+      [
+        1164,
+        720
+      ],
+      [
+        1164,
+        748
+      ],
+      [
+        1038,
+        748
+      ]
+    ],
+    "confidence": 0.6441312413949845
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_F30.png",
+    "text": "Main-douvre",
+    "bbox": [
+      [
+        36,
+        722
+      ],
+      [
+        174,
+        722
+      ],
+      [
+        174,
+        746
+      ],
+      [
+        36,
+        746
+      ]
+    ],
+    "confidence": 0.9462739303017975
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_F30.png",
+    "text": "25",
+    "bbox": [
+      [
+        428,
+        722
+      ],
+      [
+        460,
+        722
+      ],
+      [
+        460,
+        746
+      ],
+      [
+        428,
+        746
+      ]
+    ],
+    "confidence": 0.9480388653470694
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_F30.png",
+    "text": "Produit",
+    "bbox": [
+      [
+        36,
+        744
+      ],
+      [
+        112,
+        744
+      ],
+      [
+        112,
+        770
+      ],
+      [
+        36,
+        770
+      ]
+    ],
+    "confidence": 0.9997744370630728
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_F30.png",
+    "text": "103.99 CHF",
+    "bbox": [
+      [
+        618,
+        744
+      ],
+      [
+        732,
+        744
+      ],
+      [
+        732,
+        770
+      ],
+      [
+        618,
+        770
+      ]
+    ],
+    "confidence": 0.9622011981854919
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_F30.png",
+    "text": "1039.J0CHF",
+    "bbox": [
+      [
+        1034,
+        744
+      ],
+      [
+        1164,
+        744
+      ],
+      [
+        1164,
+        770
+      ],
+      [
+        1034,
+        770
+      ]
+    ],
+    "confidence": 0.6943227921118402
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_F30.png",
+    "text": "10",
+    "bbox": [
+      [
+        430,
+        746
+      ],
+      [
+        458,
+        746
+      ],
+      [
+        458,
+        770
+      ],
+      [
+        430,
+        770
+      ]
+    ],
+    "confidence": 0.9807114783084478
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_F30.png",
+    "text": "Pce.",
+    "bbox": [
+      [
+        520,
+        750
+      ],
+      [
+        570,
+        750
+      ],
+      [
+        570,
+        774
+      ],
+      [
+        520,
+        774
+      ]
+    ],
+    "confidence": 0.8288030624389648
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_F30.png",
+    "text": "Total HT",
+    "bbox": [
+      [
+        748,
+        1232
+      ],
+      [
+        848,
+        1232
+      ],
+      [
+        848,
+        1260
+      ],
+      [
+        748,
+        1260
+      ]
+    ],
+    "confidence": 0.8844510350812916
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_F30.png",
+    "text": "2539.J0 CHF",
+    "bbox": [
+      [
+        1028,
+        1232
+      ],
+      [
+        1164,
+        1232
+      ],
+      [
+        1164,
+        1262
+      ],
+      [
+        1028,
+        1262
+      ]
+    ],
+    "confidence": 0.6521689455564185
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_F30.png",
+    "text": "Iva",
+    "bbox": [
+      [
+        746,
+        1260
+      ],
+      [
+        800,
+        1260
+      ],
+      [
+        800,
+        1286
+      ],
+      [
+        746,
+        1286
+      ]
+    ],
+    "confidence": 0.8101744498550526
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_F30.png",
+    "text": "115 SOCHF",
+    "bbox": [
+      [
+        1054,
+        1260
+      ],
+      [
+        1164,
+        1260
+      ],
+      [
+        1164,
+        1284
+      ],
+      [
+        1054,
+        1284
+      ]
+    ],
+    "confidence": 0.816851595151593
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_F30.png",
+    "text": "Total TTC",
+    "bbox": [
+      [
+        750,
+        1312
+      ],
+      [
+        882,
+        1312
+      ],
+      [
+        882,
+        1342
+      ],
+      [
+        750,
+        1342
+      ]
+    ],
+    "confidence": 0.9904756996756214
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_F30.png",
+    "text": "2 655.40 CHF",
+    "bbox": [
+      [
+        994,
+        1312
+      ],
+      [
+        1166,
+        1312
+      ],
+      [
+        1166,
+        1342
+      ],
+      [
+        994,
+        1342
+      ]
+    ],
+    "confidence": 0.7849195970265561
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_F30.png",
+    "text": "Coordonnées bancaires",
+    "bbox": [
+      [
+        830,
+        1444
+      ],
+      [
+        1084,
+        1444
+      ],
+      [
+        1084,
+        1470
+      ],
+      [
+        830,
+        1470
+      ]
+    ],
+    "confidence": 0.8781446826022965
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_F30.png",
+    "text": "YeCount",
+    "bbox": [
+      [
+        36,
+        1446
+      ],
+      [
+        138,
+        1446
+      ],
+      [
+        138,
+        1470
+      ],
+      [
+        36,
+        1470
+      ]
+    ],
+    "confidence": 0.7388669998947784
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_F30.png",
+    "text": "Contact",
+    "bbox": [
+      [
+        390,
+        1446
+      ],
+      [
+        480,
+        1446
+      ],
+      [
+        480,
+        1470
+      ],
+      [
+        390,
+        1470
+      ]
+    ],
+    "confidence": 0.6869323470850032
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_F30.png",
+    "text": "Ch. Des Chênes IOB",
+    "bbox": [
+      [
+        36,
+        1468
+      ],
+      [
+        214,
+        1468
+      ],
+      [
+        214,
+        1494
+      ],
+      [
+        36,
+        1494
+      ]
+    ],
+    "confidence": 0.631598082454216
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_F30.png",
+    "text": "Banque",
+    "bbox": [
+      [
+        828,
+        1469
+      ],
+      [
+        902,
+        1469
+      ],
+      [
+        902,
+        1497
+      ],
+      [
+        828,
+        1497
+      ]
+    ],
+    "confidence": 0.9980838111798382
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_F30.png",
+    "text": "Xavier Giard",
+    "bbox": [
+      [
+        390,
+        1470
+      ],
+      [
+        500,
+        1470
+      ],
+      [
+        500,
+        1494
+      ],
+      [
+        390,
+        1494
+      ]
+    ],
+    "confidence": 0.9995475349497557
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_F30.png",
+    "text": "BNP Paribas",
+    "bbox": [
+      [
+        964,
+        1470
+      ],
+      [
+        1084,
+        1470
+      ],
+      [
+        1084,
+        1494
+      ],
+      [
+        964,
+        1494
+      ]
+    ],
+    "confidence": 0.9950938373690987
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_F30.png",
+    "text": "Pully",
+    "bbox": [
+      [
+        75,
+        1491
+      ],
+      [
+        127,
+        1491
+      ],
+      [
+        127,
+        1523
+      ],
+      [
+        75,
+        1523
+      ]
+    ],
+    "confidence": 0.9998466199443903
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_F30.png",
+    "text": "Code banque",
+    "bbox": [
+      [
+        828,
+        1493
+      ],
+      [
+        949,
+        1493
+      ],
+      [
+        949,
+        1524
+      ],
+      [
+        828,
+        1524
+      ]
+    ],
+    "confidence": 0.9966019970528819
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_F30.png",
+    "text": "Téléphone +41 76 39124 37",
+    "bbox": [
+      [
+        390,
+        1494
+      ],
+      [
+        620,
+        1494
+      ],
+      [
+        620,
+        1522
+      ],
+      [
+        390,
+        1522
+      ]
+    ],
+    "confidence": 0.9121717082833151
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_F30.png",
+    "text": "12345678",
+    "bbox": [
+      [
+        962,
+        1518
+      ],
+      [
+        1050,
+        1518
+      ],
+      [
+        1050,
+        1544
+      ],
+      [
+        962,
+        1544
+      ]
+    ],
+    "confidence": 0.9437736160921135
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_F30.png",
+    "text": "Suisse",
+    "bbox": [
+      [
+        36,
+        1520
+      ],
+      [
+        100,
+        1520
+      ],
+      [
+        100,
+        1544
+      ],
+      [
+        36,
+        1544
+      ]
+    ],
+    "confidence": 0.9997582158306483
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_F30.png",
+    "text": "N de compte",
+    "bbox": [
+      [
+        828,
+        1520
+      ],
+      [
+        948,
+        1520
+      ],
+      [
+        948,
+        1546
+      ],
+      [
+        828,
+        1546
+      ]
+    ],
+    "confidence": 0.6995658656310202
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_F30.png",
+    "text": "CH58 23411240 9823 $",
+    "bbox": [
+      [
+        964,
+        1542
+      ],
+      [
+        1162,
+        1542
+      ],
+      [
+        1162,
+        1568
+      ],
+      [
+        964,
+        1568
+      ]
+    ],
+    "confidence": 0.8613121683859675
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_F30.png",
+    "text": "wwwwecount swiss",
+    "bbox": [
+      [
+        388,
+        1544
+      ],
+      [
+        560,
+        1544
+      ],
+      [
+        560,
+        1568
+      ],
+      [
+        388,
+        1568
+      ]
+    ],
+    "confidence": 0.8081503495491101
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_F30.png",
+    "text": "IBAN",
+    "bbox": [
+      [
+        828,
+        1544
+      ],
+      [
+        884,
+        1544
+      ],
+      [
+        884,
+        1568
+      ],
+      [
+        828,
+        1568
+      ]
+    ],
+    "confidence": 0.6163533329963684
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_F30.png",
+    "text": "FRHHCXXIOOI",
+    "bbox": [
+      [
+        964,
+        1568
+      ],
+      [
+        1100,
+        1568
+      ],
+      [
+        1100,
+        1592
+      ],
+      [
+        964,
+        1592
+      ]
+    ],
+    "confidence": 0.6978564224100235
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_F47.png",
+    "text": "Muslque",
+    "bbox": [
+      [
+        140,
+        31
+      ],
+      [
+        185,
+        31
+      ],
+      [
+        185,
+        48
+      ],
+      [
+        140,
+        48
+      ]
+    ],
+    "confidence": 0.9862560793525091
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_F47.png",
+    "text": "La Bolto",
+    "bbox": [
+      [
+        95,
+        33
+      ],
+      [
+        137,
+        33
+      ],
+      [
+        137,
+        45
+      ],
+      [
+        95,
+        45
+      ]
+    ],
+    "confidence": 0.8768647944671402
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_F47.png",
+    "text": "Facture N' 28",
+    "bbox": [
+      [
+        195,
+        215
+      ],
+      [
+        257,
+        215
+      ],
+      [
+        257,
+        227
+      ],
+      [
+        195,
+        227
+      ]
+    ],
+    "confidence": 0.9414852987696942
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_F47.png",
+    "text": "Pencussious",
+    "bbox": [
+      [
+        26,
+        282
+      ],
+      [
+        78,
+        282
+      ],
+      [
+        78,
+        290
+      ],
+      [
+        26,
+        290
+      ]
+    ],
+    "confidence": 0.5436307322373509
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_F47.png",
+    "text": "169,00",
+    "bbox": [
+      [
+        402,
+        346
+      ],
+      [
+        424,
+        346
+      ],
+      [
+        424,
+        354
+      ],
+      [
+        402,
+        354
+      ]
+    ],
+    "confidence": 0.5862925882353704
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_F47.png",
+    "text": "16 300,00",
+    "bbox": [
+      [
+        394,
+        458
+      ],
+      [
+        426,
+        458
+      ],
+      [
+        426,
+        466
+      ],
+      [
+        394,
+        466
+      ]
+    ],
+    "confidence": 0.6345256805233279
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_F47.png",
+    "text": "577507",
+    "bbox": [
+      [
+        68,
+        516
+      ],
+      [
+        96,
+        516
+      ],
+      [
+        96,
+        522
+      ],
+      [
+        68,
+        522
+      ]
+    ],
+    "confidence": 0.680902432966839
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_Facture-383309_page1.png",
+    "text": "genious",
+    "bbox": [
+      [
+        70,
+        91
+      ],
+      [
+        390,
+        91
+      ],
+      [
+        390,
+        212
+      ],
+      [
+        70,
+        212
+      ]
+    ],
+    "confidence": 0.6966141514247246
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_Facture-383309_page1.png",
+    "text": "Genious Communications SARL",
+    "bbox": [
+      [
+        461,
+        131
+      ],
+      [
+        731,
+        131
+      ],
+      [
+        731,
+        151
+      ],
+      [
+        461,
+        151
+      ]
+    ],
+    "confidence": 0.7562788833641904
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_Facture-383309_page1.png",
+    "text": "Villa 290. Assif B",
+    "bbox": [
+      [
+        461,
+        151
+      ],
+      [
+        611,
+        151
+      ],
+      [
+        611,
+        171
+      ],
+      [
+        461,
+        171
+      ]
+    ],
+    "confidence": 0.8022391788363721
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_Facture-383309_page1.png",
+    "text": "Code postal: 40 000",
+    "bbox": [
+      [
+        460,
+        168
+      ],
+      [
+        640,
+        168
+      ],
+      [
+        640,
+        194
+      ],
+      [
+        460,
+        194
+      ]
+    ],
+    "confidence": 0.8913881726649131
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_Facture-383309_page1.png",
+    "text": "Marrakech",
+    "bbox": [
+      [
+        651,
+        171
+      ],
+      [
+        747,
+        171
+      ],
+      [
+        747,
+        191
+      ],
+      [
+        651,
+        191
+      ]
+    ],
+    "confidence": 0.9999957481974866
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_Facture-383309_page1.png",
+    "text": "Maroc",
+    "bbox": [
+      [
+        761,
+        173
+      ],
+      [
+        815,
+        173
+      ],
+      [
+        815,
+        191
+      ],
+      [
+        761,
+        191
+      ]
+    ],
+    "confidence": 0.9999761694957807
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_Facture-383309_page1.png",
+    "text": "Beyondperceptions'",
+    "bbox": [
+      [
+        152,
+        180
+      ],
+      [
+        334,
+        180
+      ],
+      [
+        334,
+        206
+      ],
+      [
+        152,
+        206
+      ]
+    ],
+    "confidence": 0.9972995813820701
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_Facture-383309_page1.png",
+    "text": "Adressé à",
+    "bbox": [
+      [
+        490,
+        297
+      ],
+      [
+        636,
+        297
+      ],
+      [
+        636,
+        329
+      ],
+      [
+        490,
+        329
+      ]
+    ],
+    "confidence": 0.9986043704118353
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_Facture-383309_page1.png",
+    "text": "Eugin Clinic Casablanca (ICE",
+    "bbox": [
+      [
+        488,
+        328
+      ],
+      [
+        754,
+        328
+      ],
+      [
+        754,
+        354
+      ],
+      [
+        488,
+        354
+      ]
+    ],
+    "confidence": 0.9956901721742624
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_Facture-383309_page1.png",
+    "text": "003457223000019)",
+    "bbox": [
+      [
+        764,
+        328
+      ],
+      [
+        950,
+        328
+      ],
+      [
+        950,
+        352
+      ],
+      [
+        764,
+        352
+      ]
+    ],
+    "confidence": 0.9999645346074615
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_Facture-383309_page1.png",
+    "text": "Casablanca",
+    "bbox": [
+      [
+        488,
+        352
+      ],
+      [
+        598,
+        352
+      ],
+      [
+        598,
+        376
+      ],
+      [
+        488,
+        376
+      ]
+    ],
+    "confidence": 0.9999485424334051
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_Facture-383309_page1.png",
+    "text": "Casablanca, Casablanca-Settat, 20250",
+    "bbox": [
+      [
+        487,
+        374
+      ],
+      [
+        846,
+        374
+      ],
+      [
+        846,
+        400
+      ],
+      [
+        487,
+        400
+      ]
+    ],
+    "confidence": 0.8263614000112053
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_Facture-383309_page1.png",
+    "text": "Morocco",
+    "bbox": [
+      [
+        487,
+        397
+      ],
+      [
+        570,
+        397
+      ],
+      [
+        570,
+        423
+      ],
+      [
+        487,
+        423
+      ]
+    ],
+    "confidence": 0.999940208948003
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_Facture-383309_page1.png",
+    "text": "#383309",
+    "bbox": [
+      [
+        89,
+        537
+      ],
+      [
+        247,
+        537
+      ],
+      [
+        247,
+        573
+      ],
+      [
+        89,
+        573
+      ]
+    ],
+    "confidence": 0.9989013184355968
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_Facture-383309_page1.png",
+    "text": "166.80 Dhs",
+    "bbox": [
+      [
+        501,
+        545
+      ],
+      [
+        893,
+        545
+      ],
+      [
+        893,
+        613
+      ],
+      [
+        501,
+        613
+      ]
+    ],
+    "confidence": 0.6745252909547166
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_Facture-383309_page1.png",
+    "text": "PAYÉE",
+    "bbox": [
+      [
+        90,
+        572
+      ],
+      [
+        166,
+        572
+      ],
+      [
+        166,
+        598
+      ],
+      [
+        90,
+        598
+      ]
+    ],
+    "confidence": 0.9997477237887202
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_Facture-383309_page1.png",
+    "text": "Date de facturation: 15/01/2025",
+    "bbox": [
+      [
+        88,
+        598
+      ],
+      [
+        420,
+        598
+      ],
+      [
+        420,
+        624
+      ],
+      [
+        88,
+        624
+      ]
+    ],
+    "confidence": 0.985905142817066
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_Facture-383309_page1.png",
+    "text": "Descriptif",
+    "bbox": [
+      [
+        436,
+        730
+      ],
+      [
+        554,
+        730
+      ],
+      [
+        554,
+        758
+      ],
+      [
+        436,
+        758
+      ]
+    ],
+    "confidence": 0.7789292249937606
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_Facture-383309_page1.png",
+    "text": "Total",
+    "bbox": [
+      [
+        976,
+        732
+      ],
+      [
+        1038,
+        732
+      ],
+      [
+        1038,
+        756
+      ],
+      [
+        976,
+        756
+      ]
+    ],
+    "confidence": 0.9997942131226946
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_Facture-383309_page1.png",
+    "text": "Enregistrement de domaine",
+    "bbox": [
+      [
+        87,
+        765
+      ],
+      [
+        376,
+        765
+      ],
+      [
+        376,
+        793
+      ],
+      [
+        87,
+        793
+      ]
+    ],
+    "confidence": 0.9979186978379886
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_Facture-383309_page1.png",
+    "text": "1 An(s) (15/01/2025",
+    "bbox": [
+      [
+        506,
+        765
+      ],
+      [
+        711,
+        765
+      ],
+      [
+        711,
+        792
+      ],
+      [
+        506,
+        792
+      ]
+    ],
+    "confidence": 0.7576375700779004
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_Facture-383309_page1.png",
+    "text": "14/01/2026)",
+    "bbox": [
+      [
+        728,
+        766
+      ],
+      [
+        856,
+        766
+      ],
+      [
+        856,
+        792
+      ],
+      [
+        728,
+        792
+      ]
+    ],
+    "confidence": 0.695894935892988
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_Facture-383309_page1.png",
+    "text": "139.00 Dhs",
+    "bbox": [
+      [
+        946,
+        766
+      ],
+      [
+        1068,
+        766
+      ],
+      [
+        1068,
+        790
+      ],
+      [
+        946,
+        790
+      ]
+    ],
+    "confidence": 0.7625767945194126
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_Facture-383309_page1.png",
+    "text": "elage. ma",
+    "bbox": [
+      [
+        390,
+        768
+      ],
+      [
+        490,
+        768
+      ],
+      [
+        490,
+        794
+      ],
+      [
+        390,
+        794
+      ]
+    ],
+    "confidence": 0.5082467861758305
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_Facture-383309_page1.png",
+    "text": "+ Gestion DNS",
+    "bbox": [
+      [
+        92,
+        792
+      ],
+      [
+        244,
+        792
+      ],
+      [
+        244,
+        816
+      ],
+      [
+        92,
+        816
+      ]
+    ],
+    "confidence": 0.9536464749856922
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_Facture-383309_page1.png",
+    "text": "Sous-total",
+    "bbox": [
+      [
+        778,
+        852
+      ],
+      [
+        900,
+        852
+      ],
+      [
+        900,
+        876
+      ],
+      [
+        778,
+        876
+      ]
+    ],
+    "confidence": 0.6518595911190226
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_Facture-383309_page1.png",
+    "text": "139.00 Dhs",
+    "bbox": [
+      [
+        942,
+        852
+      ],
+      [
+        1074,
+        852
+      ],
+      [
+        1074,
+        876
+      ],
+      [
+        942,
+        876
+      ]
+    ],
+    "confidence": 0.9881476963064121
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_Facture-383309_page1.png",
+    "text": "20.00% Morocco",
+    "bbox": [
+      [
+        708,
+        886
+      ],
+      [
+        900,
+        886
+      ],
+      [
+        900,
+        912
+      ],
+      [
+        708,
+        912
+      ]
+    ],
+    "confidence": 0.9670569792452901
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_Facture-383309_page1.png",
+    "text": "27.80 Dhs",
+    "bbox": [
+      [
+        948,
+        886
+      ],
+      [
+        1068,
+        886
+      ],
+      [
+        1068,
+        912
+      ],
+      [
+        948,
+        912
+      ]
+    ],
+    "confidence": 0.9758088796474734
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_Facture-383309_page1.png",
+    "text": "Total",
+    "bbox": [
+      [
+        838,
+        922
+      ],
+      [
+        900,
+        922
+      ],
+      [
+        900,
+        946
+      ],
+      [
+        838,
+        946
+      ]
+    ],
+    "confidence": 0.9998470464482214
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_Facture-383309_page1.png",
+    "text": "166.80 Dhs",
+    "bbox": [
+      [
+        942,
+        922
+      ],
+      [
+        1074,
+        922
+      ],
+      [
+        1074,
+        946
+      ],
+      [
+        942,
+        946
+      ]
+    ],
+    "confidence": 0.7813750078686315
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_Facture-383309_page1.png",
+    "text": "Genious Communications S.A.RL.",
+    "bbox": [
+      [
+        93,
+        1441
+      ],
+      [
+        522,
+        1441
+      ],
+      [
+        522,
+        1470
+      ],
+      [
+        93,
+        1470
+      ]
+    ],
+    "confidence": 0.7629271755271102
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_Facture-383309_page1.png",
+    "text": "E-TOUB!",
+    "bbox": [
+      [
+        831,
+        1447
+      ],
+      [
+        1117,
+        1447
+      ],
+      [
+        1117,
+        1511
+      ],
+      [
+        831,
+        1511
+      ]
+    ],
+    "confidence": 0.8381629660697272
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_Facture-383309_page1.png",
+    "text": "1 200 000 Dhs",
+    "bbox": [
+      [
+        159,
+        1475
+      ],
+      [
+        267,
+        1475
+      ],
+      [
+        267,
+        1493
+      ],
+      [
+        159,
+        1493
+      ]
+    ],
+    "confidence": 0.8834584328998709
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_Facture-383309_page1.png",
+    "text": "45303375",
+    "bbox": [
+      [
+        343,
+        1475
+      ],
+      [
+        421,
+        1475
+      ],
+      [
+        421,
+        1493
+      ],
+      [
+        343,
+        1493
+      ]
+    ],
+    "confidence": 0.6815428705233125
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_Facture-383309_page1.png",
+    "text": "RC",
+    "bbox": [
+      [
+        429,
+        1475
+      ],
+      [
+        455,
+        1475
+      ],
+      [
+        455,
+        1493
+      ],
+      [
+        429,
+        1493
+      ]
+    ],
+    "confidence": 0.9996925947277071
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_Facture-383309_page1.png",
+    "text": "28655",
+    "bbox": [
+      [
+        463,
+        1475
+      ],
+      [
+        513,
+        1475
+      ],
+      [
+        513,
+        1495
+      ],
+      [
+        463,
+        1495
+      ]
+    ],
+    "confidence": 0.999998933759633
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_Facture-383309_page1.png",
+    "text": "7547427",
+    "bbox": [
+      [
+        591,
+        1475
+      ],
+      [
+        659,
+        1475
+      ],
+      [
+        659,
+        1493
+      ],
+      [
+        591,
+        1493
+      ]
+    ],
+    "confidence": 0.9999950887965892
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_Facture-383309_page1.png",
+    "text": "Capital",
+    "bbox": [
+      [
+        97,
+        1477
+      ],
+      [
+        151,
+        1477
+      ],
+      [
+        151,
+        1495
+      ],
+      [
+        97,
+        1495
+      ]
+    ],
+    "confidence": 0.9998028248326319
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_Facture-383309_page1.png",
+    "text": "Patente",
+    "bbox": [
+      [
+        277,
+        1477
+      ],
+      [
+        335,
+        1477
+      ],
+      [
+        335,
+        1493
+      ],
+      [
+        277,
+        1493
+      ]
+    ],
+    "confidence": 0.9999848608525617
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_Facture-383309_page1.png",
+    "text": "06521385",
+    "bbox": [
+      [
+        121,
+        1491
+      ],
+      [
+        197,
+        1491
+      ],
+      [
+        197,
+        1511
+      ],
+      [
+        121,
+        1511
+      ]
+    ],
+    "confidence": 0.6851451960546956
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_Facture-383309_page1.png",
+    "text": "ICE",
+    "bbox": [
+      [
+        205,
+        1491
+      ],
+      [
+        235,
+        1491
+      ],
+      [
+        235,
+        1511
+      ],
+      [
+        205,
+        1511
+      ]
+    ],
+    "confidence": 0.9995110107333253
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_Facture-383309_page1.png",
+    "text": "022 780 000 235 00 280123 67",
+    "bbox": [
+      [
+        429,
+        1491
+      ],
+      [
+        657,
+        1491
+      ],
+      [
+        657,
+        1511
+      ],
+      [
+        429,
+        1511
+      ]
+    ],
+    "confidence": 0.7545743133495623
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_Facture-383309_page1.png",
+    "text": "000227325000094",
+    "bbox": [
+      [
+        245,
+        1492
+      ],
+      [
+        383,
+        1492
+      ],
+      [
+        383,
+        1510
+      ],
+      [
+        245,
+        1510
+      ]
+    ],
+    "confidence": 0.9178637180707788
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_Facture-383309_page1.png",
+    "text": "RIB",
+    "bbox": [
+      [
+        393,
+        1493
+      ],
+      [
+        421,
+        1493
+      ],
+      [
+        421,
+        1511
+      ],
+      [
+        393,
+        1511
+      ]
+    ],
+    "confidence": 0.9998542289818615
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_Facture-383309_page1.png",
+    "text": "Site Internet",
+    "bbox": [
+      [
+        95,
+        1511
+      ],
+      [
+        189,
+        1511
+      ],
+      [
+        189,
+        1529
+      ],
+      [
+        95,
+        1529
+      ]
+    ],
+    "confidence": 0.9909307730703983
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_Facture-383309_page1.png",
+    "text": "Email",
+    "bbox": [
+      [
+        335,
+        1511
+      ],
+      [
+        377,
+        1511
+      ],
+      [
+        377,
+        1529
+      ],
+      [
+        335,
+        1529
+      ]
+    ],
+    "confidence": 0.9999504196809746
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_Facture-383309_page1.png",
+    "text": "WWW.genious.net",
+    "bbox": [
+      [
+        199,
+        1513
+      ],
+      [
+        325,
+        1513
+      ],
+      [
+        325,
+        1529
+      ],
+      [
+        199,
+        1529
+      ]
+    ],
+    "confidence": 0.9158737625857178
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_Facture-383309_page1.png",
+    "text": "sales@genious.net",
+    "bbox": [
+      [
+        387,
+        1513
+      ],
+      [
+        525,
+        1513
+      ],
+      [
+        525,
+        1531
+      ],
+      [
+        387,
+        1531
+      ]
+    ],
+    "confidence": 0.7486492894433968
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_page_034.png",
+    "text": "tudio",
+    "bbox": [
+      [
+        94,
+        64
+      ],
+      [
+        328,
+        64
+      ],
+      [
+        328,
+        160
+      ],
+      [
+        94,
+        160
+      ]
+    ],
+    "confidence": 0.9270226420608697
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_page_034.png",
+    "text": "PAYÉE",
+    "bbox": [
+      [
+        554,
+        70
+      ],
+      [
+        732,
+        70
+      ],
+      [
+        732,
+        194
+      ],
+      [
+        554,
+        194
+      ]
+    ],
+    "confidence": 0.9953439401683084
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_page_034.png",
+    "text": "support@tudiohost com",
+    "bbox": [
+      [
+        912,
+        86
+      ],
+      [
+        1112,
+        86
+      ],
+      [
+        1112,
+        110
+      ],
+      [
+        912,
+        110
+      ]
+    ],
+    "confidence": 0.7483053462914591
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_page_034.png",
+    "text": "+212 537 76 96 41",
+    "bbox": [
+      [
+        902,
+        110
+      ],
+      [
+        1108,
+        110
+      ],
+      [
+        1108,
+        138
+      ],
+      [
+        902,
+        138
+      ]
+    ],
+    "confidence": 0.8353071565994675
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_page_034.png",
+    "text": "systems",
+    "bbox": [
+      [
+        201,
+        146
+      ],
+      [
+        318,
+        146
+      ],
+      [
+        318,
+        176
+      ],
+      [
+        201,
+        176
+      ]
+    ],
+    "confidence": 0.9575812998861459
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_page_034.png",
+    "text": "Facture",
+    "bbox": [
+      [
+        905,
+        149
+      ],
+      [
+        1113,
+        149
+      ],
+      [
+        1113,
+        209
+      ],
+      [
+        905,
+        209
+      ]
+    ],
+    "confidence": 0.6235661373317547
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_page_034.png",
+    "text": "DATE D'ÉCHÉANCE",
+    "bbox": [
+      [
+        819,
+        347
+      ],
+      [
+        1053,
+        347
+      ],
+      [
+        1053,
+        383
+      ],
+      [
+        819,
+        383
+      ]
+    ],
+    "confidence": 0.9582915124199063
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_page_034.png",
+    "text": "FACTURÉ À",
+    "bbox": [
+      [
+        94,
+        348
+      ],
+      [
+        226,
+        348
+      ],
+      [
+        226,
+        380
+      ],
+      [
+        94,
+        380
+      ]
+    ],
+    "confidence": 0.8585422819416877
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_page_034.png",
+    "text": "DATE DE FACTURATION",
+    "bbox": [
+      [
+        454,
+        352
+      ],
+      [
+        744,
+        352
+      ],
+      [
+        744,
+        382
+      ],
+      [
+        454,
+        382
+      ]
+    ],
+    "confidence": 0.8972245014374135
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_page_034.png",
+    "text": "AMTIC MAROC",
+    "bbox": [
+      [
+        95,
+        379
+      ],
+      [
+        227,
+        379
+      ],
+      [
+        227,
+        399
+      ],
+      [
+        95,
+        399
+      ]
+    ],
+    "confidence": 0.9958769773197769
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_page_034.png",
+    "text": "ATT",
+    "bbox": [
+      [
+        93,
+        401
+      ],
+      [
+        133,
+        401
+      ],
+      [
+        133,
+        421
+      ],
+      [
+        93,
+        421
+      ]
+    ],
+    "confidence": 0.997151167906744
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_page_034.png",
+    "text": "Kharbouch MOUNIR",
+    "bbox": [
+      [
+        143,
+        401
+      ],
+      [
+        313,
+        401
+      ],
+      [
+        313,
+        421
+      ],
+      [
+        143,
+        421
+      ]
+    ],
+    "confidence": 0.9559924410930634
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_page_034.png",
+    "text": "08/02/2022",
+    "bbox": [
+      [
+        452,
+        402
+      ],
+      [
+        560,
+        402
+      ],
+      [
+        560,
+        428
+      ],
+      [
+        452,
+        428
+      ]
+    ],
+    "confidence": 0.9999563459875462
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_page_034.png",
+    "text": "23/02/2022",
+    "bbox": [
+      [
+        812,
+        402
+      ],
+      [
+        920,
+        402
+      ],
+      [
+        920,
+        428
+      ],
+      [
+        812,
+        428
+      ]
+    ],
+    "confidence": 0.9998915791859424
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_page_034.png",
+    "text": "rabat; Rabat-Sale; 10000",
+    "bbox": [
+      [
+        92,
+        446
+      ],
+      [
+        302,
+        446
+      ],
+      [
+        302,
+        470
+      ],
+      [
+        92,
+        470
+      ]
+    ],
+    "confidence": 0.7618085408858889
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_page_034.png",
+    "text": "Morocco",
+    "bbox": [
+      [
+        95,
+        469
+      ],
+      [
+        167,
+        469
+      ],
+      [
+        167,
+        489
+      ],
+      [
+        95,
+        489
+      ]
+    ],
+    "confidence": 0.8891032704399459
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_page_034.png",
+    "text": "Code ICE",
+    "bbox": [
+      [
+        94,
+        490
+      ],
+      [
+        178,
+        490
+      ],
+      [
+        178,
+        514
+      ],
+      [
+        94,
+        514
+      ]
+    ],
+    "confidence": 0.9883523299343129
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_page_034.png",
+    "text": "002741064000041",
+    "bbox": [
+      [
+        186,
+        490
+      ],
+      [
+        342,
+        490
+      ],
+      [
+        342,
+        514
+      ],
+      [
+        186,
+        514
+      ]
+    ],
+    "confidence": 0.8872538311003801
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_page_034.png",
+    "text": "DESCRIPTION",
+    "bbox": [
+      [
+        408,
+        628
+      ],
+      [
+        580,
+        628
+      ],
+      [
+        580,
+        658
+      ],
+      [
+        408,
+        658
+      ]
+    ],
+    "confidence": 0.9906657632689938
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_page_034.png",
+    "text": "TOTAL",
+    "bbox": [
+      [
+        962,
+        628
+      ],
+      [
+        1050,
+        628
+      ],
+      [
+        1050,
+        658
+      ],
+      [
+        962,
+        658
+      ]
+    ],
+    "confidence": 0.9648354948591714
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_page_034.png",
+    "text": "dialyseassafwa.com",
+    "bbox": [
+      [
+        379,
+        689
+      ],
+      [
+        548,
+        689
+      ],
+      [
+        548,
+        715
+      ],
+      [
+        379,
+        715
+      ]
+    ],
+    "confidence": 0.6666990927084124
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_page_034.png",
+    "text": "Renouvellement nom de domaine",
+    "bbox": [
+      [
+        94,
+        690
+      ],
+      [
+        370,
+        690
+      ],
+      [
+        370,
+        714
+      ],
+      [
+        94,
+        714
+      ]
+    ],
+    "confidence": 0.9889137656092957
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_page_034.png",
+    "text": "04/02/2023)",
+    "bbox": [
+      [
+        728,
+        690
+      ],
+      [
+        830,
+        690
+      ],
+      [
+        830,
+        714
+      ],
+      [
+        728,
+        714
+      ]
+    ],
+    "confidence": 0.9999899718829621
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_page_034.png",
+    "text": "150,OODH",
+    "bbox": [
+      [
+        962,
+        690
+      ],
+      [
+        1050,
+        690
+      ],
+      [
+        1050,
+        714
+      ],
+      [
+        962,
+        714
+      ]
+    ],
+    "confidence": 0.8845241303182036
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_page_034.png",
+    "text": "An/s (05/02/2022",
+    "bbox": [
+      [
+        575,
+        691
+      ],
+      [
+        717,
+        691
+      ],
+      [
+        717,
+        711
+      ],
+      [
+        575,
+        711
+      ]
+    ],
+    "confidence": 0.8301242001939036
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_page_034.png",
+    "text": "37,5ODH",
+    "bbox": [
+      [
+        968,
+        750
+      ],
+      [
+        1048,
+        750
+      ],
+      [
+        1048,
+        778
+      ],
+      [
+        968,
+        778
+      ]
+    ],
+    "confidence": 0.7336497458297231
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_page_034.png",
+    "text": "dialyseassafwa.com",
+    "bbox": [
+      [
+        524,
+        754
+      ],
+      [
+        694,
+        754
+      ],
+      [
+        694,
+        778
+      ],
+      [
+        524,
+        778
+      ]
+    ],
+    "confidence": 0.8970814081306732
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_page_034.png",
+    "text": "Rabais du client",
+    "bbox": [
+      [
+        95,
+        755
+      ],
+      [
+        229,
+        755
+      ],
+      [
+        229,
+        775
+      ],
+      [
+        95,
+        775
+      ]
+    ],
+    "confidence": 0.9160852429013224
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_page_034.png",
+    "text": "Renouvellement nom de domaine",
+    "bbox": [
+      [
+        239,
+        755
+      ],
+      [
+        515,
+        755
+      ],
+      [
+        515,
+        775
+      ],
+      [
+        239,
+        775
+      ]
+    ],
+    "confidence": 0.9425724776524678
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_page_034.png",
+    "text": "Anls (05/02/2022",
+    "bbox": [
+      [
+        719,
+        755
+      ],
+      [
+        863,
+        755
+      ],
+      [
+        863,
+        775
+      ],
+      [
+        719,
+        775
+      ]
+    ],
+    "confidence": 0.52000785157354
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_page_034.png",
+    "text": "04/02/2023)",
+    "bbox": [
+      [
+        92,
+        776
+      ],
+      [
+        196,
+        776
+      ],
+      [
+        196,
+        800
+      ],
+      [
+        92,
+        800
+      ]
+    ],
+    "confidence": 0.9999740489661321
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_page_034.png",
+    "text": "TOTAL TTC",
+    "bbox": [
+      [
+        867,
+        927
+      ],
+      [
+        1093,
+        927
+      ],
+      [
+        1093,
+        971
+      ],
+      [
+        867,
+        971
+      ]
+    ],
+    "confidence": 0.9461814717823855
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_page_034.png",
+    "text": "SOUS-TOTAL",
+    "bbox": [
+      [
+        281,
+        931
+      ],
+      [
+        495,
+        931
+      ],
+      [
+        495,
+        969
+      ],
+      [
+        281,
+        969
+      ]
+    ],
+    "confidence": 0.5586159338143376
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_page_034.png",
+    "text": "TVA 20%",
+    "bbox": [
+      [
+        577,
+        933
+      ],
+      [
+        719,
+        933
+      ],
+      [
+        719,
+        969
+      ],
+      [
+        577,
+        969
+      ]
+    ],
+    "confidence": 0.7290289590210631
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_page_034.png",
+    "text": "112,50DH",
+    "bbox": [
+      [
+        282,
+        970
+      ],
+      [
+        425,
+        970
+      ],
+      [
+        425,
+        1010
+      ],
+      [
+        282,
+        1010
+      ]
+    ],
+    "confidence": 0.6231476070623626
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_page_034.png",
+    "text": "22,50DH",
+    "bbox": [
+      [
+        573,
+        973
+      ],
+      [
+        699,
+        973
+      ],
+      [
+        699,
+        1009
+      ],
+      [
+        573,
+        1009
+      ]
+    ],
+    "confidence": 0.819551579041844
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_page_034.png",
+    "text": "135,00 DH",
+    "bbox": [
+      [
+        888,
+        978
+      ],
+      [
+        1088,
+        978
+      ],
+      [
+        1088,
+        1026
+      ],
+      [
+        888,
+        1026
+      ]
+    ],
+    "confidence": 0.9991193167630622
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_page_034.png",
+    "text": "tudio",
+    "bbox": [
+      [
+        904,
+        1383
+      ],
+      [
+        1048,
+        1383
+      ],
+      [
+        1048,
+        1439
+      ],
+      [
+        904,
+        1439
+      ]
+    ],
+    "confidence": 0.79045543918424
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_page_034.png",
+    "text": "Tudio Systems SARL",
+    "bbox": [
+      [
+        494,
+        1594
+      ],
+      [
+        704,
+        1594
+      ],
+      [
+        704,
+        1620
+      ],
+      [
+        494,
+        1620
+      ]
+    ],
+    "confidence": 0.9968038008551494
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_page_034.png",
+    "text": "Rue Moulay Abdelaziz; Appt 5 Quartier Hassan; Rabat",
+    "bbox": [
+      [
+        311,
+        1631
+      ],
+      [
+        655,
+        1631
+      ],
+      [
+        655,
+        1651
+      ],
+      [
+        311,
+        1651
+      ]
+    ],
+    "confidence": 0.8123717503871047
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_page_034.png",
+    "text": "Maroc. Email",
+    "bbox": [
+      [
+        663,
+        1633
+      ],
+      [
+        749,
+        1633
+      ],
+      [
+        749,
+        1649
+      ],
+      [
+        663,
+        1649
+      ]
+    ],
+    "confidence": 0.5509905874729065
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_page_034.png",
+    "text": "contact@tudioweb com",
+    "bbox": [
+      [
+        756,
+        1633
+      ],
+      [
+        907,
+        1633
+      ],
+      [
+        907,
+        1649
+      ],
+      [
+        756,
+        1649
+      ]
+    ],
+    "confidence": 0.6246926360307636
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_page_034.png",
+    "text": "R.C: 99795",
+    "bbox": [
+      [
+        247,
+        1651
+      ],
+      [
+        323,
+        1651
+      ],
+      [
+        323,
+        1669
+      ],
+      [
+        247,
+        1669
+      ]
+    ],
+    "confidence": 0.5687112617004805
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_page_034.png",
+    "text": "ICE: 001542441000073",
+    "bbox": [
+      [
+        529,
+        1651
+      ],
+      [
+        682,
+        1651
+      ],
+      [
+        682,
+        1669
+      ],
+      [
+        529,
+        1669
+      ]
+    ],
+    "confidence": 0.9993856012186602
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_page_034.png",
+    "text": "N\" de Corpte",
+    "bbox": [
+      [
+        693,
+        1652
+      ],
+      [
+        785,
+        1652
+      ],
+      [
+        785,
+        1672
+      ],
+      [
+        693,
+        1672
+      ]
+    ],
+    "confidence": 0.5219601506963026
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_page_034.png",
+    "text": "Patente: 25790947",
+    "bbox": [
+      [
+        119,
+        1653
+      ],
+      [
+        239,
+        1653
+      ],
+      [
+        239,
+        1669
+      ],
+      [
+        119,
+        1669
+      ]
+    ],
+    "confidence": 0.9088232717234465
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_page_034.png",
+    "text": "CNSS: 9735905",
+    "bbox": [
+      [
+        333,
+        1653
+      ],
+      [
+        437,
+        1653
+      ],
+      [
+        437,
+        1669
+      ],
+      [
+        333,
+        1669
+      ]
+    ],
+    "confidence": 0.995181245398588
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_page_034.png",
+    "text": "LF 3367540",
+    "bbox": [
+      [
+        445,
+        1653
+      ],
+      [
+        523,
+        1653
+      ],
+      [
+        523,
+        1669
+      ],
+      [
+        445,
+        1669
+      ]
+    ],
+    "confidence": 0.8432942404527121
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_page_034.png",
+    "text": "007810000105500000074277",
+    "bbox": [
+      [
+        793,
+        1653
+      ],
+      [
+        985,
+        1653
+      ],
+      [
+        985,
+        1669
+      ],
+      [
+        793,
+        1669
+      ]
+    ],
+    "confidence": 0.9503554761109592
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_page_034.png",
+    "text": "BCMAMAMC",
+    "bbox": [
+      [
+        995,
+        1653
+      ],
+      [
+        1081,
+        1653
+      ],
+      [
+        1081,
+        1669
+      ],
+      [
+        995,
+        1669
+      ]
+    ],
+    "confidence": 0.9992637087031757
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_page_046.png",
+    "text": "tudio",
+    "bbox": [
+      [
+        94,
+        64
+      ],
+      [
+        328,
+        64
+      ],
+      [
+        328,
+        160
+      ],
+      [
+        94,
+        160
+      ]
+    ],
+    "confidence": 0.9231702072277542
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_page_046.png",
+    "text": "PAYÉE",
+    "bbox": [
+      [
+        554,
+        70
+      ],
+      [
+        732,
+        70
+      ],
+      [
+        732,
+        194
+      ],
+      [
+        554,
+        194
+      ]
+    ],
+    "confidence": 0.9959413959207041
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_page_046.png",
+    "text": "support@tudiohost com",
+    "bbox": [
+      [
+        912,
+        86
+      ],
+      [
+        1112,
+        86
+      ],
+      [
+        1112,
+        110
+      ],
+      [
+        912,
+        110
+      ]
+    ],
+    "confidence": 0.7483053462914591
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_page_046.png",
+    "text": "+212 537 76 96 41",
+    "bbox": [
+      [
+        902,
+        110
+      ],
+      [
+        1108,
+        110
+      ],
+      [
+        1108,
+        138
+      ],
+      [
+        902,
+        138
+      ]
+    ],
+    "confidence": 0.7909404330375495
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_page_046.png",
+    "text": "systems",
+    "bbox": [
+      [
+        201,
+        146
+      ],
+      [
+        318,
+        146
+      ],
+      [
+        318,
+        176
+      ],
+      [
+        201,
+        176
+      ]
+    ],
+    "confidence": 0.9533666534237084
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_page_046.png",
+    "text": "Facture",
+    "bbox": [
+      [
+        905,
+        149
+      ],
+      [
+        1113,
+        149
+      ],
+      [
+        1113,
+        209
+      ],
+      [
+        905,
+        209
+      ]
+    ],
+    "confidence": 0.9999988735778876
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_page_046.png",
+    "text": "DATE D'ÉCHÉANCE",
+    "bbox": [
+      [
+        819,
+        347
+      ],
+      [
+        1053,
+        347
+      ],
+      [
+        1053,
+        383
+      ],
+      [
+        819,
+        383
+      ]
+    ],
+    "confidence": 0.7062060649805731
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_page_046.png",
+    "text": "FACTURÉ À",
+    "bbox": [
+      [
+        94,
+        348
+      ],
+      [
+        226,
+        348
+      ],
+      [
+        226,
+        380
+      ],
+      [
+        94,
+        380
+      ]
+    ],
+    "confidence": 0.8566040794057372
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_page_046.png",
+    "text": "DATE DE FACTURATION",
+    "bbox": [
+      [
+        454,
+        352
+      ],
+      [
+        744,
+        352
+      ],
+      [
+        744,
+        382
+      ],
+      [
+        454,
+        382
+      ]
+    ],
+    "confidence": 0.9282870580876884
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_page_046.png",
+    "text": "Healthcare Institute SARL,",
+    "bbox": [
+      [
+        92,
+        378
+      ],
+      [
+        310,
+        378
+      ],
+      [
+        310,
+        402
+      ],
+      [
+        92,
+        402
+      ]
+    ],
+    "confidence": 0.7267059731256773
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_page_046.png",
+    "text": "ATT",
+    "bbox": [
+      [
+        93,
+        401
+      ],
+      [
+        133,
+        401
+      ],
+      [
+        133,
+        421
+      ],
+      [
+        93,
+        421
+      ]
+    ],
+    "confidence": 0.9972602154601242
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_page_046.png",
+    "text": "CHAMI Saad",
+    "bbox": [
+      [
+        143,
+        401
+      ],
+      [
+        253,
+        401
+      ],
+      [
+        253,
+        421
+      ],
+      [
+        143,
+        421
+      ]
+    ],
+    "confidence": 0.9675478464257047
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_page_046.png",
+    "text": "12/02/2022",
+    "bbox": [
+      [
+        454,
+        402
+      ],
+      [
+        560,
+        402
+      ],
+      [
+        560,
+        428
+      ],
+      [
+        454,
+        428
+      ]
+    ],
+    "confidence": 0.9999794548557585
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_page_046.png",
+    "text": "08/02/2022",
+    "bbox": [
+      [
+        812,
+        402
+      ],
+      [
+        920,
+        402
+      ],
+      [
+        920,
+        428
+      ],
+      [
+        812,
+        428
+      ]
+    ],
+    "confidence": 0.9998735209527247
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_page_046.png",
+    "text": "6 rue Dayt",
+    "bbox": [
+      [
+        94,
+        422
+      ],
+      [
+        184,
+        422
+      ],
+      [
+        184,
+        446
+      ],
+      [
+        94,
+        446
+      ]
+    ],
+    "confidence": 0.7224311703114733
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_page_046.png",
+    "text": "Agdal",
+    "bbox": [
+      [
+        234,
+        422
+      ],
+      [
+        290,
+        422
+      ],
+      [
+        290,
+        448
+      ],
+      [
+        234,
+        448
+      ]
+    ],
+    "confidence": 0.9999587897121782
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_page_046.png",
+    "text": "Aoua-",
+    "bbox": [
+      [
+        182,
+        422
+      ],
+      [
+        236,
+        422
+      ],
+      [
+        236,
+        449
+      ],
+      [
+        182,
+        449
+      ]
+    ],
+    "confidence": 0.999124091615197
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_page_046.png",
+    "text": "Rabat; Rabat;",
+    "bbox": [
+      [
+        95,
+        447
+      ],
+      [
+        209,
+        447
+      ],
+      [
+        209,
+        467
+      ],
+      [
+        95,
+        467
+      ]
+    ],
+    "confidence": 0.7483021446868631
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_page_046.png",
+    "text": "Morocco",
+    "bbox": [
+      [
+        95,
+        471
+      ],
+      [
+        167,
+        471
+      ],
+      [
+        167,
+        489
+      ],
+      [
+        95,
+        489
+      ]
+    ],
+    "confidence": 0.9999772011366769
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_page_046.png",
+    "text": "Code ICE",
+    "bbox": [
+      [
+        94,
+        490
+      ],
+      [
+        178,
+        490
+      ],
+      [
+        178,
+        514
+      ],
+      [
+        94,
+        514
+      ]
+    ],
+    "confidence": 0.9885339447702051
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_page_046.png",
+    "text": "000041883000082",
+    "bbox": [
+      [
+        186,
+        490
+      ],
+      [
+        344,
+        490
+      ],
+      [
+        344,
+        514
+      ],
+      [
+        186,
+        514
+      ]
+    ],
+    "confidence": 0.9566870868532691
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_page_046.png",
+    "text": "DESCRIPTION",
+    "bbox": [
+      [
+        408,
+        628
+      ],
+      [
+        580,
+        628
+      ],
+      [
+        580,
+        658
+      ],
+      [
+        408,
+        658
+      ]
+    ],
+    "confidence": 0.9785543740891951
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_page_046.png",
+    "text": "TOTAL",
+    "bbox": [
+      [
+        962,
+        628
+      ],
+      [
+        1050,
+        628
+      ],
+      [
+        1050,
+        658
+      ],
+      [
+        962,
+        658
+      ]
+    ],
+    "confidence": 0.8936404739446957
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_page_046.png",
+    "text": "Renouvellement nom de domaine",
+    "bbox": [
+      [
+        94,
+        690
+      ],
+      [
+        370,
+        690
+      ],
+      [
+        370,
+        714
+      ],
+      [
+        94,
+        714
+      ]
+    ],
+    "confidence": 0.9885160984594116
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_page_046.png",
+    "text": "Anls (08/02/2022",
+    "bbox": [
+      [
+        466,
+        690
+      ],
+      [
+        610,
+        690
+      ],
+      [
+        610,
+        714
+      ],
+      [
+        466,
+        714
+      ]
+    ],
+    "confidence": 0.6512839108239732
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_page_046.png",
+    "text": "07/02/2023)",
+    "bbox": [
+      [
+        618,
+        690
+      ],
+      [
+        722,
+        690
+      ],
+      [
+        722,
+        714
+      ],
+      [
+        618,
+        714
+      ]
+    ],
+    "confidence": 0.686608291666435
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_page_046.png",
+    "text": "150,OODH",
+    "bbox": [
+      [
+        962,
+        690
+      ],
+      [
+        1050,
+        690
+      ],
+      [
+        1050,
+        714
+      ],
+      [
+        962,
+        714
+      ]
+    ],
+    "confidence": 0.8743257342663777
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_page_046.png",
+    "text": "hci.ma",
+    "bbox": [
+      [
+        381,
+        691
+      ],
+      [
+        439,
+        691
+      ],
+      [
+        439,
+        711
+      ],
+      [
+        381,
+        711
+      ]
+    ],
+    "confidence": 0.6039810637255965
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_page_046.png",
+    "text": "Gestion de la Zone DNS",
+    "bbox": [
+      [
+        108,
+        712
+      ],
+      [
+        312,
+        712
+      ],
+      [
+        312,
+        736
+      ],
+      [
+        108,
+        736
+      ]
+    ],
+    "confidence": 0.9871726774264984
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_page_046.png",
+    "text": "TOTAL TTC",
+    "bbox": [
+      [
+        867,
+        863
+      ],
+      [
+        1093,
+        863
+      ],
+      [
+        1093,
+        907
+      ],
+      [
+        867,
+        907
+      ]
+    ],
+    "confidence": 0.8451738421898922
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_page_046.png",
+    "text": "SOUS-TOTAL",
+    "bbox": [
+      [
+        280,
+        869
+      ],
+      [
+        494,
+        869
+      ],
+      [
+        494,
+        905
+      ],
+      [
+        280,
+        905
+      ]
+    ],
+    "confidence": 0.997951667464542
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_page_046.png",
+    "text": "TVA 20%",
+    "bbox": [
+      [
+        577,
+        869
+      ],
+      [
+        719,
+        869
+      ],
+      [
+        719,
+        905
+      ],
+      [
+        577,
+        905
+      ]
+    ],
+    "confidence": 0.562923590079045
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_page_046.png",
+    "text": "150,OODH",
+    "bbox": [
+      [
+        283,
+        909
+      ],
+      [
+        425,
+        909
+      ],
+      [
+        425,
+        945
+      ],
+      [
+        283,
+        945
+      ]
+    ],
+    "confidence": 0.5768516842101351
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_page_046.png",
+    "text": "30,OODH",
+    "bbox": [
+      [
+        573,
+        909
+      ],
+      [
+        699,
+        909
+      ],
+      [
+        699,
+        945
+      ],
+      [
+        573,
+        945
+      ]
+    ],
+    "confidence": 0.7377068827449136
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_page_046.png",
+    "text": "180,00 DH",
+    "bbox": [
+      [
+        888,
+        914
+      ],
+      [
+        1088,
+        914
+      ],
+      [
+        1088,
+        962
+      ],
+      [
+        888,
+        962
+      ]
+    ],
+    "confidence": 0.9996448171975778
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_page_046.png",
+    "text": "tudio",
+    "bbox": [
+      [
+        904,
+        1383
+      ],
+      [
+        1048,
+        1383
+      ],
+      [
+        1048,
+        1439
+      ],
+      [
+        904,
+        1439
+      ]
+    ],
+    "confidence": 0.79045543918424
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_page_046.png",
+    "text": "Tudio Systems SARL",
+    "bbox": [
+      [
+        494,
+        1594
+      ],
+      [
+        704,
+        1594
+      ],
+      [
+        704,
+        1620
+      ],
+      [
+        494,
+        1620
+      ]
+    ],
+    "confidence": 0.9968038008551494
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_page_046.png",
+    "text": "Rue Moulay Abdelaziz; Appt 5 Quartier Hassan; Rabat",
+    "bbox": [
+      [
+        311,
+        1631
+      ],
+      [
+        655,
+        1631
+      ],
+      [
+        655,
+        1651
+      ],
+      [
+        311,
+        1651
+      ]
+    ],
+    "confidence": 0.8123717503871047
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_page_046.png",
+    "text": "Maroc. Email",
+    "bbox": [
+      [
+        663,
+        1633
+      ],
+      [
+        749,
+        1633
+      ],
+      [
+        749,
+        1649
+      ],
+      [
+        663,
+        1649
+      ]
+    ],
+    "confidence": 0.5509905874729065
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_page_046.png",
+    "text": "contact@tudioweb com",
+    "bbox": [
+      [
+        756,
+        1633
+      ],
+      [
+        907,
+        1633
+      ],
+      [
+        907,
+        1649
+      ],
+      [
+        756,
+        1649
+      ]
+    ],
+    "confidence": 0.6246926360307636
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_page_046.png",
+    "text": "R.C: 99795",
+    "bbox": [
+      [
+        247,
+        1651
+      ],
+      [
+        323,
+        1651
+      ],
+      [
+        323,
+        1669
+      ],
+      [
+        247,
+        1669
+      ]
+    ],
+    "confidence": 0.5687112617004805
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_page_046.png",
+    "text": "ICE: 001542441000073",
+    "bbox": [
+      [
+        529,
+        1651
+      ],
+      [
+        682,
+        1651
+      ],
+      [
+        682,
+        1669
+      ],
+      [
+        529,
+        1669
+      ]
+    ],
+    "confidence": 0.9993856012186602
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_page_046.png",
+    "text": "N\" de Corpte",
+    "bbox": [
+      [
+        693,
+        1652
+      ],
+      [
+        785,
+        1652
+      ],
+      [
+        785,
+        1672
+      ],
+      [
+        693,
+        1672
+      ]
+    ],
+    "confidence": 0.5219601506963026
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_page_046.png",
+    "text": "Patente: 25790947",
+    "bbox": [
+      [
+        119,
+        1653
+      ],
+      [
+        239,
+        1653
+      ],
+      [
+        239,
+        1669
+      ],
+      [
+        119,
+        1669
+      ]
+    ],
+    "confidence": 0.9088232717234465
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_page_046.png",
+    "text": "CNSS: 9735905",
+    "bbox": [
+      [
+        333,
+        1653
+      ],
+      [
+        437,
+        1653
+      ],
+      [
+        437,
+        1669
+      ],
+      [
+        333,
+        1669
+      ]
+    ],
+    "confidence": 0.995181245398588
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_page_046.png",
+    "text": "LF 3367540",
+    "bbox": [
+      [
+        445,
+        1653
+      ],
+      [
+        523,
+        1653
+      ],
+      [
+        523,
+        1669
+      ],
+      [
+        445,
+        1669
+      ]
+    ],
+    "confidence": 0.8432942404527121
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_page_046.png",
+    "text": "007810000105500000074277",
+    "bbox": [
+      [
+        793,
+        1653
+      ],
+      [
+        985,
+        1653
+      ],
+      [
+        985,
+        1669
+      ],
+      [
+        793,
+        1669
+      ]
+    ],
+    "confidence": 0.9503554761109592
+  },
+  {
+    "image_path": "Data\\processed_images\\enhanced_page_046.png",
+    "text": "BCMAMAMC",
+    "bbox": [
+      [
+        995,
+        1653
+      ],
+      [
+        1081,
+        1653
+      ],
+      [
+        1081,
+        1669
+      ],
+      [
+        995,
+        1669
+      ]
+    ],
+    "confidence": 0.9992637087031757
+  }
+]

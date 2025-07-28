@@ -57,12 +57,21 @@ class InvoiceDataPreparator:
                 
                 # Extraire le nom de l'image
                 image_name = ocr_file.stem.replace('_ocr', '').replace('enhanced_', '')
-                
-                # Trouver l'image correspondante
+
+                # Essai 1: Recherche directe avec le nom extrait
                 image_files = list(self.images_dir.glob(f"*{image_name}*"))
+
+                # Essai 2: Si aucune image trouvée, essayez avec le chemin indiqué dans le fichier JSON
+                if not image_files and 'image_path' in ocr_data:
+                    # Extraire le nom du fichier du chemin stocké dans image_path
+                    json_image_path = Path(ocr_data['image_path'])
+                    image_name_from_json = json_image_path.name
+                    image_files = list(self.images_dir.glob(f"*{image_name_from_json}*"))
+
                 if not image_files:
                     logger.warning(f"Image non trouvée pour {image_name}")
                     continue
+
                 
                 image_path = image_files[0]
                 
@@ -84,20 +93,44 @@ class InvoiceDataPreparator:
         annotations = []
         
         try:
-            # Si c'est un résultat EasyOCR (format détecté)
+            # Format avec texts, bboxes, confidences (ancien format)
             if 'texts' in ocr_data:
                 for i, (text, bbox, confidence) in enumerate(zip(
                     ocr_data.get('texts', []),
                     ocr_data.get('bboxes', []),
                     ocr_data.get('confidences', [])
                 )):
-                    if confidence > 0.5 and len(text.strip()) > 1:  # Filtrer les textes de faible qualité
+                    if confidence > 0.5 and len(text.strip()) > 1:
                         annotations.append({
                             'text': text.strip(),
                             'bbox': bbox,
                             'confidence': confidence,
                             'type': self._classify_text_type(text)
                         })
+            
+            # Format avec text_blocks (nouveau format)
+            elif 'text_blocks' in ocr_data:
+                for block in ocr_data.get('text_blocks', []):
+                    if 'text' in block and 'confidence' in block and 'bbox' in block:
+                        confidence = block['confidence']
+                        text = block['text']
+                        bbox = block['bbox']
+                        
+                        # Convertir le bbox du format {x,y,width,height} en [[x1,y1],[x2,y2],[x3,y3],[x4,y4]]
+                        if isinstance(bbox, dict) and all(k in bbox for k in ['x', 'y', 'width', 'height']):
+                            x, y = bbox['x'], bbox['y']
+                            w, h = bbox['width'], bbox['height']
+                            bbox_points = [[x, y], [x+w, y], [x+w, y+h], [x, y+h]]
+                        else:
+                            bbox_points = bbox
+                        
+                        if confidence > 50 and len(text.strip()) > 1:  # Note: confidence peut être sur 100
+                            annotations.append({
+                                'text': text.strip(),
+                                'bbox': bbox_points,
+                                'confidence': confidence / 100 if confidence > 1 else confidence,  # Normaliser à [0,1]
+                                'type': self._classify_text_type(text)
+                            })
             
             # Si c'est un autre format, essayer de l'adapter
             elif isinstance(ocr_data, list):
@@ -109,6 +142,7 @@ class InvoiceDataPreparator:
             logger.error(f"Erreur lors du traitement OCR: {e}")
         
         return annotations
+
     
     def _classify_text_type(self, text: str) -> str:
         """Classifie le type de texte détecté"""
@@ -455,3 +489,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+    
+# python fine-tuning-ocr/data_preparation/data_preparation.py --images_dir Data/processed_images --ocr_results_dir Data/ocr_results --output_dir Data/fine_tuning
