@@ -5,7 +5,7 @@
 Ce guide vous accompagne dans l'utilisation du système complet de fine-tuning OCR développé pour FacturAI. Le système supporte **3 approches principales** :
 
 1. **🤖 TrOCR** - Moderne, basé sur Transformers (Recommandé)
-2. **👁️ EasyOCR** - Extension du modèle existant 
+2. **👁️ EasyOCR** - Extension du modèle existant
 3. **🏓 PaddleOCR** - Alternative robuste et flexible
 
 ## 🚀 Installation et Configuration
@@ -51,13 +51,14 @@ FacturAI/
 
 ```bash
 # Préparer toutes les données à partir des résultats OCR existants
-python data_preparation.py \
+python fine-tuning-ocr/data_preparation/data_preparation.py \
     --images_dir Data/processed_images \
     --ocr_results_dir Data/ocr_results \
     --output_dir Data/fine_tuning
 ```
 
 **Ce script va :**
+
 - ✅ Analyser vos résultats OCR existants
 - ✅ Générer des annotations de vérité terrain
 - ✅ Classifier les types de texte (montants, dates, adresses, etc.)
@@ -70,6 +71,7 @@ python data_preparation.py \
 ### 1. TrOCR (Recommandé) 🤖
 
 **Pourquoi TrOCR ?**
+
 - Architecture Transformer moderne
 - Excellente performance sur documents complexes
 - Pré-entraîné sur des millions de documents
@@ -86,6 +88,7 @@ python trocr_finetuning.py \
 ```
 
 **Configuration recommandée :**
+
 - GPU : Au moins 8GB VRAM
 - Epochs : 10-20
 - Batch size : 4-8
@@ -94,6 +97,7 @@ python trocr_finetuning.py \
 ### 2. EasyOCR (Votre demande spécifique) 👁️
 
 **Avantages :**
+
 - Continuation de votre pipeline existant
 - Modèle CRNN personnalisé
 - Optimisé pour les caractères français
@@ -109,6 +113,7 @@ python easyocr_finetuning.py \
 ```
 
 **Configuration recommandée :**
+
 - GPU : Au moins 4GB VRAM
 - Epochs : 50-100
 - Batch size : 8-16
@@ -117,6 +122,7 @@ python easyocr_finetuning.py \
 ### 3. PaddleOCR (Alternative robuste) 🏓
 
 **Avantages :**
+
 - Très flexible et configurable
 - Bonne performance sur textes complexes
 - Séparation détection/reconnaissance
@@ -143,6 +149,7 @@ python fine_tuning_manager.py \
 ```
 
 **Modes disponibles :**
+
 - `prepare` : Préparation des données uniquement
 - `train` : Entraînement des modèles
 - `evaluate` : Évaluation des modèles
@@ -163,6 +170,7 @@ python model_evaluation.py \
 ```
 
 **Métriques calculées :**
+
 - 🎯 Similarité moyenne (Levenshtein)
 - ✅ Accuracy exacte
 - 🔍 Confiance moyenne
@@ -173,21 +181,24 @@ python model_evaluation.py \
 
 ### Métriques de Performance Attendues
 
-| Modèle | Similarité | Confiance | Vitesse |
-|--------|------------|-----------|---------|
-| **TrOCR** | 85-95% | 80-90% | 2-3s |
-| **EasyOCR FT** | 80-90% | 75-85% | 1-2s |
-| **PaddleOCR** | 80-88% | 70-80% | 1.5-2.5s |
+| Modèle              | Similarité | Confiance | Vitesse  |
+| -------------------- | ----------- | --------- | -------- |
+| **TrOCR**      | 85-95%      | 80-90%    | 2-3s     |
+| **EasyOCR FT** | 80-90%      | 75-85%    | 1-2s     |
+| **PaddleOCR**  | 80-88%      | 70-80%    | 1.5-2.5s |
 
 ### Recommandations d'Usage
 
 #### 🥇 Pour la Production
+
 **TrOCR fine-tuné** - Meilleure précision globale
 
 #### 🥈 Pour la Vitesse
+
 **EasyOCR fine-tuné** - Bon compromis vitesse/précision
 
 #### 🥉 Pour la Flexibilité
+
 **PaddleOCR** - Très configurable, bon sur textes complexes
 
 ## 🔧 Configuration Avancée
@@ -235,20 +246,20 @@ def invoice_postprocess(text):
     """Post-processing spécialisé factures"""
     # Correction montants
     text = re.sub(r'(\d+)[,.](\d{2})\s*€', r'\1,\2€', text)
-    
+  
     # Correction dates
     text = re.sub(r'(\d{2})[/.,-](\d{2})[/.,-](\d{4})', r'\1/\2/\3', text)
-    
+  
     # Mots-clés factures
     corrections = {
         'FACTIJRE': 'FACTURE',
         'TTC': 'TTC',
         'HT': 'HT'
     }
-    
+  
     for wrong, correct in corrections.items():
         text = text.replace(wrong, correct)
-    
+  
     return text
 ```
 
@@ -258,20 +269,20 @@ def invoice_postprocess(text):
 def validate_invoice_data(ocr_results):
     """Validation des données extraites"""
     required_fields = ['numero_facture', 'date', 'montant_ttc']
-    
+  
     validation_errors = []
-    
+  
     # Vérifier présence champs obligatoires
     for field in required_fields:
         if field not in ocr_results:
             validation_errors.append(f"Champ manquant: {field}")
-    
+  
     # Vérifier format montant
     if 'montant_ttc' in ocr_results:
         montant = ocr_results['montant_ttc']
         if not re.match(r'\d+[,.]?\d*\s*€', montant):
             validation_errors.append("Format montant invalide")
-    
+  
     return validation_errors
 ```
 
@@ -280,6 +291,7 @@ def validate_invoice_data(ocr_results):
 ### Problèmes Courants
 
 #### 1. Erreur CUDA Out of Memory
+
 ```bash
 # Réduire batch_size
 python trocr_finetuning.py --batch_size 2
@@ -289,6 +301,7 @@ export CUDA_VISIBLE_DEVICES=""
 ```
 
 #### 2. Erreur de Dépendances
+
 ```bash
 # Réinstaller avec versions compatibles
 pip install torch==1.13.0 torchvision==0.14.0
@@ -296,6 +309,7 @@ pip install transformers==4.21.0
 ```
 
 #### 3. Performances Faibles
+
 - ✅ Vérifier qualité des images (résolution, contraste)
 - ✅ Augmenter le nombre d'époques
 - ✅ Ajuster le learning rate
@@ -304,11 +318,13 @@ pip install transformers==4.21.0
 ## 📊 Monitoring de l'Entraînement
 
 ### TensorBoard (TrOCR)
+
 ```bash
 tensorboard --logdir models/trocr_finetuned/logs
 ```
 
 ### Graphiques Matplotlib (EasyOCR)
+
 ```python
 # Automatiquement généré dans easyocr_finetuning.py
 # Fichiers : training_curves.png, training_history.json
@@ -317,6 +333,7 @@ tensorboard --logdir models/trocr_finetuned/logs
 ## 🎉 Étapes Suivantes
 
 ### 1. Intégration en Production
+
 ```python
 # Exemple d'utilisation
 from fine_tuning_manager import OCRFineTuningManager
@@ -327,12 +344,14 @@ results = best_model.predict(image_path)
 ```
 
 ### 2. Amélioration Continue
+
 - 📈 Collecter plus de données de factures variées
 - 🔄 Ré-entraîner périodiquement
 - 📊 Surveiller les performances en production
 - 🎯 Affiner le post-processing
 
 ### 3. Déploiement
+
 - 🐳 Containerisation Docker
 - ☁️ Déploiement cloud
 - 🔌 API REST
@@ -341,6 +360,7 @@ results = best_model.predict(image_path)
 ## 📞 Support
 
 Pour toute question ou problème :
+
 1. 📖 Consulter les logs dans `logs/`
 2. 🔍 Vérifier les fichiers de configuration
 3. 📊 Analyser les métriques d'évaluation

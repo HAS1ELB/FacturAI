@@ -219,7 +219,7 @@ class OCRFineTuningManager:
         """Fine-tuning d'EasyOCR"""
         logger.info("🔧 Fine-tuning EasyOCR...")
         
-        from easyocr_finetuning import EasyOCRFineTuner
+        from fine_tuning_model.easyocr_finetuning import EasyOCRFineTuner
         
         trainer = EasyOCRFineTuner(self.config["models"]["easyocr"])
         results = trainer.train()
@@ -230,7 +230,7 @@ class OCRFineTuningManager:
         """Fine-tuning de TrOCR"""
         logger.info("🔧 Fine-tuning TrOCR...")
         
-        from trocr_finetuning import TrOCRFineTuner
+        from fine_tuning_model.trocr_finetuning import TrOCRFineTuner
         
         trainer = TrOCRFineTuner(self.config["models"]["trocr"])
         results = trainer.train()
@@ -241,7 +241,7 @@ class OCRFineTuningManager:
         """Fine-tuning de PaddleOCR"""
         logger.info("🔧 Fine-tuning PaddleOCR...")
         
-        from paddleocr_finetuning import PaddleOCRFineTuner
+        from fine_tuning_model.paddleocr_finetuning import PaddleOCRFineTuner
         
         trainer = PaddleOCRFineTuner(self.config["models"]["paddleocr"])
         results = trainer.train()
@@ -252,7 +252,7 @@ class OCRFineTuningManager:
         """Compare les performances des différents modèles"""
         logger.info("📊 Comparaison des modèles...")
         
-        from model_evaluation import ModelComparator
+        from evaluation.model_evaluation import ModelComparator
         
         comparator = ModelComparator(self.config)
         comparison_report = comparator.compare_all_models(results)

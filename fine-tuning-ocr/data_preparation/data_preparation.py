@@ -117,13 +117,13 @@ class InvoiceDataPreparator:
         # Patterns pour identifier le type de contenu
         if any(word in text_lower for word in ['facture', 'invoice', 'bill']):
             return 'header'
-        elif any(word in text_lower for word in ['€', '$', 'eur', 'usd', 'ttc', 'ht']):
+        elif any(word in text_lower for word in ['€', '$', 'eur', 'usd', 'ttc', 'ht','mad','dh', 'dhs']):
             return 'amount'
         elif any(word in text_lower for word in ['date', '/', '-']) and len(text) < 15:
             return 'date'
         elif '@' in text_lower or 'email' in text_lower:
             return 'email'
-        elif any(word in text_lower for word in ['tel', 'phone', '+33', '01', '02', '03', '04', '05']):
+        elif any(word in text_lower for word in ['tel', 'phone', '+33', '01', '02', '03', '04', '05', '06', '07', '+212']):
             return 'phone'
         elif any(word in text_lower for word in ['rue', 'avenue', 'place', 'boulevard']):
             return 'address'
