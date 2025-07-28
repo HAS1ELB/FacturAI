@@ -2,12 +2,14 @@
 """
 TrOCR Fine-tuning pour FacturAI
 Approche moderne utilisant Transformers de Hugging Face
+Version corrigée pour Transformers 4.54.0
 """
 
 import os
 import json
 import torch
 import logging
+import argparse
 from pathlib import Path
 from typing import Dict, List, Any, Optional
 from datetime import datetime
@@ -25,8 +27,13 @@ import numpy as np
 from torch.utils.data import DataLoader
 from sklearn.metrics import accuracy_score
 import evaluate
+import transformers
 
+# Configuration du logging
+logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
+
+print("🧪 Version de Transformers active:", transformers.__version__)
 
 class TrOCRDataset:
     """Dataset personnalisé pour TrOCR"""
@@ -95,35 +102,52 @@ class TrOCRFineTuner:
         
         logger.info("✅ Modèle TrOCR initialisé")
     
-    def prepare_datasets(self) -> DatasetDict:
+    def prepare_datasets(self) -> Dict[str, Any]:
         """Prépare les datasets d'entraînement"""
         logger.info("Préparation des datasets TrOCR...")
         
-        # Charger les annotations
-        annotations_dir = "Data/annotations"
-        
-        datasets = {}
-        for split in ["train", "validation", "test"]:
-            annotations_file = os.path.join(annotations_dir, f"{split}_annotations.json")
+        # Charger les annotations depuis le fichier dataset si spécifié
+        if "dataset_path" in self.config and os.path.exists(self.config["dataset_path"]):
+            logger.info(f"Chargement du dataset: {self.config['dataset_path']}")
+            with open(self.config["dataset_path"], 'r', encoding='utf-8') as f:
+                dataset_data = json.load(f)
             
-            if os.path.exists(annotations_file):
-                with open(annotations_file, 'r', encoding='utf-8') as f:
-                    annotations = json.load(f)
+            datasets = {}
+            for split in ["train", "validation", "test"]:
+                if split in dataset_data:
+                    annotations = dataset_data[split]
+                    dataset = TrOCRDataset(
+                        annotations, 
+                        self.processor,
+                        max_target_length=self.config.get("max_length", 512)
+                    )
+                    datasets[split] = dataset
+                    logger.info(f"Dataset {split}: {len(annotations)} échantillons")
+        else:
+            # Fallback vers l'ancienne méthode
+            annotations_dir = "Data/fine_tuning/annotations"
+            datasets = {}
+            
+            for split in ["train", "validation", "test"]:
+                annotations_file = os.path.join(annotations_dir, f"{split}_annotations.json")
                 
-                # Créer le dataset
-                dataset = TrOCRDataset(
-                    annotations, 
-                    self.processor,
-                    max_target_length=self.config.get("max_length", 512)
-                )
-                
-                datasets[split] = dataset
-                logger.info(f"Dataset {split}: {len(annotations)} échantillons")
-            else:
-                logger.warning(f"Fichier d'annotations manquant: {annotations_file}")
+                if os.path.exists(annotations_file):
+                    with open(annotations_file, 'r', encoding='utf-8') as f:
+                        annotations = json.load(f)
+                    
+                    dataset = TrOCRDataset(
+                        annotations, 
+                        self.processor,
+                        max_target_length=self.config.get("max_length", 512)
+                    )
+                    
+                    datasets[split] = dataset
+                    logger.info(f"Dataset {split}: {len(annotations)} échantillons")
+                else:
+                    logger.warning(f"Fichier d'annotations manquant: {annotations_file}")
         
         if not datasets:
-            raise ValueError("Aucun dataset trouvé. Exécutez d'abord la préparation des données.")
+            raise ValueError("Aucun dataset trouvé. Vérifiez les chemins des données.")
         
         return datasets
     
@@ -146,8 +170,13 @@ class TrOCRFineTuner:
         exact_match = sum(pred == label for pred, label in zip(decoded_preds, decoded_labels)) / len(decoded_preds)
         
         # BLEU score
-        bleu = evaluate.load("bleu")
-        bleu_score = bleu.compute(predictions=decoded_preds, references=[[label] for label in decoded_labels])
+        try:
+            bleu = evaluate.load("bleu")
+            bleu_score = bleu.compute(predictions=decoded_preds, references=[[label] for label in decoded_labels])
+            bleu_value = bleu_score.get("bleu", 0.0)
+        except Exception as e:
+            logger.warning(f"Erreur calcul BLEU: {e}")
+            bleu_value = 0.0
         
         # Character Error Rate
         total_chars = sum(len(label) for label in decoded_labels)
@@ -159,7 +188,7 @@ class TrOCRFineTuner:
         
         return {
             "exact_match": exact_match,
-            "bleu": bleu_score["bleu"],
+            "bleu": bleu_value,
             "character_error_rate": cer,
             "accuracy": exact_match  # Alias pour compatibilité
         }
@@ -174,7 +203,10 @@ class TrOCRFineTuner:
         if "train" not in datasets:
             raise ValueError("Dataset d'entraînement manquant")
         
-        # Configuration de l'entraînement
+        # Créer le répertoire de sortie
+        os.makedirs(self.output_dir, exist_ok=True)
+        
+        # Configuration de l'entraînement - CORRECTION ICI
         training_args = TrainingArguments(
             output_dir=self.output_dir,
             per_device_train_batch_size=self.config.get("batch_size", 4),
@@ -182,10 +214,10 @@ class TrOCRFineTuner:
             num_train_epochs=self.config.get("epochs", 30),
             learning_rate=self.config.get("learning_rate", 5e-5),
             logging_steps=50,
+            eval_strategy="steps",             # ✅ CORRIGÉ: était evaluation_strategy
+            save_strategy="steps",
             save_steps=500,
             eval_steps=500,
-            evaluation_strategy="steps",
-            save_strategy="steps",
             load_best_model_at_end=True,
             metric_for_best_model="exact_match",
             greater_is_better=True,
@@ -194,7 +226,7 @@ class TrOCRFineTuner:
             fp16=torch.cuda.is_available(),
             dataloader_pin_memory=False,
             remove_unused_columns=False,
-            report_to=None  # Désactiver wandb par défaut
+            report_to="none"  # Désactive wandb/tensorboard si non configuré
         )
         
         # Callbacks
@@ -328,15 +360,36 @@ class TrOCRFineTuner:
         
         return results
 
+def parse_args():
+    """Parse les arguments de ligne de commande"""
+    parser = argparse.ArgumentParser(description="Fine-tuning TrOCR")
+    parser.add_argument("--dataset", type=str, help="Chemin vers le fichier dataset JSON")
+    parser.add_argument("--base_model", type=str, default="microsoft/trocr-large-printed", 
+                       help="Modèle de base à utiliser")
+    parser.add_argument("--output_dir", type=str, default="models/trocr_finetuned",
+                       help="Répertoire de sortie")
+    parser.add_argument("--epochs", type=int, default=10, help="Nombre d'époques")
+    parser.add_argument("--batch_size", type=int, default=4, help="Taille du batch")
+    parser.add_argument("--learning_rate", type=float, default=5e-5, help="Taux d'apprentissage")
+    return parser.parse_args()
+
 def main():
-    """Test du fine-tuning TrOCR"""
+    """Main avec support des arguments CLI"""
+    args = parse_args()
+    
     config = {
-        "base_model": "microsoft/trocr-large-printed",
-        "output_dir": "models/trocr_finetuned",
-        "epochs": 3,  # Test rapide
-        "batch_size": 2,
-        "learning_rate": 5e-5
+        "base_model": args.base_model,
+        "output_dir": args.output_dir,
+        "epochs": args.epochs,
+        "batch_size": args.batch_size,
+        "learning_rate": args.learning_rate
     }
+    
+    # Ajouter le dataset si spécifié
+    if args.dataset:
+        config["dataset_path"] = args.dataset
+    
+    logger.info(f"Configuration: {json.dumps(config, indent=2)}")
     
     trainer = TrOCRFineTuner(config)
     results = trainer.train()

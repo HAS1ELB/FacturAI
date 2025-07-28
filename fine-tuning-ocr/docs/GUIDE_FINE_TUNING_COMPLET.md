@@ -78,10 +78,10 @@ python fine-tuning-ocr/data_preparation/data_preparation.py \
 
 ```bash
 # Fine-tuning TrOCR
-python trocr_finetuning.py \
+python fine-tuning-ocr/fine_tuning_model/trocr_finetuning.py \
     --dataset Data/fine_tuning/datasets/trocr/dataset.json \
     --base_model microsoft/trocr-large-printed \
-    --output_dir models/trocr_finetuned \
+    --output_dir fine-tuning-ocr/models/trocr_finetuned \
     --epochs 10 \
     --batch_size 4 \
     --learning_rate 5e-5
