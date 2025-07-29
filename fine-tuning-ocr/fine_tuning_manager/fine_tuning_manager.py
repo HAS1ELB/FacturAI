@@ -39,7 +39,7 @@ class OCRFineTuningManager:
             "models": {
                 "easyocr": {
                     "enabled": True,
-                    "custom_model_path": "models/easyocr_finetuned",
+                    "custom_model_path": "fine-tuning-ocr/models/easyocr_finetuned",
                     "epochs": 50,
                     "batch_size": 8,
                     "learning_rate": 0.001
@@ -47,17 +47,10 @@ class OCRFineTuningManager:
                 "trocr": {
                     "enabled": True,
                     "base_model": "microsoft/trocr-large-printed",
-                    "output_dir": "models/trocr_finetuned",
+                    "output_dir": "fine-tuning-ocr/models/trocr_finetuned",
                     "epochs": 30,
                     "batch_size": 4,
                     "learning_rate": 5e-5
-                },
-                "paddleocr": {
-                    "enabled": True,
-                    "output_dir": "models/paddleocr_finetuned",
-                    "epochs": 100,
-                    "batch_size": 16,
-                    "learning_rate": 0.001
                 }
             },
             "training": {
@@ -95,7 +88,6 @@ class OCRFineTuningManager:
             self.config["data"]["output_dir"],
             "models/easyocr_finetuned",
             "models/trocr_finetuned", 
-            "models/paddleocr_finetuned",
             "logs/training",
             "results/evaluation"
         ]
@@ -143,8 +135,6 @@ class OCRFineTuningManager:
                     results[approach_name] = self.finetune_easyocr()
                 elif approach_name == "trocr":
                     results[approach_name] = self.finetune_trocr()
-                elif approach_name == "paddleocr":
-                    results[approach_name] = self.finetune_paddleocr()
                 
                 logger.info(f"✅ {approach_name} fine-tuning terminé avec succès")
                 
@@ -172,8 +162,6 @@ class OCRFineTuningManager:
             "transformers": "Hugging Face Transformers pour TrOCR",
             "datasets": "Datasets pour la gestion des données",
             "easyocr": "EasyOCR pour le fine-tuning",
-            "paddlepaddle": "PaddlePaddle pour PaddleOCR",
-            "paddleocr": "PaddleOCR",
             "opencv-python": "OpenCV pour le traitement d'images",
             "Pillow": "PIL pour la manipulation d'images",
             "numpy": "NumPy pour les calculs numériques",
@@ -207,7 +195,7 @@ class OCRFineTuningManager:
         
         # Cette méthode sera implémentée dans le prochain fichier
         # car elle est complexe et nécessite plusieurs classes
-        from data_preparation import DatasetPreparator
+        from data_preparation.data_preparation import DatasetPreparator
         
         preparator = DatasetPreparator(self.config)
         dataset_info = preparator.prepare_all_datasets()
@@ -237,16 +225,6 @@ class OCRFineTuningManager:
         
         return results
     
-    def finetune_paddleocr(self) -> Dict[str, Any]:
-        """Fine-tuning de PaddleOCR"""
-        logger.info("🔧 Fine-tuning PaddleOCR...")
-        
-        from fine_tuning_model.paddleocr_finetuning import PaddleOCRFineTuner
-        
-        trainer = PaddleOCRFineTuner(self.config["models"]["paddleocr"])
-        results = trainer.train()
-        
-        return results
     
     def compare_models(self, results: Dict[str, Any]):
         """Compare les performances des différents modèles"""
@@ -404,7 +382,7 @@ class OCRFineTuningManager:
 def main():
     """Fonction principale"""
     parser = argparse.ArgumentParser(description="Fine-tuning OCR pour FacturAI")
-    parser.add_argument("--approach", choices=["easyocr", "trocr", "paddleocr", "all"], 
+    parser.add_argument("--approach", choices=["easyocr", "trocr", "all"], 
                        default="all", help="Approche de fine-tuning à utiliser")
     parser.add_argument("--config", default="fine_tuning_config.json", 
                        help="Fichier de configuration")

@@ -65,7 +65,7 @@ class FacturAIFineTuningOrchestrator:
                     "epochs": 50,
                     "batch_size": 8,
                     "learning_rate": 0.001,
-                    "output_dir": "models/easyocr_finetuned"
+                    "output_dir": "fine-tuning-ocr/models/easyocr_finetuned"
                 },
                 "trocr": {
                     "enabled": True,
@@ -73,11 +73,7 @@ class FacturAIFineTuningOrchestrator:
                     "epochs": 10,
                     "batch_size": 4,
                     "learning_rate": 5e-5,
-                    "output_dir": "models/trocr_finetuned"
-                },
-                "paddleocr": {
-                    "enabled": True,
-                    "output_dir": "models/paddleocr_finetuned"
+                    "output_dir": "fine-tuning-ocr/models/trocr_finetuned"
                 }
             },
             "evaluation": {
@@ -96,7 +92,6 @@ class FacturAIFineTuningOrchestrator:
             self.config["data"]["output_dir"],
             self.config["models"]["easyocr"]["output_dir"],
             self.config["models"]["trocr"]["output_dir"],
-            self.config["models"]["paddleocr"]["output_dir"],
             self.config["evaluation"]["output_dir"],
             "logs"
         ]
@@ -235,24 +230,6 @@ class FacturAIFineTuningOrchestrator:
                 logger.error(f"❌ Erreur TrOCR: {e}")
                 training_results["trocr"] = {"error": str(e)}
         
-        # PaddleOCR
-        if "paddleocr" in enabled_models:
-            logger.info("\n🏓 Préparation PaddleOCR...")
-            try:
-                from fine_tuning_model.paddleocr_finetuning import PaddleOCRFineTuner
-                
-                tuner = PaddleOCRFineTuner(self.config["models"]["paddleocr"])
-                dataset_file = f"{self.config['data']['output_dir']}/datasets/paddleocr/dataset.json"
-                
-                results = tuner.run_complete_training(dataset_file)
-                
-                training_results["paddleocr"] = results
-                logger.info("✅ PaddleOCR préparé avec succès")
-                
-            except Exception as e:
-                logger.error(f"❌ Erreur PaddleOCR: {e}")
-                training_results["paddleocr"] = {"error": str(e)}
-        
         return training_results
     
     def evaluate_models(self, training_results: Dict[str, Any]) -> Dict[str, Any]:
@@ -269,8 +246,6 @@ class FacturAIFineTuningOrchestrator:
                     models_config["easyocr_finetuned"] = results["model_path"]
                 elif model_name == "trocr" and "model_path" in results:
                     models_config["trocr_finetuned"] = results["model_path"]
-                elif model_name == "paddleocr" and "output_dir" in results:
-                    models_config["paddleocr_finetuned"] = results["output_dir"]
         
         # Lancer l'évaluation
         evaluator = OCRModelEvaluator(self.config["evaluation"]["output_dir"])

@@ -90,13 +90,6 @@ def test_ocr_dependencies():
         logger.error("❌ EasyOCR manquant")
         return False
     
-    # PaddleOCR
-    try:
-        from paddleocr import PaddleOCR
-        logger.info("✅ PaddleOCR OK")
-    except ImportError:
-        logger.warning("⚠️ PaddleOCR manquant (optionnel)")
-    
     # Tesseract
     try:
         import pytesseract

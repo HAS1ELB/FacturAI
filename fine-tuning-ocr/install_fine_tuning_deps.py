@@ -76,7 +76,6 @@ def install_ocr_packages():
     packages = [
         "easyocr",
         "paddlepaddle", 
-        "paddleocr",
         "pytesseract",
         "opencv-python",
         "opencv-contrib-python"

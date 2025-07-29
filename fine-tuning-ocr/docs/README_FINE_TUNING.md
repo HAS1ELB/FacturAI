@@ -6,11 +6,10 @@ Système avancé de fine-tuning OCR spécialement conçu pour améliorer la pré
 
 ### 🎪 Modèles Supportés
 
-| Modèle | Type | Précision Attendue | Vitesse | Complexité |
-|--------|------|-------------------|---------|------------|
-| **🤖 TrOCR** | Transformer | 90-95% | 2-3s | Moyenne |
-| **👁️ EasyOCR** | CRNN | 80-90% | 1-2s | Faible |
-| **🏓 PaddleOCR** | Multi-stage | 80-88% | 1.5-2.5s | Élevée |
+| Modèle                | Type        | Précision Attendue | Vitesse | Complexité |
+| ---------------------- | ----------- | ------------------- | ------- | ----------- |
+| **🤖 TrOCR**     | Transformer | 90-95%              | 2-3s    | Moyenne     |
+| **👁️ EasyOCR** | CRNN        | 80-90%              | 1-2s    | Faible      |
 
 ## 📁 Structure du Projet
 
@@ -22,7 +21,6 @@ FacturAI/
 ├── 📊 data_preparation.py            # Préparation données
 ├── 👁️ easyocr_finetuning.py         # Fine-tuning EasyOCR
 ├── 🤖 trocr_finetuning.py           # Fine-tuning TrOCR
-├── 🏓 paddleocr_finetuning.py       # Fine-tuning PaddleOCR
 ├── 📈 model_evaluation.py           # Évaluation et comparaison
 ├── 📦 install_fine_tuning_deps.py   # Installation dépendances
 ├── 📋 GUIDE_FINE_TUNING_COMPLET.md  # Guide détaillé
@@ -48,14 +46,7 @@ python quick_start.py --install-only
 python quick_start.py --easyocr-only
 ```
 
-### 3. Fine-Tuning TrOCR (Recommandé)
-
-```bash
-# TrOCR seulement (meilleure précision)
-python quick_start.py --trocr-only
-```
-
-### 4. Pipeline Complet (Tous les Modèles)
+### 3. Pipeline Complet (Tous les Modèles)
 
 ```bash
 # Comparaison complète
@@ -115,11 +106,11 @@ Data/
 
 ### Amélioration de Performance
 
-| Métrique | Avant Fine-Tuning | Après Fine-Tuning | Amélioration |
-|----------|-------------------|-------------------|--------------|
-| **Précision** | 76.3% | 85-95% | +8-19% |
-| **Confiance** | 70% | 80-90% | +10-20% |
-| **Vitesse** | Variable | Optimisée | Stable |
+| Métrique            | Avant Fine-Tuning | Après Fine-Tuning | Amélioration |
+| -------------------- | ----------------- | ------------------ | ------------- |
+| **Précision** | 76.3%             | 85-95%             | +8-19%        |
+| **Confiance**  | 70%               | 80-90%             | +10-20%       |
+| **Vitesse**    | Variable          | Optimisée         | Stable        |
 
 ### Fichiers Générés
 
@@ -128,7 +119,6 @@ Data/
 ├── models/
 │   ├── easyocr_finetuned/final_model.pth
 │   ├── trocr_finetuned/
-│   └── paddleocr_finetuned/
 ├── evaluation_results/
 │   ├── evaluation_report_XXXXXX.md
 │   ├── similarity_comparison.png
@@ -142,6 +132,7 @@ Data/
 ### Hyperparamètres Optimaux
 
 #### TrOCR (Recommandé)
+
 ```json
 {
   "base_model": "microsoft/trocr-large-printed",
@@ -153,6 +144,7 @@ Data/
 ```
 
 #### EasyOCR (Votre Demande)
+
 ```json
 {
   "epochs": 50,
@@ -164,17 +156,18 @@ Data/
 
 ### Configuration Matérielle
 
-| Composant | Minimum | Recommandé | Optimal |
-|-----------|---------|------------|---------|
-| **GPU** | 4GB VRAM | 8GB VRAM | 16GB+ VRAM |
-| **RAM** | 8GB | 16GB | 32GB+ |
-| **Stockage** | 10GB | 50GB | 100GB+ |
+| Composant          | Minimum  | Recommandé | Optimal    |
+| ------------------ | -------- | ----------- | ---------- |
+| **GPU**      | 4GB VRAM | 8GB VRAM    | 16GB+ VRAM |
+| **RAM**      | 8GB      | 16GB        | 32GB+      |
+| **Stockage** | 10GB     | 50GB        | 100GB+     |
 
 ## 🔧 Dépannage
 
 ### Problèmes Courants
 
 #### CUDA Out of Memory
+
 ```bash
 # Réduire batch_size
 python trocr_finetuning.py --batch_size 2
@@ -184,6 +177,7 @@ export CUDA_VISIBLE_DEVICES=""
 ```
 
 #### Dépendances Manquantes
+
 ```bash
 # Réinstallation propre
 pip uninstall torch torchvision transformers
@@ -191,6 +185,7 @@ python install_fine_tuning_deps.py
 ```
 
 #### Performances Faibles
+
 ```bash
 # Diagnostic complet
 python quick_start.py --check-only
@@ -226,12 +221,12 @@ def optimize_predictions(text):
 # Règles de validation spécifiques
 def validate_invoice_data(extracted_data):
     errors = []
-    
+  
     # Vérifier cohérence montants
     if 'montant_ht' in data and 'montant_ttc' in data:
         if not validate_tax_calculation(data):
             errors.append("Incohérence TVA")
-    
+  
     return errors
 ```
 
@@ -264,11 +259,13 @@ CMD ["python", "api_server.py"]
 ## 📞 Support et Communauté
 
 ### Documentation
+
 - 📖 [Guide Complet](GUIDE_FINE_TUNING_COMPLET.md)
 - 🔧 [API Reference](api_documentation.md)
 - 📊 [Métriques Détaillées](evaluation_metrics.md)
 
 ### Débogage
+
 ```bash
 # Logs détaillés
 tail -f logs/fine_tuning.log
@@ -281,12 +278,12 @@ python monitor_training.py
 
 ### Comparaison sur Factures Françaises
 
-| Modèle | Factures Simples | Factures Complexes | Temps Moyen |
-|--------|------------------|-------------------|-------------|
-| **TrOCR Fine-tuned** | 96% | 88% | 2.1s |
-| **EasyOCR Fine-tuned** | 91% | 82% | 1.4s |
-| **PaddleOCR Base** | 87% | 78% | 1.8s |
-| **EasyOCR Base** | 84% | 76% | 1.2s |
+| Modèle                      | Factures Simples | Factures Complexes | Temps Moyen |
+| ---------------------------- | ---------------- | ------------------ | ----------- |
+| **TrOCR Fine-tuned**   | 96%              | 88%                | 2.1s        |
+| **EasyOCR Fine-tuned** | 91%              | 82%                | 1.4s        |
+| **PaddleOCR Base**     | 87%              | 78%                | 1.8s        |
+| **EasyOCR Base**       | 84%              | 76%                | 1.2s        |
 
 ## 🎉 Succès Attendus
 

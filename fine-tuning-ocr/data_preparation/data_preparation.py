@@ -445,93 +445,6 @@ class InvoiceDataPreparator:
         
         logger.info(f"✅ Dataset EasyOCR créé avec {len(all_data)} échantillons de texte")
     
-    def create_paddleocr_dataset(self, ground_truth: Dict, datasets: Dict[str, List]) -> None:
-        """Crée le dataset au format PaddleOCR avec format correct pour l'entraînement"""
-        logger.info("🏓 Création du dataset PaddleOCR...")
-        
-        paddle_dir = self.datasets_dir / "paddleocr"
-        paddle_dir.mkdir(exist_ok=True)
-        
-        # Créer les splits pour PaddleOCR
-        paddle_splits = {}
-        all_data = []
-        
-        for split_name, split_images in datasets.items():
-            split_data = []
-            
-            for image_path in split_images:
-                annotations = ground_truth[image_path]
-                abs_image_path = str(Path(image_path).resolve())
-                
-                # Format PaddleOCR : image + lignes de texte avec métadonnées
-                lines = []
-                for ann in annotations:
-                    if ann.get('text', '').strip() and ann.get('bbox'):
-                        # S'assurer que les points sont dans le bon format
-                        bbox = ann['bbox']
-                        if isinstance(bbox, dict):
-                            # Convertir du format {x,y,width,height} vers [[x1,y1],[x2,y2],[x3,y3],[x4,y4]]
-                            x, y = bbox['x'], bbox['y']
-                            w, h = bbox['width'], bbox['height']
-                            points = [[x, y], [x+w, y], [x+w, y+h], [x, y+h]]
-                        else:
-                            points = bbox
-                        
-                        line_data = {
-                            'transcription': ann['text'].strip(),
-                            'points': points,
-                            'difficult': False,  # Standard PaddleOCR field
-                            'confidence': ann.get('confidence', 1.0),
-                            'type': ann.get('enhanced_type', ann.get('type', 'text'))
-                        }
-                        lines.append(line_data)
-                
-                if lines:
-                    image_sample = {
-                        'image_path': abs_image_path,
-                        'lines': lines,
-                        'image_name': Path(image_path).name,
-                        'num_lines': len(lines)
-                    }
-                    split_data.append(image_sample)
-                    all_data.append(image_sample)
-            
-            paddle_splits[split_name] = split_data
-            
-            # Sauvegarder chaque split
-            split_file = paddle_dir / f"{split_name}.json"
-            with open(split_file, 'w', encoding='utf-8') as f:
-                json.dump(split_data, f, ensure_ascii=False, indent=2)
-            
-            logger.info(f"PaddleOCR split {split_name}: {len(split_data)} images avec {sum(len(img['lines']) for img in split_data)} lignes de texte")
-        
-        # Sauvegarder le dataset complet
-        with open(paddle_dir / "dataset.json", 'w', encoding='utf-8') as f:
-            json.dump(all_data, f, ensure_ascii=False, indent=2)
-        
-        # Créer les fichiers de liste au format PaddleOCR pour l'entraînement
-        self._create_paddle_training_lists(paddle_dir, paddle_splits)
-        
-        # Statistiques
-        total_lines = sum(len(img['lines']) for img in all_data)
-        total_images = len(all_data)
-        
-        # Métadonnées
-        metadata = {
-            'total_images': total_images,
-            'total_text_lines': total_lines,
-            'avg_lines_per_image': total_lines / total_images if total_images > 0 else 0,
-            'splits': {name: {'images': len(data), 'lines': sum(len(img['lines']) for img in data)} 
-                      for name, data in paddle_splits.items()},
-            'created_at': datetime.now().isoformat(),
-            'format': 'paddleocr',
-            'description': 'Dataset préparé pour le fine-tuning PaddleOCR - détection et reconnaissance'
-        }
-        
-        with open(paddle_dir / "metadata.json", 'w', encoding='utf-8') as f:
-            json.dump(metadata, f, ensure_ascii=False, indent=2)
-        
-        logger.info(f"✅ Dataset PaddleOCR créé: {total_images} images, {total_lines} lignes de texte")
     
     def _create_paddle_training_lists(self, paddle_dir: Path, paddle_splits: Dict) -> None:
         """Crée les fichiers de liste au format attendu par PaddleOCR pour l'entraînement"""
@@ -626,7 +539,6 @@ class InvoiceDataPreparator:
         # 5. Créer les formats spécifiques avec splits
         self.create_trocr_dataset(enhanced_gt, datasets)
         self.create_easyocr_dataset(enhanced_gt, datasets)
-        self.create_paddleocr_dataset(enhanced_gt, datasets)
         
         # 6. Créer les fichiers de configuration pour les fine-tuning
         self._create_training_configs(enhanced_gt, datasets)
@@ -648,7 +560,6 @@ class InvoiceDataPreparator:
             'output_dir': str(self.output_dir),
             'trocr_path': str(self.datasets_dir / "trocr"),
             'easyocr_path': str(self.datasets_dir / "easyocr"),
-            'paddleocr_path': str(self.datasets_dir / "paddleocr")
         }
 
     def _create_training_configs(self, ground_truth: Dict, datasets: Dict) -> None:
@@ -694,17 +605,6 @@ class InvoiceDataPreparator:
         with open(configs_dir / "easyocr_config.json", 'w', encoding='utf-8') as f:
             json.dump(easyocr_config, f, ensure_ascii=False, indent=2)
         
-        # Configuration pour PaddleOCR
-        paddleocr_config = {
-            "model_type": "paddleocr",
-            "dataset_path": str(self.datasets_dir / "paddleocr" / "dataset.json"),
-            "dataset_dir": str(self.datasets_dir / "paddleocr"),
-            "output_dir": "models/paddleocr_finetuned"
-        }
-        
-        with open(configs_dir / "paddleocr_config.json", 'w', encoding='utf-8') as f:
-            json.dump(paddleocr_config, f, ensure_ascii=False, indent=2)
-        
         logger.info(f"✅ Configurations créées dans {configs_dir}")
 
 def main():
@@ -736,11 +636,9 @@ def main():
         print(f"📁 Résultats dans: {results['output_dir']}")
         print(f"🤖 TrOCR dataset: {results.get('trocr_path', 'Non créé')}")
         print(f"👁️ EasyOCR dataset: {results.get('easyocr_path', 'Non créé')}")
-        print(f"🏓 PaddleOCR dataset: {results.get('paddleocr_path', 'Non créé')}")
         print("\n🚀 Pour lancer les fine-tuning:")
         print("   - TrOCR: python fine-tuning-ocr/fine_tuning_model/trocr_finetuning.py --dataset Data/fine_tuning/datasets/trocr/dataset.json")
         print("   - EasyOCR: python fine-tuning-ocr/fine_tuning_model/easyocr_finetuning.py --dataset Data/fine_tuning/datasets/easyocr/dataset.json")
-        print("   - PaddleOCR: python fine-tuning-ocr/fine_tuning_model/paddleocr_finetuning.py --dataset Data/fine_tuning/datasets/paddleocr/dataset.json")
     else:
         print("❌ Échec de la préparation")
 

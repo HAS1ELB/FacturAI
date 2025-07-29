@@ -6,7 +6,6 @@ Ce guide vous accompagne dans l'utilisation du système complet de fine-tuning O
 
 1. **🤖 TrOCR** - Moderne, basé sur Transformers (Recommandé)
 2. **👁️ EasyOCR** - Extension du modèle existant
-3. **🏓 PaddleOCR** - Alternative robuste et flexible
 
 ## 🚀 Installation et Configuration
 
@@ -30,7 +29,6 @@ pip install python-Levenshtein
 python -c "import torch; print('PyTorch:', torch.__version__)"
 python -c "import transformers; print('Transformers OK')"
 python -c "import easyocr; print('EasyOCR OK')"
-python -c "import paddleocr; print('PaddleOCR OK')"
 ```
 
 ## 📊 Préparation des Données
@@ -119,24 +117,7 @@ python easyocr_finetuning.py \
 - Batch size : 8-16
 - Learning rate : 0.001
 
-### 3. PaddleOCR (Alternative robuste) 🏓
-
-**Avantages :**
-
-- Très flexible et configurable
-- Bonne performance sur textes complexes
-- Séparation détection/reconnaissance
-
-```bash
-# Préparation PaddleOCR
-python paddleocr_finetuning.py \
-    --dataset Data/fine_tuning/datasets/paddleocr/dataset.json \
-    --output_dir models/paddleocr_finetuned
-```
-
-**Note :** PaddleOCR nécessite le repository officiel pour l'entraînement complet.
-
-## 🎛️ Gestionnaire Principal
+### 🎛️ Gestionnaire Principal
 
 ### Utilisation du Gestionnaire Unifié
 
@@ -166,7 +147,6 @@ python model_evaluation.py \
     --output_dir evaluation_results \
     --easyocr_model models/easyocr_finetuned/final_model.pth \
     --trocr_model models/trocr_finetuned \
-    --paddleocr_model models/paddleocr_finetuned
 ```
 
 **Métriques calculées :**
@@ -181,11 +161,10 @@ python model_evaluation.py \
 
 ### Métriques de Performance Attendues
 
-| Modèle              | Similarité | Confiance | Vitesse  |
-| -------------------- | ----------- | --------- | -------- |
-| **TrOCR**      | 85-95%      | 80-90%    | 2-3s     |
-| **EasyOCR FT** | 80-90%      | 75-85%    | 1-2s     |
-| **PaddleOCR**  | 80-88%      | 70-80%    | 1.5-2.5s |
+| Modèle              | Similarité | Confiance | Vitesse |
+| -------------------- | ----------- | --------- | ------- |
+| **TrOCR**      | 85-95%      | 80-90%    | 2-3s    |
+| **EasyOCR FT** | 80-90%      | 75-85%    | 1-2s    |
 
 ### Recommandations d'Usage
 
@@ -196,10 +175,6 @@ python model_evaluation.py \
 #### 🥈 Pour la Vitesse
 
 **EasyOCR fine-tuné** - Bon compromis vitesse/précision
-
-#### 🥉 Pour la Flexibilité
-
-**PaddleOCR** - Très configurable, bon sur textes complexes
 
 ## 🔧 Configuration Avancée
 

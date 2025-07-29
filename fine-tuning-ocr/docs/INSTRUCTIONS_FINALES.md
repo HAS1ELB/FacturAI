@@ -1,6 +1,6 @@
 # 🎯 Instructions Finales - Système de Fine-Tuning OCR FacturAI
 
-## 🎉 Félicitations ! 
+## 🎉 Félicitations !
 
 Votre système complet de fine-tuning OCR est maintenant prêt ! Vous disposez d'un pipeline professionnel capable d'améliorer drastiquement la précision de reconnaissance de texte sur vos factures.
 
@@ -11,7 +11,6 @@ Votre système complet de fine-tuning OCR est maintenant prêt ! Vous disposez d
 - **🎛️ Gestionnaire Principal** (`fine_tuning_manager.py`) - Orchestration complète
 - **👁️ Fine-Tuning EasyOCR** (`easyocr_finetuning.py`) - Votre demande spécifique
 - **🤖 Fine-Tuning TrOCR** (`trocr_finetuning.py`) - Modèle recommandé
-- **🏓 Fine-Tuning PaddleOCR** (`paddleocr_finetuning.py`) - Alternative robuste
 - **📊 Préparation Données** (`data_preparation.py`) - Automatique depuis vos résultats OCR
 - **📈 Évaluation Modèles** (`model_evaluation.py`) - Comparaison complète
 - **🚀 Interface Simple** (`quick_start.py`) - Démarrage en une commande
@@ -48,16 +47,19 @@ ls Data/ocr_results/         # Vos résultats OCR JSON
 ### Étape 3: Lancement du Fine-Tuning
 
 #### Option A: EasyOCR Seulement (Votre Demande)
+
 ```bash
 python quick_start.py --easyocr-only
 ```
 
 #### Option B: TrOCR Seulement (Recommandé)
+
 ```bash
 python quick_start.py --trocr-only
 ```
 
 #### Option C: Pipeline Complet (Comparaison)
+
 ```bash
 python quick_start.py --full-pipeline
 ```
@@ -66,11 +68,11 @@ python quick_start.py --full-pipeline
 
 ### 🎯 Avec Vos 1000+ Images de Factures
 
-| Métrique | Avant | Après Fine-Tuning | Amélioration |
-|----------|-------|-------------------|--------------|
-| **Précision** | 76.3% | **85-95%** | **+8-19%** |
-| **Confiance** | Variable | **80-90%** | **+Stable** |
-| **Vitesse** | 1-3s | **< 2s** | **Optimisée** |
+| Métrique            | Avant    | Après Fine-Tuning | Amélioration        |
+| -------------------- | -------- | ------------------ | -------------------- |
+| **Précision** | 76.3%    | **85-95%**   | **+8-19%**     |
+| **Confiance**  | Variable | **80-90%**   | **+Stable**    |
+| **Vitesse**    | 1-3s     | **< 2s**     | **Optimisée** |
 
 ### 📁 Fichiers Générés
 
@@ -80,7 +82,6 @@ Après le fine-tuning, vous aurez :
 📁 models/
 ├── easyocr_finetuned/final_model.pth       # Votre modèle EasyOCR
 ├── trocr_finetuned/                        # Modèle TrOCR
-└── paddleocr_finetuned/                    # Modèle PaddleOCR
 
 📊 evaluation_results/
 ├── evaluation_report_XXXXXX.md             # Rapport détaillé
@@ -161,18 +162,21 @@ python quick_start.py --full-pipeline
 ### Problèmes Courants
 
 #### CUDA Out of Memory
+
 ```bash
 # Réduire la taille de batch
 python trocr_finetuning.py --batch_size 2
 ```
 
 #### Performances Insatisfaisantes
+
 ```bash
 # Vérifier la qualité des données
 python data_preparation.py --validate-data
 ```
 
 #### Erreur de Dépendances
+
 ```bash
 # Réinstallation propre
 python install_fine_tuning_deps.py
@@ -187,18 +191,21 @@ python install_fine_tuning_deps.py
 ## 🎉 Prochaines Étapes Suggérées
 
 ### Phase 1: Validation (Semaine 1)
+
 1. ✅ Lancer le fine-tuning complet
 2. ✅ Analyser les rapports de performance
 3. ✅ Tester sur 10-20 nouvelles factures
 4. ✅ Valider les résultats métier
 
 ### Phase 2: Optimisation (Semaine 2-3)
+
 1. 🎯 Ajuster les hyperparamètres selon les résultats
 2. 🔧 Personnaliser le post-processing
 3. 📊 Intégrer dans votre pipeline existant
 4. 🚀 Déployer en production
 
 ### Phase 3: Amélioration Continue (Mensuel)
+
 1. 📈 Collecter nouvelles données de production
 2. 🔄 Ré-entraîner périodiquement
 3. 📊 Monitorer les performances
@@ -207,12 +214,14 @@ python install_fine_tuning_deps.py
 ## 💡 Conseils d'Expert
 
 ### Pour Maximiser la Précision
+
 - 🎯 **Utilisez TrOCR** pour les meilleures performances
 - 📊 **Validez manuellement** 5-10% des résultats initialement
 - 🔧 **Personnalisez le post-processing** selon vos fournisseurs
 - 📈 **Ré-entraînez régulièrement** avec de nouvelles données
 
 ### Pour Optimiser la Vitesse
+
 - ⚡ **EasyOCR fine-tuné** pour la vitesse
 - 🎮 **GPU recommandé** pour l'entraînement
 - 💾 **Batch processing** pour de gros volumes

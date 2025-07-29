@@ -20,7 +20,7 @@ def print_banner():
     ║                    🎯 FacturAI Fine-Tuning                  ║
     ║                      Quick Start Guide                       ║
     ║                                                              ║
-    ║  🤖 TrOCR • 👁️ EasyOCR • 🏓 PaddleOCR                      ║
+    ║                     🤖 TrOCR • 👁️ EasyOCR •                 ║
     ║                                                              ║
     ║  Transformez vos 1000+ factures en données précises !       ║
     ╚══════════════════════════════════════════════════════════════╝
@@ -100,7 +100,6 @@ def quick_setup():
         "Data/fine_tuning",
         "fine_tuning_ocr/models/easyocr_finetuned",
         "fine_tuning_ocr/models/trocr_finetuned", 
-        "fine_tuning_ocr/models/paddleocr_finetuned",
         "fine_tuning_ocr/evaluation_results",
         "fine_tuning_ocr/logs"
     ]
