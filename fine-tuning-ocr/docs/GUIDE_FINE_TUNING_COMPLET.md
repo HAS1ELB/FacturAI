@@ -141,12 +141,12 @@ python fine_tuning_manager.py \
 ### Évaluation Complète
 
 ```bash
-python model_evaluation.py \
+python fine-tuning-ocr/evaluation/model_evaluation.py \
     --test_data Data/fine_tuning/splits/test.json \
     --ground_truth Data/fine_tuning/annotations/ground_truth.json \
-    --output_dir evaluation_results \
-    --easyocr_model models/easyocr_finetuned/final_model.pth \
-    --trocr_model models/trocr_finetuned \
+    --output_dir fine-tuning-ocr/evaluation_results \
+    --easyocr_model fine-tuning-ocr/models/easyocr_finetuned/final_model.pth \
+    --trocr_model fine-tuning-ocr/models/trocr_finetuned \
 ```
 
 **Métriques calculées :**

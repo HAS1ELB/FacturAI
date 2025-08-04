@@ -1,0 +1,53 @@
+{
+  "EasyOCR Base": {
+    "model_name": "EasyOCR Base",
+    "metrics": {
+      "exact_accuracy": 0.0,
+      "avg_edit_distance": 1424.0,
+      "avg_similarity": 0.1778290993071594,
+      "avg_confidence": 0.6368357156814193,
+      "min_confidence": 0.13218138023964315,
+      "max_confidence": 0.9997331114023428,
+      "avg_processing_time": 15.723442792892456,
+      "total_processing_time": 15.723442792892456
+    },
+    "total_time": 15.723442792892456,
+    "avg_time_per_image": 15.723442792892456,
+    "num_images": 1,
+    "error": null
+  },
+  "EasyOCR Fine-tuned": {
+    "model_name": "EasyOCR Fine-tuned",
+    "metrics": {
+      "exact_accuracy": 0.0,
+      "avg_edit_distance": 1424.0,
+      "avg_similarity": 0.1778290993071594,
+      "avg_confidence": 0.6368357156814193,
+      "min_confidence": 0.13218138023964315,
+      "max_confidence": 0.9997331114023428,
+      "avg_processing_time": 18.78227186203003,
+      "total_processing_time": 18.78227186203003
+    },
+    "total_time": 18.78227186203003,
+    "avg_time_per_image": 18.78227186203003,
+    "num_images": 1,
+    "error": null
+  },
+  "TrOCR": {
+    "model_name": "TrOCR Fine-tuned",
+    "metrics": {
+      "exact_accuracy": 0.0,
+      "avg_edit_distance": 546.0,
+      "avg_similarity": 0.0,
+      "avg_confidence": 1.0,
+      "min_confidence": 1.0,
+      "max_confidence": 1.0,
+      "avg_processing_time": 14.700003623962402,
+      "total_processing_time": 14.700003623962402
+    },
+    "total_time": 14.700003623962402,
+    "avg_time_per_image": 14.700003623962402,
+    "num_images": 1,
+    "error": null
+  }
+}
