@@ -20,7 +20,6 @@ import Levenshtein
 
 # OCR imports
 import easyocr
-from paddleocr import PaddleOCR
 import pytesseract
 
 logging.basicConfig(level=logging.INFO)
@@ -233,85 +232,6 @@ class OCRModelEvaluator:
                 'total_time': 0,
                 'avg_time_per_image': 0,
                 'error': 'transformers not installed'
-            }
-    
-    def evaluate_paddleocr(self, test_images: List[str], model_path: str = None) -> Dict[str, Any]:
-        """Évalue PaddleOCR"""
-        logger.info("🏓 Évaluation PaddleOCR...")
-        
-        try:
-            # Utiliser le modèle de base pour l'instant
-            ocr = PaddleOCR(use_angle_cls=True, lang='fr')
-            
-            results = []
-            total_time = 0
-            
-            for image_path in test_images:
-                start_time = time.time()
-                
-                try:
-                    ocr_results = ocr.ocr(image_path, cls=True)
-                    processing_time = time.time() - start_time
-                    total_time += processing_time
-                    
-                    if ocr_results and len(ocr_results) > 0 and ocr_results[0]:
-                        texts = []
-                        confidences = []
-                        bboxes = []
-                        
-                        for line in ocr_results[0]:
-                            if len(line) >= 2:
-                                bbox = line[0]
-                                text_info = line[1]
-                                if isinstance(text_info, (list, tuple)) and len(text_info) >= 2:
-                                    text = text_info[0]
-                                    confidence = text_info[1]
-                                else:
-                                    text = str(text_info)
-                                    confidence = 1.0
-                                
-                                texts.append(text)
-                                confidences.append(confidence)
-                                bboxes.append(bbox)
-                    else:
-                        texts, confidences, bboxes = [], [], []
-                    
-                    results.append({
-                        'image_path': image_path,
-                        'texts': texts,
-                        'confidences': confidences,
-                        'bboxes': bboxes,
-                        'processing_time': processing_time,
-                        'full_text': ' '.join(texts)
-                    })
-                    
-                except Exception as e:
-                    logger.error(f"Erreur PaddleOCR sur {image_path}: {e}")
-                    results.append({
-                        'image_path': image_path,
-                        'texts': [],
-                        'confidences': [],
-                        'bboxes': [],
-                        'processing_time': 0,
-                        'full_text': '',
-                        'error': str(e)
-                    })
-            
-            return {
-                'model_name': 'PaddleOCR Base',
-                'results': results,
-                'total_time': total_time,
-                'avg_time_per_image': total_time / len(test_images) if test_images else 0
-            }
-            
-        except Exception as e:
-            logger.error(f"Erreur PaddleOCR: {e}")
-            return {
-                'model_name': 'PaddleOCR',
-                'results': [],
-                'total_time': 0,
-                'avg_time_per_image': 0,
-                'error': str(e)
             }
     
     def _enhance_ocr_results(self, ocr_results: List) -> List[Dict]:
@@ -667,14 +587,6 @@ class OCRModelEvaluator:
             trocr_results['metrics'] = self.calculate_metrics(trocr_results, ground_truth)
         model_results['TrOCR'] = trocr_results
         
-        # PaddleOCR
-        logger.info("\n4️⃣ PaddleOCR")
-        paddle_path = models_config.get('paddleocr_finetuned')
-        paddle_results = self.evaluate_paddleocr(test_images, paddle_path)
-        if 'error' not in paddle_results:
-            paddle_results['metrics'] = self.calculate_metrics(paddle_results, ground_truth)
-        model_results['PaddleOCR'] = paddle_results
-        
         # Comparaison
         comparison_df = self.compare_models(model_results)
         
@@ -729,7 +641,6 @@ def main():
     parser.add_argument('--output_dir', default='evaluation_results', help='Dossier de sortie')
     parser.add_argument('--easyocr_model', help='Chemin vers le modèle EasyOCR fine-tuné')
     parser.add_argument('--trocr_model', help='Chemin vers le modèle TrOCR fine-tuné')
-    parser.add_argument('--paddleocr_model', help='Chemin vers le modèle PaddleOCR fine-tuné')
     
     args = parser.parse_args()
     
@@ -739,8 +650,6 @@ def main():
         models_config['easyocr_finetuned'] = args.easyocr_model
     if args.trocr_model:
         models_config['trocr_finetuned'] = args.trocr_model
-    if args.paddleocr_model:
-        models_config['paddleocr_finetuned'] = args.paddleocr_model
     
     # Créer l'évaluateur
     evaluator = OCRModelEvaluator(args.output_dir)
