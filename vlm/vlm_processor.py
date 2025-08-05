@@ -83,13 +83,13 @@ class VLMProcessor:
         return available
     
     def _initialize_default_model(self):
-        """Initialise le modèle par défaut"""
-        if self.available_models:
-            default_model = self.available_models[0]
-            logger.info(f"Initialisation du modèle par défaut: {default_model}")
-            self.load_model(default_model)
-        else:
-            logger.warning("Aucun modèle VLM disponible")
+        # Prioriser LLaVA > Qwen-VL > BLIP-2
+        priority_order = ["llava", "qwen_vl", "blip2"]
+        for model in priority_order:
+            if model in self.available_models:
+                logger.info(f"Initialisation du modèle prioritaire: {model}")
+                self.load_model(model)
+                return
     
     def load_model(self, model_name: str):
         """

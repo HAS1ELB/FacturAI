@@ -1,25 +1,25 @@
 {
   "image_path": "Data\\processed_images\\enhanced_complex_invoice_0001.png",
-  "timestamp": 1754387848.269005,
-  "processing_time": 63.62948250770569,
-  "model_used": "blip2",
+  "timestamp": 1754392743.891981,
+  "processing_time": 0.15943264961242676,
+  "model_used": "llava",
   "vlm_analysis": {
-    "basic_description": "a screen shot of a document with a green and white background",
+    "basic_description": "Erreur d'analyse: Could not make a flat list of images from USER: <image>\nDécris cette image en détail, en te concentrant sur la structure, le contenu et la mise en page.\nASSISTANT:",
     "detailed_analysis": {
-      "Quelles sont les informations principales visibles sur cette facture?": "Quelles sont les informations principales visibles sur cette facture?",
-      "Où sont situés les montants et totaux?": "Où sont situés les montants et totaux?",
-      "Y a-t-il des tableaux ou listes d'articles?": "Y a-t-il des tableaux ou listes d'articles?",
-      "Quelles sont les zones d'en-tête et de pied de page?": "Quelles sont les zones d'en-tête et de pied de page?"
+      "Quelles sont les informations principales visibles sur cette facture?": "Erreur de réponse: Could not make a flat list of images from USER: <image>\nQuelles sont les informations principales visibles sur cette facture?\nASSISTANT:",
+      "Où sont situés les montants et totaux?": "Erreur de réponse: Could not make a flat list of images from USER: <image>\nOù sont situés les montants et totaux?\nASSISTANT:",
+      "Y a-t-il des tableaux ou listes d'articles?": "Erreur de réponse: Could not make a flat list of images from USER: <image>\nY a-t-il des tableaux ou listes d'articles?\nASSISTANT:",
+      "Quelles sont les zones d'en-tête et de pied de page?": "Erreur de réponse: Could not make a flat list of images from USER: <image>\nQuelles sont les zones d'en-tête et de pied de page?\nASSISTANT:"
     },
-    "confidence": 0.8,
+    "confidence": 0.0,
     "processing_info": {
-      "model_name": "blip2",
+      "model_name": "llava",
       "device": "cpu",
-      "last_confidence": 0.8,
-      "processing_time": 9.904874324798584,
+      "last_confidence": 0.0,
+      "processing_time": 0.0,
       "config": {
-        "model_name": "Salesforce/blip2-opt-2.7b",
-        "processor_name": "Salesforce/blip2-opt-2.7b",
+        "model_name": "llava-hf/llava-1.5-7b-hf",
+        "processor_name": "llava-hf/llava-1.5-7b-hf",
         "enabled": true,
         "device": "auto",
         "max_length": 512,
@@ -32,7 +32,7 @@
       "detected": false,
       "confidence": 0.0,
       "content": {
-        "Quelles sont les zones d'en-tête et de pied de page?": "Quelles sont les zones d'en-tête et de pied de page?"
+        "Quelles sont les zones d'en-tête et de pied de page?": "Erreur de réponse: Could not make a flat list of images from USER: <image>\nQuelles sont les zones d'en-tête et de pied de page?\nASSISTANT:"
       },
       "coordinates": null,
       "elements": []
@@ -41,8 +41,8 @@
       "detected": true,
       "confidence": 0.4,
       "content": {
-        "Où sont situés les montants et totaux?": "Où sont situés les montants et totaux?",
-        "Quelles sont les zones d'en-tête et de pied de page?": "Quelles sont les zones d'en-tête et de pied de page?"
+        "Où sont situés les montants et totaux?": "Erreur de réponse: Could not make a flat list of images from USER: <image>\nOù sont situés les montants et totaux?\nASSISTANT:",
+        "Quelles sont les zones d'en-tête et de pied de page?": "Erreur de réponse: Could not make a flat list of images from USER: <image>\nQuelles sont les zones d'en-tête et de pied de page?\nASSISTANT:"
       },
       "coordinates": null,
       "elements": [],
@@ -53,7 +53,7 @@
         "detected": true,
         "confidence": 0.8,
         "content": {
-          "Y a-t-il des tableaux ou listes d'articles?": "Y a-t-il des tableaux ou listes d'articles?"
+          "Y a-t-il des tableaux ou listes d'articles?": "Erreur de réponse: Could not make a flat list of images from USER: <image>\nY a-t-il des tableaux ou listes d'articles?\nASSISTANT:"
         },
         "coordinates": null,
         "columns": [],
@@ -112,12 +112,12 @@
       "primary_elements": [
         {
           "type": "text",
-          "content": "Quelles sont les informations principales visibles sur cette facture?",
+          "content": "Erreur de réponse: Could not make a flat list of images from USER: <image>\nQuelles sont les informations principales visibles sur cette facture?\nASSISTANT:",
           "importance": "high"
         },
         {
           "type": "amount",
-          "content": "Où sont situés les montants et totaux?",
+          "content": "Erreur de réponse: Could not make a flat list of images from USER: <image>\nOù sont situés les montants et totaux?\nASSISTANT:",
           "importance": "high"
         }
       ],
@@ -127,25 +127,25 @@
     },
     "text_blocks": [
       {
-        "content": "Quelles sont les informations principales visibles sur cette facture?",
+        "content": "Erreur de réponse: Could not make a flat list of images from USER: <image>\nQuelles sont les informations principales visibles sur cette facture?\nASSISTANT:",
         "type": "body_text",
         "estimated_position": "middle",
         "importance": "high"
       },
       {
-        "content": "Où sont situés les montants et totaux?",
+        "content": "Erreur de réponse: Could not make a flat list of images from USER: <image>\nOù sont situés les montants et totaux?\nASSISTANT:",
         "type": "amount_text",
         "estimated_position": "middle",
         "importance": "high"
       },
       {
-        "content": "Y a-t-il des tableaux ou listes d'articles?",
+        "content": "Erreur de réponse: Could not make a flat list of images from USER: <image>\nY a-t-il des tableaux ou listes d'articles?\nASSISTANT:",
         "type": "table_text",
         "estimated_position": "middle",
         "importance": "low"
       },
       {
-        "content": "Quelles sont les zones d'en-tête et de pied de page?",
+        "content": "Erreur de réponse: Could not make a flat list of images from USER: <image>\nQuelles sont les zones d'en-tête et de pied de page?\nASSISTANT:",
         "type": "header_text",
         "estimated_position": "top",
         "importance": "low"
@@ -182,8 +182,8 @@
       1024
     ],
     "model_config": {
-      "model_name": "Salesforce/blip2-opt-2.7b",
-      "processor_name": "Salesforce/blip2-opt-2.7b",
+      "model_name": "llava-hf/llava-1.5-7b-hf",
+      "processor_name": "llava-hf/llava-1.5-7b-hf",
       "enabled": true,
       "device": "auto",
       "max_length": 512,

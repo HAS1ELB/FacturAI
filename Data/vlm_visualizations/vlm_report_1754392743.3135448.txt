@@ -1,0 +1,52 @@
+=== RAPPORT D'ANALYSE VLM ===
+
+INFORMATIONS GÉNÉRALES:
+Image: Data\processed_images\enhanced_complex_invoice_0001.png
+Modèle utilisé: llava
+Temps de traitement: 1.49s
+Timestamp: 1754392743.3135448
+
+ANALYSE VLM:
+Description: Erreur d'analyse: Could not make a flat list of images from USER: <image>
+Décris cette image en détail, en te concentrant sur la structure, le contenu et la mise en page.
+ASSISTANT:
+Confiance: 0.00
+
+ANALYSE DÉTAILLÉE:
+Q: Quelles sont les informations principales visibles sur cette facture?
+R: Erreur de réponse: Could not make a flat list of images from USER: <image>
+Quelles sont les informations principales visibles sur cette facture?
+ASSISTANT:
+
+Q: Où sont situés les montants et totaux?
+R: Erreur de réponse: Could not make a flat list of images from USER: <image>
+Où sont situés les montants et totaux?
+ASSISTANT:
+
+Q: Y a-t-il des tableaux ou listes d'articles?
+R: Erreur de réponse: Could not make a flat list of images from USER: <image>
+Y a-t-il des tableaux ou listes d'articles?
+ASSISTANT:
+
+Q: Quelles sont les zones d'en-tête et de pied de page?
+R: Erreur de réponse: Could not make a flat list of images from USER: <image>
+Quelles sont les zones d'en-tête et de pied de page?
+ASSISTANT:
+
+ZONES DÉTECTÉES:
+En-tête: Non détecté (Confiance: 0.00)
+Pied de page: Détecté (Confiance: 0.40)
+Tableaux: 1 détecté(s)
+  Table 1: 0 lignes, 0 colonnes
+Adresses: 0 détectée(s)
+Montants: 0 détecté(s)
+
+ANALYSE DE MISE EN PAGE:
+Type de document: unknown
+Complexité: simple
+Score de qualité: 0.48
+Clarté: 0.80
+Organisation: 0.40
+Complétude: 0.00
+
+=== FIN DU RAPPORT ===
