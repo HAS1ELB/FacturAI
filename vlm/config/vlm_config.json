@@ -1,0 +1,54 @@
+{
+  "vlm_models": {
+    "blip2": {
+      "model_name": "Salesforce/blip2-opt-2.7b",
+      "processor_name": "Salesforce/blip2-opt-2.7b",
+      "enabled": true,
+      "device": "auto",
+      "max_length": 512,
+      "confidence_threshold": 0.5
+    },
+    "llava": {
+      "model_name": "llava-hf/llava-1.5-7b-hf",
+      "processor_name": "llava-hf/llava-1.5-7b-hf",
+      "enabled": true,
+      "device": "auto",
+      "max_length": 512,
+      "confidence_threshold": 0.5
+    },
+    "qwen_vl": {
+      "model_name": "Qwen/Qwen-VL-Chat",
+      "processor_name": "Qwen/Qwen-VL-Chat",
+      "enabled": true,
+      "device": "auto",
+      "max_length": 512,
+      "confidence_threshold": 0.5
+    }
+  },
+  "zone_detection": {
+    "header_keywords": ["facture", "invoice", "devis", "numero", "date"],
+    "footer_keywords": ["total", "tva", "ht", "ttc", "montant"],
+    "table_keywords": ["designation", "quantite", "prix", "unitaire", "ligne"],
+    "address_keywords": ["adresse", "rue", "ville", "code", "postal"],
+    "confidence_threshold": 0.3
+  },
+  "layout_analysis": {
+    "grid_detection": true,
+    "table_detection": true,
+    "text_block_detection": true,
+    "logo_detection": false,
+    "min_text_confidence": 0.1
+  },
+  "processing": {
+    "max_image_size": [1024, 1024],
+    "image_preprocessing": true,
+    "batch_size": 1,
+    "timeout": 30
+  },
+  "output": {
+    "format": "json",
+    "include_coordinates": true,
+    "include_confidence": true,
+    "save_annotated_images": false
+  }
+}
