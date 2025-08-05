@@ -1,0 +1,42 @@
+=== RAPPORT D'ANALYSE VLM ===
+
+INFORMATIONS GÉNÉRALES:
+Image: Data\processed_images\enhanced_complex_invoice_0001.png
+Modèle utilisé: blip2
+Temps de traitement: 56.02s
+Timestamp: 1754387784.5405674
+
+ANALYSE VLM:
+Description: a screen shot of a green and white document
+Confiance: 0.80
+
+ANALYSE DÉTAILLÉE:
+Q: Quelles sont les informations principales visibles sur cette facture?
+R: Quelles sont les informations principales visibles sur cette facture?
+
+Q: Où sont situés les montants et totaux?
+R: Où sont situés les montants et totaux?
+
+Q: Y a-t-il des tableaux ou listes d'articles?
+R: Y a-t-il des tableaux ou listes d'articles?
+
+Q: Quelles sont les zones d'en-tête et de pied de page?
+R: Quelles sont les zones d'en-tête et de pied de page?
+
+ZONES DÉTECTÉES:
+En-tête: Non détecté (Confiance: 0.00)
+Pied de page: Détecté (Confiance: 0.40)
+Tableaux: 1 détecté(s)
+  Table 1: 0 lignes, 0 colonnes
+Adresses: 0 détectée(s)
+Montants: 0 détecté(s)
+
+ANALYSE DE MISE EN PAGE:
+Type de document: unknown
+Complexité: simple
+Score de qualité: 0.48
+Clarté: 0.80
+Organisation: 0.40
+Complétude: 0.00
+
+=== FIN DU RAPPORT ===

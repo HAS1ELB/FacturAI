@@ -19,8 +19,8 @@ def main():
     print("=== Exemple d'utilisation du module VLM FacturAI ===\n")
     
     # Chemins vers les données de test
-    images_dir = "../Data/processed_images"
-    ocr_results_dir = "../Data/ocr_results"
+    images_dir = "Data/processed_images"
+    ocr_results_dir = "Data/ocr_results"
     
     # Vérification de l'existence des répertoires
     if not os.path.exists(images_dir):

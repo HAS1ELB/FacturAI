@@ -1,0 +1,193 @@
+{
+  "image_path": "Data\\processed_images\\enhanced_complex_invoice_0001.png",
+  "timestamp": 1754387848.269005,
+  "processing_time": 63.62948250770569,
+  "model_used": "blip2",
+  "vlm_analysis": {
+    "basic_description": "a screen shot of a document with a green and white background",
+    "detailed_analysis": {
+      "Quelles sont les informations principales visibles sur cette facture?": "Quelles sont les informations principales visibles sur cette facture?",
+      "Où sont situés les montants et totaux?": "Où sont situés les montants et totaux?",
+      "Y a-t-il des tableaux ou listes d'articles?": "Y a-t-il des tableaux ou listes d'articles?",
+      "Quelles sont les zones d'en-tête et de pied de page?": "Quelles sont les zones d'en-tête et de pied de page?"
+    },
+    "confidence": 0.8,
+    "processing_info": {
+      "model_name": "blip2",
+      "device": "cpu",
+      "last_confidence": 0.8,
+      "processing_time": 9.904874324798584,
+      "config": {
+        "model_name": "Salesforce/blip2-opt-2.7b",
+        "processor_name": "Salesforce/blip2-opt-2.7b",
+        "enabled": true,
+        "device": "auto",
+        "max_length": 512,
+        "confidence_threshold": 0.5
+      }
+    }
+  },
+  "detected_zones": {
+    "header": {
+      "detected": false,
+      "confidence": 0.0,
+      "content": {
+        "Quelles sont les zones d'en-tête et de pied de page?": "Quelles sont les zones d'en-tête et de pied de page?"
+      },
+      "coordinates": null,
+      "elements": []
+    },
+    "footer": {
+      "detected": true,
+      "confidence": 0.4,
+      "content": {
+        "Où sont situés les montants et totaux?": "Où sont situés les montants et totaux?",
+        "Quelles sont les zones d'en-tête et de pied de page?": "Quelles sont les zones d'en-tête et de pied de page?"
+      },
+      "coordinates": null,
+      "elements": [],
+      "totals": []
+    },
+    "tables": [
+      {
+        "detected": true,
+        "confidence": 0.8,
+        "content": {
+          "Y a-t-il des tableaux ou listes d'articles?": "Y a-t-il des tableaux ou listes d'articles?"
+        },
+        "coordinates": null,
+        "columns": [],
+        "rows_count": 0
+      }
+    ],
+    "address_blocks": [],
+    "amount_zones": [],
+    "metadata": {
+      "image_size": [
+        559,
+        1024
+      ],
+      "detection_confidence": 0.7,
+      "zones_count": 2
+    }
+  },
+  "layout_analysis": {
+    "document_structure": {
+      "type": "unknown",
+      "orientation": "portrait",
+      "sections": [
+        "header",
+        "items_table",
+        "totals",
+        "footer"
+      ],
+      "complexity": "simple",
+      "format": "single_page"
+    },
+    "spatial_organization": {
+      "layout_type": "standard",
+      "column_count": 1,
+      "regions": {
+        "top": {
+          "elements": [],
+          "density": "low"
+        },
+        "middle": {
+          "elements": [
+            "table"
+          ],
+          "density": "high"
+        },
+        "bottom": {
+          "elements": [
+            "footer"
+          ],
+          "density": "medium"
+        }
+      },
+      "flow_direction": "top_to_bottom",
+      "spacing_analysis": {}
+    },
+    "visual_hierarchy": {
+      "primary_elements": [
+        {
+          "type": "text",
+          "content": "Quelles sont les informations principales visibles sur cette facture?",
+          "importance": "high"
+        },
+        {
+          "type": "amount",
+          "content": "Où sont situés les montants et totaux?",
+          "importance": "high"
+        }
+      ],
+      "secondary_elements": [],
+      "emphasis_techniques": [],
+      "readability_score": 0.7
+    },
+    "text_blocks": [
+      {
+        "content": "Quelles sont les informations principales visibles sur cette facture?",
+        "type": "body_text",
+        "estimated_position": "middle",
+        "importance": "high"
+      },
+      {
+        "content": "Où sont situés les montants et totaux?",
+        "type": "amount_text",
+        "estimated_position": "middle",
+        "importance": "high"
+      },
+      {
+        "content": "Y a-t-il des tableaux ou listes d'articles?",
+        "type": "table_text",
+        "estimated_position": "middle",
+        "importance": "low"
+      },
+      {
+        "content": "Quelles sont les zones d'en-tête et de pied de page?",
+        "type": "header_text",
+        "estimated_position": "top",
+        "importance": "low"
+      }
+    ],
+    "alignment_analysis": {
+      "main_alignment": "left",
+      "consistency": "good",
+      "alignment_patterns": [],
+      "margin_analysis": {}
+    },
+    "layout_quality": {
+      "overall_score": 0.4800000000000001,
+      "clarity": 0.8,
+      "organization": 0.4,
+      "completeness": 0.0,
+      "issues": [],
+      "recommendations": [
+        "Améliorer la détection des zones",
+        "Vérifier les éléments manquants"
+      ]
+    },
+    "metadata": {
+      "image_size": [
+        559,
+        1024
+      ],
+      "analysis_confidence": 0.48
+    }
+  },
+  "metadata": {
+    "image_size": [
+      559,
+      1024
+    ],
+    "model_config": {
+      "model_name": "Salesforce/blip2-opt-2.7b",
+      "processor_name": "Salesforce/blip2-opt-2.7b",
+      "enabled": true,
+      "device": "auto",
+      "max_length": 512,
+      "confidence_threshold": 0.5
+    }
+  }
+}
