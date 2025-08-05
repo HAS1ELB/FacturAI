@@ -116,10 +116,15 @@ class LayoutAnalyzer:
         }
         
         # Analyse des zones pour déterminer l'organisation
-        zones_count = len([z for z in zones.values() if isinstance(z, dict) and z.get("detected", False)])
-        zones_count += len(zones.get("tables", []))
-        zones_count += len(zones.get("address_blocks", []))
-        zones_count += len(zones.get("amount_zones", []))
+        zones_count = 0
+        # Compter les zones de type dictionnaire détectées
+        for key, value in zones.items():
+            if isinstance(value, dict) and value.get("detected", False):
+                zones_count += 1
+        # Compter les zones de type liste
+        zones_count += len(zones.get("tables", [])) if isinstance(zones.get("tables", []), list) else 0
+        zones_count += len(zones.get("address_blocks", [])) if isinstance(zones.get("address_blocks", []), list) else 0
+        zones_count += len(zones.get("amount_zones", [])) if isinstance(zones.get("amount_zones", []), list) else 0
         
         if zones_count > 5:
             spatial_org["layout_type"] = "complex"
@@ -236,21 +241,28 @@ class LayoutAnalyzer:
         
         # Évaluation de l'organisation
         detected_zones = sum([
-            1 if zones.get("header", {}).get("detected", False) else 0,
-            1 if zones.get("footer", {}).get("detected", False) else 0,
-            len(zones.get("tables", [])),
-            len(zones.get("address_blocks", [])),
-            len(zones.get("amount_zones", []))
+            1 if isinstance(zones.get("header", {}), dict) and zones.get("header", {}).get("detected", False) else 0,
+            1 if isinstance(zones.get("footer", {}), dict) and zones.get("footer", {}).get("detected", False) else 0,
+            len(zones.get("tables", [])) if isinstance(zones.get("tables", []), list) else 0,
+            len(zones.get("address_blocks", [])) if isinstance(zones.get("address_blocks", []), list) else 0,
+            len(zones.get("amount_zones", [])) if isinstance(zones.get("amount_zones", []), list) else 0
         ])
         
         quality["organization"] = min(detected_zones / 5.0, 1.0)
         
         # Évaluation de la complétude
         required_elements = ["header", "amount_zones"]
-        present_elements = sum([
-            1 for elem in required_elements 
-            if zones.get(elem, {}).get("detected", False) or len(zones.get(elem, [])) > 0
-        ])
+        present_elements = 0
+        for elem in required_elements:
+            zone_data = zones.get(elem, {})
+            if isinstance(zone_data, dict):
+                # Pour les zones de type dictionnaire (header, footer)
+                if zone_data.get("detected", False):
+                    present_elements += 1
+            elif isinstance(zone_data, list):
+                # Pour les zones de type liste (tables, address_blocks, amount_zones)
+                if len(zone_data) > 0:
+                    present_elements += 1
         
         quality["completeness"] = present_elements / len(required_elements)
         
@@ -319,15 +331,18 @@ class LayoutAnalyzer:
         }
         
         # Répartition basique des zones détectées
-        if zones.get("header", {}).get("detected", False):
+        header_zone = zones.get("header", {})
+        if isinstance(header_zone, dict) and header_zone.get("detected", False):
             regions["top"]["elements"].append("header")
             regions["top"]["density"] = "medium"
         
-        if zones.get("tables", []):
-            regions["middle"]["elements"].extend(["table"] * len(zones["tables"]))
+        tables_zone = zones.get("tables", [])
+        if isinstance(tables_zone, list) and len(tables_zone) > 0:
+            regions["middle"]["elements"].extend(["table"] * len(tables_zone))
             regions["middle"]["density"] = "high"
         
-        if zones.get("footer", {}).get("detected", False):
+        footer_zone = zones.get("footer", {})
+        if isinstance(footer_zone, dict) and footer_zone.get("detected", False):
             regions["bottom"]["elements"].append("footer")
             regions["bottom"]["density"] = "medium"
         
@@ -408,11 +423,11 @@ class LayoutAnalyzer:
         """Calcule la confiance de l'analyse de mise en page"""
         # Confiance basée sur le nombre de zones détectées et la qualité de l'analyse
         zones_detected = sum([
-            1 if zones.get("header", {}).get("detected", False) else 0,
-            1 if zones.get("footer", {}).get("detected", False) else 0,
-            len(zones.get("tables", [])),
-            len(zones.get("address_blocks", [])),
-            len(zones.get("amount_zones", []))
+            1 if isinstance(zones.get("header", {}), dict) and zones.get("header", {}).get("detected", False) else 0,
+            1 if isinstance(zones.get("footer", {}), dict) and zones.get("footer", {}).get("detected", False) else 0,
+            len(zones.get("tables", [])) if isinstance(zones.get("tables", []), list) else 0,
+            len(zones.get("address_blocks", [])) if isinstance(zones.get("address_blocks", []), list) else 0,
+            len(zones.get("amount_zones", [])) if isinstance(zones.get("amount_zones", []), list) else 0
         ])
         
         base_confidence = min(zones_detected / 5.0, 1.0) * 0.7
