@@ -322,8 +322,8 @@ def main():
     print("=== Intégration OCR-VLM FacturAI ===\n")
     
     # Chemins
-    images_dir = "../Data/processed_images"
-    ocr_results_dir = "../Data/ocr_results"
+    images_dir = "Data/processed_images"
+    ocr_results_dir = "Data/ocr_results"
     
     # Initialisation
     integrator = OCRVLMIntegrator()
